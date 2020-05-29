@@ -1,0 +1,42 @@
+{
+  "name": "mountpackaging",
+  "version": "1.0.0",
+  "description": "Company website for Mount Packaging Machinery Pvt. Ltd.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watchJs": "rimraf ./dist/main.js && webpack --mode development --config ./webpack.config.js --progress --profile --colors --watch",
+    "startJs": "rimraf ./dist/main.js && webpack-dev-server --mode development --config ./webpack.config.js --progress --profile --colors --watch",
+    "buildAssets": "rimraf ./dist/app.css && gulp buildAssets",
+    "watchAssets": "rimraf ./dist/app.css && gulp watchAssets",
+    "dev": "concurrently npm:watchJs npm:watchAssets",
+    "start": "concurrently npm:startJs npm:watchAssets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkestikar/mountPackaging.git"
+  },
+  "author": "Prathmesh Kestikar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkestikar/mountPackaging/issues"
+  },
+  "homepage": "https://github.com/pkestikar/mountPackaging#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "@babel/preset-react": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "concurrently": "^5.2.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "jest": "^26.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hot-loader": "^4.12.21",
+    "rimraf": "^3.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
