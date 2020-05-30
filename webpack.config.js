@@ -2,13 +2,17 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-    entry: './index.js',
-    // output: {
-    //     path: path.join(__dirname + './dist'),
-    //     filename: 'main.js'
-    // },
+    entry: './app/index.js',
+    output: {
+        path: path.resolve(__dirname, 'dist'),
+        filename: 'main.js'
+    },
     resolve: {
-        extensions: ['*', '.js', '.jsx']
+        extensions: ['*', '.js', '.jsx'],
+        alias: {
+            Components: path.resolve(__dirname, 'app/components/'),
+            Pages: path.resolve(__dirname, 'app/pages')
+        }
     },
     module: {
         rules: [
@@ -16,6 +20,14 @@ module.exports = {
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 use: ['babel-loader']
+            },
+            {
+                test: /\.((s[ac]ss)|css)$/,
+                use: [
+                    'style-loader',
+                    'css-loader',
+                    'sass-loader'
+                ]
             }
         ]
     },
@@ -23,7 +35,8 @@ module.exports = {
         new webpack.HotModuleReplacementPlugin()
     ],
     devServer: {
-        contentBase: __dirname + 'dist/main.js',
+        contentBase: path.resolve(__dirname, ''),
+        port: 8080,
         hot: true
     }
 };
