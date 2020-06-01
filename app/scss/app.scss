@@ -1,4 +1,4 @@
-body {
-  background: blue;
-  color: yellow;
-}
+@import './vars';
+
+@import '../components/TopBar/style';
+@import '../components/Button/style';

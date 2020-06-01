@@ -1,0 +1,80 @@
+.mp--topbar {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 150px; }
+  .mp--topbar .logo-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left; }
+  .mp--topbar .topbar-elements-container {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+  .mp--topbar .get-quote-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto; }
+
+.mp--button-primary {
+  background: #033568;
+  color: white;
+  border: none;
+  box-shadow: 0 2px 8px 0 #7F8595; }
+
+.mp--button-primary:hover {
+  box-shadow: 0 2px 8px 0 white; }
+
+.mp--button-primary:active {
+  box-shadow: 0 2px 8px 0 white; }
+
+.mp--button-secondary {
+  background: white;
+  color: #033568;
+  border: 1px solid #033568;
+  box-shadow: 0 2px 8px 0 rgba(127, 133, 149, 0.28); }
+
+.mp--button-secondary:hover {
+  box-shadow: 0 2px 8px 0 #033568; }
+
+.mp--button-secondary:active {
+  box-shadow: 0 2px 8px 0 #033568; }
+
+.mp--button-tertiary {
+  background: #1C202B;
+  color: white;
+  border: 1px solid #1C202B;
+  box-shadow: 0 2px 8px 0 rgba(127, 133, 149, 0.28); }
+
+.mp--button-tertiary:hover {
+  box-shadow: 0 2px 8px 0 #033568; }
+
+.mp--button-tertiary:active {
+  box-shadow: 0 2px 8px 0 #033568; }
+
+.mp--button {
+  height: 45px;
+  width: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  transition: all 0.2s ease; }
+  .mp--button.small {
+    height: 35px;
+    width: 145px; }
+  .mp--button.medium {
+    height: 45px;
+    width: 175px; }
+  .mp--button.large {
+    height: 55px;
+    width: 200px; }
+  .mp--button.disabled {
+    cursor: not-allowed; }

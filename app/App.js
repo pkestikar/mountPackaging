@@ -8,37 +8,19 @@ import {
 import HomePage from 'Pages/HomePage';
 import AboutUsPage from 'Pages/AboutUsPage';
 import ContactPage from 'Pages/ContactPage';
+import TopBar from 'Components/TopBar';
+
 
 const App = () => {
     return (
         <Router>
-            <div>
-                <nav>
-                    <ul>
-                        <li>
-                            <Link to={'/'}>Home</Link>
-                        </li>
-                        <li>
-                            <Link to={'/about-us/'}>About Us</Link>
-                        </li>
-                        <li>
-                            <Link to={'/contact/'}>Contact</Link>
-                        </li>
-                    </ul>
-                </nav>
+            <TopBar />
 
-                <Switch>
-                    <Route path={'/'}>
-                        <HomePage />
-                    </Route>
-                    <Route path={'/about-us/'}>
-                        <AboutUsPage />
-                    </Route>
-                    <Route path={'/contact/'}>
-                        <ContactPage />
-                    </Route>
-                </Switch>
-            </div>
+            <Switch>
+                <Route component={AboutUsPage} path={'/about-us/'} />
+                <Route component={ContactPage} path={'/contact/'} />
+                <Route component={HomePage} path={'/'} />
+            </Switch>
         </Router>
     )
 };
