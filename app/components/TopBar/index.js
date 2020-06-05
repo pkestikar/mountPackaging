@@ -15,7 +15,7 @@ const TopBar = (props) => {
                 <NavLink to={'/contact/'} activeClassName={'active'}>Contact</NavLink>
             </div>
             <div className="get-quote-wrapper">
-                <Button palette={'secondary'}>Get Quotation</Button>
+                <Button palette={'secondary'} isLoading={true}>Get Quotation</Button>
             </div>
         </div>
     )
