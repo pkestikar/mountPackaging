@@ -1,10 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Testing out the Button component if the button renders correctly 1`] = `
+exports[`Button component if the button renders correctly 1`] = `
 <button
   className="mp--button medium mp--button-primary"
   onClick={[Function]}
 >
   Button Text
+</button>
+`;
+
+exports[`Button component should display Loading... when the isLoading prop is true 1`] = `
+<button
+  className="mp--button loading medium mp--button-primary"
+  onClick={[Function]}
+>
+  Loading..
 </button>
 `;

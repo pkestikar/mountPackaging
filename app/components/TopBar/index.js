@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import Button from 'Components/Button';
+import Button from '../Button';
 
 const TopBar = (props) => {
     return (
@@ -15,7 +15,7 @@ const TopBar = (props) => {
                 <NavLink to={'/contact/'} activeClassName={'active'}>Contact</NavLink>
             </div>
             <div className="get-quote-wrapper">
-                <Button palette={'secondary'} isLoading={true}>Get Quotation</Button>
+                <Button palette={'secondary'}>Get Quotation</Button>
             </div>
         </div>
     )
