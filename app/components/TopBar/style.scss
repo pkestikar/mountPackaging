@@ -5,7 +5,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  height: 150px;
+  height: $top-bar-offset-height__large;
   background: transparent;
   &--inner {
     max-width: $site-max-width;
