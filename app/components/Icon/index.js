@@ -2,6 +2,8 @@ import React from 'react';
 import { ReactSVG } from "react-svg";
 
 const Icon = (props) => {
+    //TODO: Need to fix this..not working right
+
     return (
         <ReactSVG
             src={`${props.iconPath}`}

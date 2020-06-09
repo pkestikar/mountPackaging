@@ -15,10 +15,10 @@
   background: white;
   color: $navy-blue;
   border: 1px solid $navy-blue;
-  box-shadow: 0 2px 8px 0 rgba(127, 133, 149, 0.28);
+  box-shadow: 0 2px 4px 0 rgba(127, 133, 149, 0.28);
 }
 .mp--button-secondary:hover {
-  box-shadow: 0 2px 8px 0 $navy-blue;
+  box-shadow: 0 2px 4px 0 $navy-blue;
 }
 .mp--button-secondary:active {
   box-shadow: 0 2px 2px 0 $navy-blue;
@@ -28,10 +28,10 @@
   background: $dark-blue;
   color: white;
   border: 1px solid $dark-blue;
-  box-shadow: 0 2px 8px 0 rgba(127, 133, 149, 0.28);
+  box-shadow: 0 2px 4px 0 rgba(127, 133, 149, 0.28);
 }
 .mp--button-tertiary:hover {
-  box-shadow: 0 2px 8px 0 $navy-blue;
+  box-shadow: 0 2px 4px 0 $navy-blue;
 }
 .mp--button-tertiary:active {
   box-shadow: 0 2px 2px 0 $navy-blue;

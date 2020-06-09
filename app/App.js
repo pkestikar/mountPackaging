@@ -14,6 +14,10 @@ import TopBar from 'Components/TopBar';
 const App = () => {
     return (
         <Router>
+            <div className="mp--main-container">
+
+            </div>
+
             <TopBar />
 
             <Switch>

@@ -5,7 +5,7 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   height: 150px;
@@ -66,10 +66,10 @@ body {
   background: white;
   color: #033568;
   border: 1px solid #033568;
-  box-shadow: 0 2px 8px 0 rgba(127, 133, 149, 0.28); }
+  box-shadow: 0 2px 4px 0 rgba(127, 133, 149, 0.28); }
 
 .mp--button-secondary:hover {
-  box-shadow: 0 2px 8px 0 #033568; }
+  box-shadow: 0 2px 4px 0 #033568; }
 
 .mp--button-secondary:active {
   box-shadow: 0 2px 2px 0 #033568; }
@@ -78,10 +78,10 @@ body {
   background: #1C202B;
   color: white;
   border: 1px solid #1C202B;
-  box-shadow: 0 2px 8px 0 rgba(127, 133, 149, 0.28); }
+  box-shadow: 0 2px 4px 0 rgba(127, 133, 149, 0.28); }
 
 .mp--button-tertiary:hover {
-  box-shadow: 0 2px 8px 0 #033568; }
+  box-shadow: 0 2px 4px 0 #033568; }
 
 .mp--button-tertiary:active {
   box-shadow: 0 2px 2px 0 #033568; }
