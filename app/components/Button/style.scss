@@ -3,6 +3,7 @@
 .mp--button {
   height: 45px;
   width: 175px;
+  font-family: $site-font-family;
   &.small {
     height: 35px;
     width: 145px;
@@ -28,4 +29,10 @@
   }
 }
 
+.mp--button:hover {
+  cursor: pointer;
+}
+.mp--button:active {
+  transform: scale(0.99);
+}
 

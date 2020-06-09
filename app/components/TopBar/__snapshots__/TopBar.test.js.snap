@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopBar Component if it renders correctly 1`] = `
+<div
+  className="mp--topbar"
+>
+  <div
+    className="mp--topbar--inner"
+  >
+    <div
+      className="logo-container"
+    >
+      <img
+        alt="Logo"
+        src="../../../images/logo.png"
+      />
+    </div>
+    <div
+      className="topbar-elements-container"
+    >
+      <NavLink
+        activeClassName="active"
+        to="/about-us/"
+      >
+        About Us
+      </NavLink>
+      <NavLink
+        activeClassName="active"
+        to="/work/"
+      >
+        Work
+      </NavLink>
+      <NavLink
+        activeClassName="active"
+        to="/services/"
+      >
+        Services
+      </NavLink>
+      <NavLink
+        activeClassName="active"
+        to="/contact/"
+      >
+        Contact
+      </NavLink>
+    </div>
+    <div
+      className="get-quote-wrapper"
+    >
+      <Button
+        palette="secondary"
+      >
+        Get Quotation
+      </Button>
+    </div>
+  </div>
+</div>
+`;

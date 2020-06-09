@@ -1,10 +1,17 @@
 .mp--topbar {
   display: flex;
+  justify-content: center;
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   height: 150px;
+  background: transparent;
+  &--inner {
+    max-width: $site-max-width;
+    width: 100%;
+    display: flex;
+  }
 
   .logo-container {
     height: 100%;
@@ -12,13 +19,35 @@
     justify-content: center;
     align-items: center;
     float: left;
+    img {
+      margin: 3rem;
+    }
   }
 
   .topbar-elements-container {
     height: 100%;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: center; 
+    a {
+      width: 7rem;
+      text-align: center;
+      text-decoration: none;
+      color: $neutral;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: $dark-blue;
+    }
+    a:active {
+      text-decoration: underline;
+      color: $dark-blue;
+    }
+
+    .active {
+      text-decoration: underline;
+      color: $dark-blue;
+    }
   }
 
   .get-quote-wrapper {
@@ -27,5 +56,8 @@
     justify-content: center;
     align-items: center;
     margin-left: auto;
+    button {
+      margin: 3rem;
+    }
   }
 }

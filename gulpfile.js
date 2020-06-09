@@ -8,5 +8,5 @@ gulp.task('buildAssets', function() {
 });
 
 gulp.task('watchAssets', function() {
-    gulp.watch('app/**/*.scss', gulp.series(['buildAssets']));
+    return gulp.watch('app/**/*.scss', gulp.series(['buildAssets']));
 });

@@ -1,27 +1,54 @@
+body {
+  font-family: "Noto Sans JP", sans-serif; }
+
 .mp--topbar {
   display: flex;
+  justify-content: center;
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  height: 150px; }
+  height: 150px;
+  background: transparent; }
+  .mp--topbar--inner {
+    max-width: 1440px;
+    width: 100%;
+    display: flex; }
   .mp--topbar .logo-container {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     float: left; }
+    .mp--topbar .logo-container img {
+      margin: 3rem; }
   .mp--topbar .topbar-elements-container {
     height: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center; }
+    .mp--topbar .topbar-elements-container a {
+      width: 7rem;
+      text-align: center;
+      text-decoration: none;
+      color: #5B5E66; }
+    .mp--topbar .topbar-elements-container a:hover {
+      text-decoration: underline;
+      color: #1C202B; }
+    .mp--topbar .topbar-elements-container a:active {
+      text-decoration: underline;
+      color: #1C202B; }
+    .mp--topbar .topbar-elements-container .active {
+      text-decoration: underline;
+      color: #1C202B; }
   .mp--topbar .get-quote-wrapper {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: auto; }
+    .mp--topbar .get-quote-wrapper button {
+      margin: 3rem; }
 
 .mp--button-primary {
   background: #033568;
@@ -33,35 +60,36 @@
   box-shadow: 0 2px 8px 0 white; }
 
 .mp--button-primary:active {
-  box-shadow: 0 2px 8px 0 white; }
+  box-shadow: 0 2px 2px 0 white; }
 
 .mp--button-secondary {
   background: white;
   color: #033568;
   border: 1px solid #033568;
-  box-shadow: 0 2px 8px 0 rgba(127, 133, 149, 0.28); }
+  box-shadow: 0 2px 4px 0 rgba(127, 133, 149, 0.28); }
 
 .mp--button-secondary:hover {
-  box-shadow: 0 2px 8px 0 #033568; }
+  box-shadow: 0 2px 4px 0 #033568; }
 
 .mp--button-secondary:active {
-  box-shadow: 0 2px 8px 0 #033568; }
+  box-shadow: 0 2px 2px 0 #033568; }
 
 .mp--button-tertiary {
   background: #1C202B;
   color: white;
   border: 1px solid #1C202B;
-  box-shadow: 0 2px 8px 0 rgba(127, 133, 149, 0.28); }
+  box-shadow: 0 2px 4px 0 rgba(127, 133, 149, 0.28); }
 
 .mp--button-tertiary:hover {
-  box-shadow: 0 2px 8px 0 #033568; }
+  box-shadow: 0 2px 4px 0 #033568; }
 
 .mp--button-tertiary:active {
-  box-shadow: 0 2px 8px 0 #033568; }
+  box-shadow: 0 2px 2px 0 #033568; }
 
 .mp--button {
   height: 45px;
   width: 175px;
+  font-family: "Noto Sans JP", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,3 +106,9 @@
     width: 200px; }
   .mp--button.disabled {
     cursor: not-allowed; }
+
+.mp--button:hover {
+  cursor: pointer; }
+
+.mp--button:active {
+  transform: scale(0.99); }
