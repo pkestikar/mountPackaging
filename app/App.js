@@ -14,16 +14,17 @@ import TopBar from 'Components/TopBar';
 const App = () => {
     return (
         <Router>
-            <TopBar />
-
-            <div className="mp--main-container">
-                <div className="mp--main-container--inner">
-                    <Switch>
-                        <Route component={AboutUsPage} path={'/about-us/'} />
-                        <Route component={ContactPage} path={'/contact/'} />
-                        <Route component={HomePage} path={'/'} />
-                    </Switch>
-                </div>
+            <div id={'outer-container'} className={'mp--main-container'}>
+                <TopBar />
+                <main id="page-wrap">
+                    <div className="mp--main-container--inner">
+                        <Switch>
+                            <Route component={AboutUsPage} path={'/about-us/'} />
+                            <Route component={ContactPage} path={'/contact/'} />
+                            <Route component={HomePage} path={'/'} />
+                        </Switch>
+                    </div>
+                </main>
             </div>
         </Router>
     )

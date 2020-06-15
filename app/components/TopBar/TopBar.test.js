@@ -4,6 +4,7 @@ import toJSON from 'enzyme-to-json';
 
 import TopBar from './index';
 import Button from '../Button';
+// import Icon from '../Icon';
 
 // jest.mock('../Button', () => {
 //     return {
@@ -19,6 +20,7 @@ import Button from '../Button';
 // });
 
 jest.mock('../Button', () => 'Button');
+// jest.mock('../Icon', () => 'Icon');
 
 describe('TopBar Component', () => {
 

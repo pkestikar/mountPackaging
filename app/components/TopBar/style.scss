@@ -22,18 +22,51 @@
     img {
       margin: 3rem;
     }
+    @media only screen and (max-width: $medium) {
+      img {
+        margin: 1rem;
+      }
+    }
+  }
+
+  .bm-item {
+    color: $light-periwinkle;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    outline: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  .bm-item:hover {
+    color: $light-periwinkle;
+    text-decoration: underline;
+  }
+  .bm-item:active {
+    color: $light-periwinkle;
+    text-decoration: underline;
+  }
+
+  .bm-menu-wrap {
+    background: $navy-blue;
   }
 
   .topbar-elements-container {
     height: 100%;
     display: flex;
     justify-content: flex-start;
-    align-items: center; 
+    align-items: center;
     a {
       width: 7rem;
       text-align: center;
       text-decoration: none;
       color: $neutral;
+    }
+    @media only screen and (max-width: $medium) {
+      a {
+        width: 6rem;
+      }
     }
     a:hover {
       text-decoration: underline;
@@ -58,6 +91,11 @@
     margin-left: auto;
     button {
       margin: 3rem;
+    }
+    @media only screen and (max-width: $medium) {
+      button {
+        margin: 1rem;
+      }
     }
   }
 }

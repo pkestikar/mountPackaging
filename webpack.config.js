@@ -31,9 +31,6 @@ module.exports = {
             }
         ]
     },
-    plugins: [
-        new webpack.HotModuleReplacementPlugin()
-    ],
     devServer: {
         contentBase: path.resolve(__dirname, ''),
         port: 8080

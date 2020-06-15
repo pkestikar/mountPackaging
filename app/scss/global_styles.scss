@@ -10,5 +10,6 @@ body {
   &--inner {
     width: 100%;
     max-width: $site-max-width;
+    margin: 0 auto;
   }
 }
