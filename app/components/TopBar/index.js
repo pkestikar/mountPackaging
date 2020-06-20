@@ -1,9 +1,8 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 import Button from '../Button';
-import Icon from '../Icon';
 import { push as Menu } from 'react-burger-menu';
-import { MQMaxSmall, MQMinMedium } from "../../utilities/DeviceQueries";
+import { MQMaxMedium, MQMinLarge } from "../../utilities/DeviceQueries";
 
 const TopBar = (props) => {
     const sideMenuStyles = {
@@ -15,7 +14,7 @@ const TopBar = (props) => {
             top: '36px'
         },
         bmBurgerBars: {
-            background: '#373a47'
+            background: 'white'
         },
         bmBurgerBarsHover: {
             background: '#a90000'
@@ -55,12 +54,8 @@ const TopBar = (props) => {
     return (
         <div className="mp--topbar">
             <div className="mp--topbar--inner">
-                <div className="logo-container">
-                    <img src="../../../images/logo.png" alt="Logo"/>
-                </div>
-
-                <MQMaxSmall>
-                    <Menu styles={sideMenuStyles} right pageWrapId={'page-wrap'} outerContainerId={'outer-container'}>
+                <MQMaxMedium>
+                    <Menu styles={sideMenuStyles} right pageWrapId={'page-wrap'} outerContainerId={'outer-container'} id={'side-menu'}>
                         <NavLink to={'/about-us/'} activeClassName={'active'}>About Us</NavLink>
                         <NavLink to={'/work/'} activeClassName={'active'}>Work</NavLink>
                         <NavLink to={'/services/'} activeClassName={'active'}>Services</NavLink>
@@ -69,9 +64,13 @@ const TopBar = (props) => {
                             <Button palette={'secondary'}>Get Quotation</Button>
                         </div>
                     </Menu>
-                </MQMaxSmall>
+                </MQMaxMedium>
 
-                <MQMinMedium>
+                <div className="logo-container">
+                    <img src="../../../images/logo.png" alt="Logo"/>
+                </div>
+
+                <MQMinLarge>
                     <div className="topbar-elements-container">
                         <NavLink to={'/about-us/'} activeClassName={'active'}>About Us</NavLink>
                         <NavLink to={'/work/'} activeClassName={'active'}>Work</NavLink>
@@ -81,7 +80,7 @@ const TopBar = (props) => {
                     <div className="get-quote-wrapper">
                         <Button palette={'secondary'}>Get Quotation</Button>
                     </div>
-                </MQMinMedium>
+                </MQMinLarge>
             </div>
         </div>
     )

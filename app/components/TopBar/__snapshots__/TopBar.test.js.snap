@@ -7,6 +7,114 @@ exports[`TopBar Component if it renders correctly 1`] = `
   <div
     className="mp--topbar--inner"
   >
+    <MQMaxMedium>
+      <Menu
+        bodyClassName=""
+        burgerBarClassName=""
+        burgerButtonClassName=""
+        className=""
+        crossButtonClassName=""
+        crossClassName=""
+        disableAutoFocus={false}
+        disableCloseOnEsc={false}
+        htmlClassName=""
+        id="side-menu"
+        itemClassName=""
+        itemListClassName=""
+        menuClassName=""
+        morphShapeClassName=""
+        noOverlay={false}
+        noTransition={false}
+        onIconHoverChange={[Function]}
+        onStateChange={[Function]}
+        outerContainerId="outer-container"
+        overlayClassName=""
+        pageWrapId="page-wrap"
+        right={true}
+        styles={
+          Object {
+            "bmBurgerBars": Object {
+              "background": "white",
+            },
+            "bmBurgerBarsHover": Object {
+              "background": "#a90000",
+            },
+            "bmBurgerButton": Object {
+              "height": "30px",
+              "position": "fixed",
+              "right": "36px",
+              "top": "36px",
+              "width": "36px",
+            },
+            "bmCross": Object {
+              "background": "#bdc3c7",
+            },
+            "bmCrossButton": Object {
+              "height": "24px",
+              "width": "24px",
+            },
+            "bmItem": Object {
+              "display": "flex",
+              "width": "100%",
+            },
+            "bmItemList": Object {
+              "padding": "0.8em",
+            },
+            "bmMenu": Object {
+              "fontSize": "1.15em",
+              "overflow": "hidden",
+              "paddingTop": "4rem",
+            },
+            "bmMenuWrap": Object {
+              "height": "100%",
+              "position": "fixed",
+              "width": "230px",
+            },
+            "bmMorphShape": Object {
+              "fill": "#373a47",
+            },
+            "bmOverlay": Object {
+              "background": "rgba(0, 0, 0, 0.3)",
+            },
+          }
+        }
+        width={300}
+      >
+        <NavLink
+          activeClassName="active"
+          to="/about-us/"
+        >
+          About Us
+        </NavLink>
+        <NavLink
+          activeClassName="active"
+          to="/work/"
+        >
+          Work
+        </NavLink>
+        <NavLink
+          activeClassName="active"
+          to="/services/"
+        >
+          Services
+        </NavLink>
+        <NavLink
+          activeClassName="active"
+          to="/contact/"
+        >
+          Contact
+        </NavLink>
+        <div
+          className=""
+        >
+          <Button
+            palette="secondary"
+          >
+            Get Quotation
+          </Button>
+        </div>
+      </Menu>
+    </MQMaxMedium>
     <div
       className="logo-container"
     >
@@ -15,43 +123,45 @@ exports[`TopBar Component if it renders correctly 1`] = `
         src="../../../images/logo.png"
       />
     </div>
-    <div
-      className="topbar-elements-container"
-    >
-      <NavLink
-        activeClassName="active"
-        to="/about-us/"
+    <MQMinLarge>
+      <div
+        className="topbar-elements-container"
       >
-        About Us
-      </NavLink>
-      <NavLink
-        activeClassName="active"
-        to="/work/"
+        <NavLink
+          activeClassName="active"
+          to="/about-us/"
+        >
+          About Us
+        </NavLink>
+        <NavLink
+          activeClassName="active"
+          to="/work/"
+        >
+          Work
+        </NavLink>
+        <NavLink
+          activeClassName="active"
+          to="/services/"
+        >
+          Services
+        </NavLink>
+        <NavLink
+          activeClassName="active"
+          to="/contact/"
+        >
+          Contact
+        </NavLink>
+      </div>
+      <div
+        className="get-quote-wrapper"
       >
-        Work
-      </NavLink>
-      <NavLink
-        activeClassName="active"
-        to="/services/"
-      >
-        Services
-      </NavLink>
-      <NavLink
-        activeClassName="active"
-        to="/contact/"
-      >
-        Contact
-      </NavLink>
-    </div>
-    <div
-      className="get-quote-wrapper"
-    >
-      <Button
-        palette="secondary"
-      >
-        Get Quotation
-      </Button>
-    </div>
+        <Button
+          palette="secondary"
+        >
+          Get Quotation
+        </Button>
+      </div>
+    </MQMinLarge>
   </div>
 </div>
 `;

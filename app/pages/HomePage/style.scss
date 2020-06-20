@@ -1,0 +1,27 @@
+.mp--homepage-container {
+  .mp--introduction-container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .background-curve {
+      position: absolute;
+      top: 0;
+      right: 0;
+      max-width: 50%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, $navy-blue, $light-periwinkle);
+      clip-path: ellipse(80% 65% at 81% 50%);
+      z-index: -5;
+    }
+
+    &--first-section {
+      //padding-top: 150px;
+      .content-wrapper {
+
+      }
+    }
+  }
+}
