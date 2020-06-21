@@ -1,4 +1,4 @@
-# mountPackaging
-Company website for Mount Packaging Machinery Pvt. Ltd.
+# Mount Packaging Machinery Pvt. Ltd.
+Company website
 
 
