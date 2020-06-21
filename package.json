@@ -7,7 +7,7 @@
     "test": "jest --colors",
     "watchJs": "rimraf ./dist/main.js && webpack --mode development --config ./webpack.config.js --progress --profile --colors --watch",
     "buildJs": "rimraf ./dist/main.js && webpack --mode production --config ./webpack.config.js --progress --profile --colors",
-    "startJs": "rimraf ./dist/main.js && webpack-dev-server --open --hot --mode development --config ./webpack.config.js --progress --profile --colors --watch",
+    "startJs": "rimraf ./dist/main.js && webpack-dev-server --open --mode development --config ./webpack.config.js --progress --profile --colors --watch",
     "buildAssets": "rimraf ./dist/app.css && gulp buildAssets",
     "watchAssets": "rimraf ./dist/app.css && gulp watchAssets",
     "dev": "concurrently npm:watchJs npm:watchAssets",
@@ -36,16 +36,15 @@
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.5.0",
+    "foundation-sites": "^6.6.3",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
     "jest": "^26.0.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react-burger-menu": "^2.6.15",
     "react-hot-loader": "^4.12.21",
-    "react-redux": "^7.2.0",
-    "react-router-dom": "^5.2.0",
+    "react-responsive": "^8.1.0",
     "react-svg": "^11.0.24",
     "react-test-renderer": "^16.13.1",
     "rimraf": "^3.0.2",
@@ -55,5 +54,11 @@
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-redux": "^7.2.0"
   }
 }

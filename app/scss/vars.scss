@@ -1,8 +1,14 @@
-$navy-blue: #033568;
-$dark-blue: #1C202B;
-$blue-grey: #7F8595;
-$light-periwinkle: #DDE1EC;
-$neutral: #5B5E66;
+$navy-blue: var(--navy-blue, #033568);
+$dark-blue: var(--dark-blue, #1C202B);
+$blue-grey: var(--blue-grey, #7F8595);
+$light-periwinkle: var(--light-periwinkle, #DDE1EC);
+$neutral: var(--neutral, #5B5E66);
 
 $site-max-width: 1440px;
 $site-font-family: 'Noto Sans JP', sans-serif;
+
+$small: 450px;
+$medium: 768px;
+$large: 1600px;
+
+$top-bar-offset-height__large: 150px;

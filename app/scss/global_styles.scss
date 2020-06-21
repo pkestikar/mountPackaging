@@ -1,0 +1,19 @@
+body {
+  font-family: $site-font-family;
+  margin: 0;
+}
+
+.mp--main-container {
+  //padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  &--inner {
+    width: 100%;
+    max-width: $site-max-width;
+    margin: 0 auto;
+  }
+
+  main {
+    width: 100%;
+  }
+}

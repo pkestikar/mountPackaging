@@ -1,7 +1,10 @@
 @import './vars';
 
-@import 'global_settings';
+@import 'global_styles';
+@import 'foundation/scss/foundation';
 
 @import '../components/TopBar/style';
 @import '../components/Button/style';
 @import '../components/Icon/style';
+
+@import '../pages/HomePage/style';
