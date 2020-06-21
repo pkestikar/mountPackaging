@@ -6,13 +6,13 @@ const HomePage = (props) => {
             <div className="mp--introduction-container">
                 <div className={'background-curve'}></div>
                 <div className="mp--introduction-container--first-section">
-                    <div className="content-wrapper">
                         <div className="introduction-text">
-                            <span className="we-design">WE DESIGN</span>
-                            <span className="we-deliver">WE DELIVER</span>
+                            <span className="we-design">WE DESIGN.</span>
+                            <span className="we-deliver">WE DELIVER.</span>
                         </div>
-
-                    </div>
+                        <div className="introduction-description">
+                            <span className={'description-text'}>Tailored to the customer requirements, we design and deliver top-notch packaging machinery.</span>
+                        </div>
                 </div>
             </div>
         </div>

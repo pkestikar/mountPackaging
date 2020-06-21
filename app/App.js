@@ -16,7 +16,7 @@ const App = () => {
         <Router>
             <div id={'outer-container'} className={'mp--main-container'}>
                 <TopBar />
-                <main id="page-wrap" className={'mp--main-container--inner'}>
+                <main id="page-wrap">
                     <Switch>
                         <Route component={AboutUsPage} path={'/about-us/'} />
                         <Route component={ContactPage} path={'/contact/'} />

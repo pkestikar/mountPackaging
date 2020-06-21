@@ -29,7 +29,6 @@ const TopBar = (props) => {
         bmMenuWrap: {
             position: 'fixed',
             height: '100%',
-            width: '230px'
         },
         bmMenu: {
             fontSize: '1.15em',
@@ -55,7 +54,7 @@ const TopBar = (props) => {
         <div className="mp--topbar">
             <div className="mp--topbar--inner">
                 <MQMaxMedium>
-                    <Menu styles={sideMenuStyles} right pageWrapId={'page-wrap'} outerContainerId={'outer-container'} id={'side-menu'}>
+                    <Menu styles={sideMenuStyles} right pageWrapId={'page-wrap'} outerContainerId={'outer-container'} id={'side-menu'} width={'230px'}>
                         <NavLink to={'/about-us/'} activeClassName={'active'}>About Us</NavLink>
                         <NavLink to={'/work/'} activeClassName={'active'}>Work</NavLink>
                         <NavLink to={'/services/'} activeClassName={'active'}>Services</NavLink>
