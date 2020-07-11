@@ -5,6 +5,15 @@ import { push as Menu } from 'react-burger-menu';
 import { MQMaxMedium, MQMinLarge } from "../../utilities/DeviceQueries";
 
 const TopBar = (props) => {
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY !== 0) {
+            document.getElementById('mp--topbar').classList.add('scroll');
+        } else {
+            document.getElementById('mp--topbar').classList.remove('scroll');
+        }
+    });
+
     const sideMenuStyles = {
         bmBurgerButton: {
             position: 'fixed',
@@ -51,7 +60,7 @@ const TopBar = (props) => {
     };
 
     return (
-        <div className="mp--topbar">
+        <div className={`mp--topbar`} id={'mp--topbar'}>
             <div className="mp--topbar--inner">
                 <MQMaxMedium>
                     <Menu styles={sideMenuStyles} right pageWrapId={'page-wrap'} outerContainerId={'outer-container'} id={'side-menu'} width={'230px'}>

@@ -8,6 +8,11 @@
   left: 0;
   height: $top-bar-offset-height__large;
   background: transparent;
+  transition: all 0.3s ease;
+  &.scroll {
+    background: white;
+  }
+
   &--inner {
     max-width: $site-max-width;
     width: 100%;
