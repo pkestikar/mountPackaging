@@ -9,6 +9,7 @@ import HomePage from 'Pages/HomePage';
 import AboutUsPage from 'Pages/AboutUsPage';
 import ContactPage from 'Pages/ContactPage';
 import TopBar from 'Components/TopBar';
+import Footer from "Components/Footer";
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
                         <Route component={ContactPage} path={'/contact/'} />
                         <Route component={HomePage} path={'/'} />
                     </Switch>
+                    <Footer />
                 </main>
             </div>
         </Router>

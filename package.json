@@ -28,6 +28,7 @@
     "@babel/core": "^7.10.1",
     "@babel/preset-env": "^7.10.1",
     "@babel/preset-react": "^7.10.1",
+    "@material-ui/core": "^4.11.0",
     "babel-jest": "^26.0.1",
     "babel-loader": "^8.1.0",
     "classnames": "^2.2.6",
@@ -44,6 +45,7 @@
     "jest": "^26.0.1",
     "react-burger-menu": "^2.6.15",
     "react-hot-loader": "^4.12.21",
+    "react-id-swiper": "^4.0.0",
     "react-responsive": "^8.1.0",
     "react-svg": "^11.0.24",
     "react-test-renderer": "^16.13.1",
@@ -51,6 +53,7 @@
     "sass": "^1.26.7",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.2.1",
+    "swiper": "^6.0.2",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"

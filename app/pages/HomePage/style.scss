@@ -1,5 +1,5 @@
 .mp--homepage-container {
-  .mp--introduction-container {
+  .mp--homepage--first-section {
     position: relative;
     height: 100vh;
     display: flex;
@@ -17,7 +17,7 @@
       z-index: -5;
     }
 
-    &--first-section {
+    &-info-container {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -29,7 +29,7 @@
           span {
             font-size: 3rem;
             @include breakpoint(small down) {
-              font-size: 1rem;
+              font-size: 2rem;
             }
             font-weight: bold;
             text-align: right;
@@ -46,7 +46,52 @@
             }
           }
         }
+      .introduction-description {
+        margin: 1rem;
+        text-align: center;
+      }
+      .introduction-cta {
+        margin: 1rem;
+      }
+      .scroll-down-indicator {
+        position: absolute;
+        bottom: 10px;
+        img, svg {
+          height: 36px !important;
+          width: 36px !important;
+        }
+      }
       //}
+    }
+  }
+
+  .mp--homepage--second-section {
+    background: var(--navy-blue);
+    width: 100%;
+    .second-section-heading {
+      text-align: center;
+      padding: 3rem 0;
+      color: white;
+    }
+
+    .service-info-item-container {
+      .service-info-img-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .service-info-description {
+        height: 260px;
+        color: white;
+        .title {
+          font-size: 2.1rem;
+          margin-top: 3rem;
+        }
+        .text {
+          margin-top: 1.3rem;
+          font-size: 1.1rem;
+        }
+      }
     }
   }
 }

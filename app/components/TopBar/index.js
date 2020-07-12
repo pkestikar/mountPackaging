@@ -3,8 +3,20 @@ import { NavLink } from "react-router-dom";
 import Button from '../Button';
 import { push as Menu } from 'react-burger-menu';
 import { MQMaxMedium, MQMinLarge } from "../../utilities/DeviceQueries";
+import { IMAGE_PATH, NAV_ITEMS } from "../../config";
+import Container from '@material-ui/core/Container';
+import Grid from '@material-ui/core/Grid';
 
 const TopBar = (props) => {
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY !== 0) {
+            document.getElementById('mp--topbar').classList.add('scroll');
+        } else {
+            document.getElementById('mp--topbar').classList.remove('scroll');
+        }
+    });
+
     const sideMenuStyles = {
         bmBurgerButton: {
             position: 'fixed',
@@ -51,36 +63,46 @@ const TopBar = (props) => {
     };
 
     return (
-        <div className="mp--topbar">
-            <div className="mp--topbar--inner">
+        //TODO: weird horizontal scroll problem needs to be fixed
+        <div className={`mp--topbar`} id={'mp--topbar'}>
+            <Container className="mp--topbar--inner" disableGutters>
                 <MQMaxMedium>
                     <Menu styles={sideMenuStyles} right pageWrapId={'page-wrap'} outerContainerId={'outer-container'} id={'side-menu'} width={'230px'}>
-                        <NavLink to={'/about-us/'} activeClassName={'active'}>About Us</NavLink>
-                        <NavLink to={'/work/'} activeClassName={'active'}>Work</NavLink>
-                        <NavLink to={'/services/'} activeClassName={'active'}>Services</NavLink>
-                        <NavLink to={'/contact/'} activeClassName={'active'}>Contact</NavLink>
+                        {
+                            NAV_ITEMS.map((item, key) => {
+                                return (
+                                    <NavLink key={`nav-item-${key}`} to={`${item.link}`} activeClassName={'active'}>{item.title}</NavLink>
+                                )
+                            })
+                        }
                         <div className="">
                             <Button palette={'secondary'}>Get Quotation</Button>
                         </div>
                     </Menu>
                 </MQMaxMedium>
 
-                <div className="logo-container">
-                    <img src="../../../images/logo.png" alt="Logo"/>
-                </div>
+                <Grid container className={'topbar-grid-container'}>
+                    <Grid item className={'logo-container'} xs={4} md={2}>
+                        <img src={`${IMAGE_PATH}logo.png`} alt="Logo"/>
+                    </Grid>
 
-                <MQMinLarge>
-                    <div className="topbar-elements-container">
-                        <NavLink to={'/about-us/'} activeClassName={'active'}>About Us</NavLink>
-                        <NavLink to={'/work/'} activeClassName={'active'}>Work</NavLink>
-                        <NavLink to={'/services/'} activeClassName={'active'}>Services</NavLink>
-                        <NavLink to={'/contact/'} activeClassName={'active'}>Contact</NavLink>
-                    </div>
-                    <div className="get-quote-wrapper">
-                        <Button palette={'secondary'}>Get Quotation</Button>
-                    </div>
-                </MQMinLarge>
-            </div>
+                    <MQMinLarge>
+                        <Grid item className={'topbar-elements-container'} md={7}>
+                            {
+                                NAV_ITEMS.map((item, key) => {
+                                    return (
+                                        <NavLink key={`nav-item-${key}`} to={`${item.link}`} activeClassName={'active'}>{item.title}</NavLink>
+                                    )
+                                })
+                            }
+                        </Grid>
+
+                        <Grid item className="get-quote-wrapper" md={3}>
+                            <Button palette={'secondary'}>Get Quotation</Button>
+                        </Grid>
+                    </MQMinLarge>
+                </Grid>
+            </Container>
         </div>
     )
 };
