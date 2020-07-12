@@ -3,9 +3,11 @@
 exports[`TopBar Component if it renders correctly 1`] = `
 <div
   className="mp--topbar"
+  id="mp--topbar"
 >
-  <div
+  <WithStyles(ForwardRef(Container))
     className="mp--topbar--inner"
+    disableGutters={true}
   >
     <MQMaxMedium>
       <Menu
@@ -68,7 +70,6 @@ exports[`TopBar Component if it renders correctly 1`] = `
             "bmMenuWrap": Object {
               "height": "100%",
               "position": "fixed",
-              "width": "230px",
             },
             "bmMorphShape": Object {
               "fill": "#373a47",
@@ -78,28 +79,32 @@ exports[`TopBar Component if it renders correctly 1`] = `
             },
           }
         }
-        width={300}
+        width="230px"
       >
         <NavLink
           activeClassName="active"
+          key="nav-item-0"
           to="/about-us/"
         >
           About Us
         </NavLink>
         <NavLink
           activeClassName="active"
+          key="nav-item-1"
           to="/work/"
         >
           Work
         </NavLink>
         <NavLink
           activeClassName="active"
+          key="nav-item-2"
           to="/services/"
         >
           Services
         </NavLink>
         <NavLink
           activeClassName="active"
+          key="nav-item-3"
           to="/contact/"
         >
           Contact
@@ -115,53 +120,69 @@ exports[`TopBar Component if it renders correctly 1`] = `
         </div>
       </Menu>
     </MQMaxMedium>
-    <div
-      className="logo-container"
+    <WithStyles(ForwardRef(Grid))
+      className="topbar-grid-container"
+      container={true}
     >
-      <img
-        alt="Logo"
-        src="../../../images/logo.png"
-      />
-    </div>
-    <MQMinLarge>
-      <div
-        className="topbar-elements-container"
+      <WithStyles(ForwardRef(Grid))
+        className="logo-container"
+        item={true}
+        md={2}
+        xs={4}
       >
-        <NavLink
-          activeClassName="active"
-          to="/about-us/"
+        <img
+          alt="Logo"
+          src="/images/logo.png"
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <MQMinLarge>
+        <WithStyles(ForwardRef(Grid))
+          className="topbar-elements-container"
+          item={true}
+          md={7}
         >
-          About Us
-        </NavLink>
-        <NavLink
-          activeClassName="active"
-          to="/work/"
+          <NavLink
+            activeClassName="active"
+            key="nav-item-0"
+            to="/about-us/"
+          >
+            About Us
+          </NavLink>
+          <NavLink
+            activeClassName="active"
+            key="nav-item-1"
+            to="/work/"
+          >
+            Work
+          </NavLink>
+          <NavLink
+            activeClassName="active"
+            key="nav-item-2"
+            to="/services/"
+          >
+            Services
+          </NavLink>
+          <NavLink
+            activeClassName="active"
+            key="nav-item-3"
+            to="/contact/"
+          >
+            Contact
+          </NavLink>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          className="get-quote-wrapper"
+          item={true}
+          md={3}
         >
-          Work
-        </NavLink>
-        <NavLink
-          activeClassName="active"
-          to="/services/"
-        >
-          Services
-        </NavLink>
-        <NavLink
-          activeClassName="active"
-          to="/contact/"
-        >
-          Contact
-        </NavLink>
-      </div>
-      <div
-        className="get-quote-wrapper"
-      >
-        <Button
-          palette="secondary"
-        >
-          Get Quotation
-        </Button>
-      </div>
-    </MQMinLarge>
-  </div>
+          <Button
+            palette="secondary"
+          >
+            Get Quotation
+          </Button>
+        </WithStyles(ForwardRef(Grid))>
+      </MQMinLarge>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Container))>
 </div>
 `;

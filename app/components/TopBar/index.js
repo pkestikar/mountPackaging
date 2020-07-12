@@ -69,9 +69,9 @@ const TopBar = (props) => {
                 <MQMaxMedium>
                     <Menu styles={sideMenuStyles} right pageWrapId={'page-wrap'} outerContainerId={'outer-container'} id={'side-menu'} width={'230px'}>
                         {
-                            NAV_ITEMS.map(item => {
+                            NAV_ITEMS.map((item, key) => {
                                 return (
-                                    <NavLink to={`${item.link}`} activeClassName={'active'}>{item.title}</NavLink>
+                                    <NavLink key={`nav-item-${key}`} to={`${item.link}`} activeClassName={'active'}>{item.title}</NavLink>
                                 )
                             })
                         }
@@ -89,9 +89,9 @@ const TopBar = (props) => {
                     <MQMinLarge>
                         <Grid item className={'topbar-elements-container'} md={7}>
                             {
-                                NAV_ITEMS.map(item => {
+                                NAV_ITEMS.map((item, key) => {
                                     return (
-                                        <NavLink to={`${item.link}`} activeClassName={'active'}>{item.title}</NavLink>
+                                        <NavLink key={`nav-item-${key}`} to={`${item.link}`} activeClassName={'active'}>{item.title}</NavLink>
                                     )
                                 })
                             }

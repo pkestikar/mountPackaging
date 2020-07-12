@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component should render correctly 1`] = `
+<div
+  className="mp--footer"
+>
+  <WithStyles(ForwardRef(Container))
+    disableGutters={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      className="mp--footer--inner"
+      container={true}
+    >
+      <WithStyles(ForwardRef(Grid))
+        className="footer-logo-wrapper"
+        item={true}
+        md={2}
+        xs={12}
+      >
+        <div>
+          <img
+            alt="Logo"
+            src="/images/mount-logo-light.png"
+          />
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        className="footer-nav-wrapper"
+        item={true}
+        md={6}
+        xs={12}
+      >
+        <NavLink
+          activeClassName="active"
+          key="nav-item-0"
+          to="/about-us/"
+        >
+          About Us
+        </NavLink>
+        <NavLink
+          activeClassName="active"
+          key="nav-item-1"
+          to="/work/"
+        >
+          Work
+        </NavLink>
+        <NavLink
+          activeClassName="active"
+          key="nav-item-2"
+          to="/services/"
+        >
+          Services
+        </NavLink>
+        <NavLink
+          activeClassName="active"
+          key="nav-item-3"
+          to="/contact/"
+        >
+          Contact
+        </NavLink>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        className="footer-contact-info"
+        item={true}
+        md={4}
+        xs={12}
+      >
+        <div
+          className="footer-connect-heading"
+        >
+          LET'S CONNECT!
+        </div>
+        <div
+          className="footer-address"
+        >
+          We are located at:
+          <br />
+          Mahatma Jyotirao Phule Marg, 
+          <br />
+          Dhadge Industrial Estate, Nanded Phata, 
+          <br />
+          Sinhgad Road, 
+          <br />
+          Pune 411041, 
+          <br />
+          Maharashtra, India. 
+          <br />
+        </div>
+        <div
+          className="footer-email"
+        >
+          Email: 
+          mountindia@mountindia.net
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <div
+      className="mp--copyright-notice"
+    >
+      Copyright 2020 Mount Packaging Machinery Pvt Ltd.
+    </div>
+  </WithStyles(ForwardRef(Container))>
+</div>
+`;

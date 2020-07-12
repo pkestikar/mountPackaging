@@ -196,7 +196,8 @@ body {
     width: 100%;
     text-align: center; }
   .mp--footer .footer-contact-info .footer-address {
-    line-height: 1.7; }
+    line-height: 1.7;
+    padding: 1rem 0; }
     @media only screen and (max-width: 960px) {
       .mp--footer .footer-contact-info .footer-address {
         text-align: center; } }
