@@ -3,21 +3,21 @@ import Button from "Components/Button";
 import Icon from 'Components/Icon';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import { IMAGE_PATH } from "../../constants";
+import { IMAGE_PATH } from "../../config";
 import Container from '@material-ui/core/Container';
+import {MQMaxMedium, MQMinLarge} from "../../utilities/DeviceQueries";
+import Swiper from 'react-id-swiper';
 
 const ServiceInfoItemComposer = (props) => {
     return (
-        <Grid container spacing={2}>
-            <Grid item xs={12} md={4}>
+        <Grid container spacing={2} className={'service-info-item-container'}>
+            <Grid item xs={12} md={4} className={'service-info-img-wrapper'}>
                 <img className={'service-info-img'} src={`${IMAGE_PATH}${props.image}.png`} alt={props.image}/>
             </Grid>
-            <Grid item xs={12} md={8}>
-                <div className="service-info-description">
-                    <h3>{props.title}</h3>
-                    <div className="text">
-                        {props.description}
-                    </div>
+            <Grid item xs={12} md={8} className="service-info-description">
+                <div className={'title'}>{props.title}</div>
+                <div className="text">
+                    {props.description}
                 </div>
             </Grid>
         </Grid>
@@ -28,7 +28,7 @@ const HomePage = (props) => {
     const serviceItems = [
         {
             image: 'paint-bucket',
-            title: '01 PAINT',
+            title: '01 PAINTS',
             description: 'We have experience in manufacturing packaging solutions for a gamut of containers with various sizes, for any of the volumetric or gravimetric requirements.'
         },
         {
@@ -53,6 +53,13 @@ const HomePage = (props) => {
         }
     ];
 
+    const swiperParams = {
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: false
+        }
+    };
+
     return (
         <div className="mp--homepage-container">
             <div className="mp--homepage--first-section">
@@ -74,22 +81,37 @@ const HomePage = (props) => {
                 </div>
             </div>
             <div className="mp--homepage--second-section">
-                <Container maxWidth={'lg'}>
-                    <div className="second-section-heading">
-                        <h2>WE SPECIALIZE IN</h2>
-                    </div>
-                    {
-                        serviceItems.map(item => {
-                            return (
-                                <ServiceInfoItemComposer
-                                    image={item.shape}
-                                    title={item.title}
-                                    description={item.description}
-                                />
-                            )
-                        })
-                    }
-                </Container>
+                <MQMinLarge>
+                    <Container maxWidth={'lg'} disableGutters>
+                        <div className="second-section-heading">
+                            <h2>WE SPECIALIZE IN</h2>
+                        </div>
+                        {
+                            serviceItems.map(item => {
+                                return (
+                                    <ServiceInfoItemComposer
+                                        image={item.image}
+                                        title={item.title}
+                                        description={item.description}
+                                    />
+                                )
+                            })
+                        }
+                    </Container>
+                </MQMinLarge>
+                <MQMaxMedium>
+                    <Swiper {...swiperParams}>
+                        {
+                            serviceItems.map(item => {
+                                return (
+                                    <div className="service-info-item-container__mobile">
+                                        hellooo
+                                    </div>
+                                )
+                            })
+                        }
+                    </Swiper>
+                </MQMaxMedium>
             </div>
         </div>
     )

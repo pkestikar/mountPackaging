@@ -14,9 +14,13 @@
   }
 
   &--inner {
-    max-width: $site-max-width;
-    width: 100%;
-    display: flex;
+    //max-width: $site-max-width;
+    height: 100%;
+    //display: flex;
+  }
+
+  .topbar-grid-container {
+    height: 100%;
   }
 
   .logo-container {
