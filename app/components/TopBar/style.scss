@@ -29,9 +29,6 @@
     justify-content: center;
     align-items: center;
     float: left;
-    img {
-      margin: 3rem;
-    }
     @media only screen and (max-width: $medium) {
       img {
         margin: 1rem;
@@ -99,9 +96,9 @@
     justify-content: center;
     align-items: center;
     margin-left: auto;
-    button {
-      margin: 3rem;
-    }
+    //button {
+    //  margin: 3rem;
+    //}
     @media only screen and (max-width: $medium) {
       button {
         margin: 1rem;

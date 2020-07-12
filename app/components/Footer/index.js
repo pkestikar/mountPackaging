@@ -7,10 +7,12 @@ import {NavLink} from "react-router-dom";
 const Footer = (props) => {
     return (
         <div className={'mp--footer'}>
-            <Container className={'mp--footer--inner'} disableGutters>
-                <Grid container>
+            <Container disableGutters>
+                <Grid container className={'mp--footer--inner'}>
                     <Grid item className={'footer-logo-wrapper'} xs={12} md={2}>
-                        <img src={`${IMAGE_PATH}mount-logo-light.png`} alt="Logo"/>
+                        <div>
+                            <img src={`${IMAGE_PATH}mount-logo-light.png`} alt="Logo"/>
+                        </div>
                     </Grid>
                     <Grid item className={'footer-nav-wrapper'} xs={12} md={6}>
                         {
@@ -22,7 +24,7 @@ const Footer = (props) => {
                         }
                     </Grid>
                     <Grid item className={'footer-contact-info'} xs={12} md={4}>
-                        <h3>LET'S CONNECT</h3>
+                        <div className={'footer-connect-heading'}>LET'S CONNECT!</div>
                         <div className="footer-address">
                             <p>
                                 We are located at:<br />
@@ -42,9 +44,7 @@ const Footer = (props) => {
                 </Grid>
 
                 <div className="mp--copyright-notice">
-                    <p>
-                        {COPYRIGHT_NOTICE_TEXT}
-                    </p>
+                    {COPYRIGHT_NOTICE_TEXT}
                 </div>
             </Container>
         </div>

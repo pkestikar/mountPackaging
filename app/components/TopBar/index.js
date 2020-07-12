@@ -63,6 +63,7 @@ const TopBar = (props) => {
     };
 
     return (
+        //TODO: weird horizontal scroll problem needs to be fixed
         <div className={`mp--topbar`} id={'mp--topbar'}>
             <Container className="mp--topbar--inner" disableGutters>
                 <MQMaxMedium>
