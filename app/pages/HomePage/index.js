@@ -6,7 +6,13 @@ import Grid from '@material-ui/core/Grid';
 import { IMAGE_PATH } from "../../config";
 import Container from '@material-ui/core/Container';
 import {MQMaxMedium, MQMinLarge} from "../../utilities/DeviceQueries";
-import Swiper from 'react-id-swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Pagination, Navigation } from 'swiper';
+import 'swiper/swiper.scss';
+import 'swiper/components/navigation/navigation.scss';
+import 'swiper/components/pagination/pagination.scss';
+import 'swiper/components/scrollbar/scrollbar.scss';
 
 const ServiceInfoItemComposer = (props) => {
     return (
@@ -53,11 +59,11 @@ const HomePage = (props) => {
         }
     ];
 
+    SwiperCore.use([ Navigation, Pagination ]);
     const swiperParams = {
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: false
-        }
+        slidesPerView: 1,
+        navigation: false,
+        pagination: { clickable: true }
     };
 
     return (
@@ -81,11 +87,11 @@ const HomePage = (props) => {
                 </div>
             </div>
             <div className="mp--homepage--second-section">
+                <div className="second-section-heading">
+                    WE SPECIALIZE IN
+                </div>
                 <MQMinLarge>
                     <Container maxWidth={'lg'} disableGutters>
-                        <div className="second-section-heading">
-                            <h2>WE SPECIALIZE IN</h2>
-                        </div>
                         {
                             serviceItems.map(item => {
                                 return (
@@ -102,11 +108,23 @@ const HomePage = (props) => {
                 <MQMaxMedium>
                     <Swiper {...swiperParams}>
                         {
-                            serviceItems.map(item => {
+                            serviceItems.map((item, key) => {
                                 return (
-                                    <div className="service-info-item-container__mobile">
-                                        hellooo
-                                    </div>
+                                    <SwiperSlide key={`service-${key}`}>
+                                        <div className="service-info-item-container__mobile">
+                                            <div className="service-info-img-wrapper">
+                                                <img className={'service-info-img'} src={`${IMAGE_PATH}${item.image}.png`} alt={item.image}/>
+                                            </div>
+                                            <div className="service-info-description">
+                                                <div className="title">
+                                                    {item.title}
+                                                </div>
+                                                <div className="text">
+                                                    {item.description}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
                                 )
                             })
                         }

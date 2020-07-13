@@ -23,10 +23,11 @@ const TopBar = (props) => {
             width: '36px',
             height: '30px',
             right: '36px',
-            top: '36px'
+            top: '30px'
         },
         bmBurgerBars: {
-            background: 'white'
+            background: 'white',
+            height: '11%'
         },
         bmBurgerBarsHover: {
             background: '#a90000'

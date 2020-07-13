@@ -6,11 +6,19 @@
   position: fixed;
   top: 0;
   left: 0;
-  height: $top-bar-offset-height__large;
+  height: $top-bar-height__large;
+  @media only screen and (max-width: $medium) {
+    height: $top-bar-height__small;
+  }
   background: transparent;
   transition: all 0.3s ease;
   &.scroll {
     background: white;
+    @media only screen and (max-width: $medium) {
+      .bm-burger-bars {
+        background: var(--navy-blue) !important;
+      }
+    }
   }
 
   &--inner {
@@ -32,6 +40,7 @@
     @media only screen and (max-width: $medium) {
       img {
         margin: 1rem;
+        max-width: 100px;
       }
     }
   }
