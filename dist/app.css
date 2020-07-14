@@ -29,8 +29,14 @@ body {
   height: 140px;
   background: transparent;
   transition: all 0.3s ease; }
+  @media only screen and (max-width: 960px) {
+    .mp--topbar {
+      height: 90px; } }
   .mp--topbar.scroll {
     background: white; }
+    @media only screen and (max-width: 960px) {
+      .mp--topbar.scroll .bm-burger-bars {
+        background: var(--navy-blue) !important; } }
   .mp--topbar--inner {
     height: 100%; }
   .mp--topbar .topbar-grid-container {
@@ -43,7 +49,8 @@ body {
     float: left; }
     @media only screen and (max-width: 960px) {
       .mp--topbar .logo-container img {
-        margin: 1rem; } }
+        margin: 1rem;
+        max-width: 100px; } }
   .mp--topbar .bm-item {
     color: var(--light-periwinkle, #DDE1EC);
     text-decoration: none;
@@ -267,7 +274,12 @@ body {
   .mp--homepage-container .mp--homepage--second-section .second-section-heading {
     text-align: center;
     padding: 3rem 0;
-    color: white; }
+    color: white;
+    font-size: 1.5rem; }
+    @media only screen and (max-width: 960px) {
+      .mp--homepage-container .mp--homepage--second-section .second-section-heading {
+        font-size: 1.2rem;
+        padding: 3rem 0 1rem; } }
   .mp--homepage-container .mp--homepage--second-section .service-info-item-container .service-info-img-wrapper {
     display: flex;
     justify-content: center;
@@ -276,8 +288,47 @@ body {
     height: 260px;
     color: white; }
     .mp--homepage-container .mp--homepage--second-section .service-info-item-container .service-info-description .title {
-      font-size: 2.1rem;
+      font-size: 1.8rem;
       margin-top: 3rem; }
     .mp--homepage-container .mp--homepage--second-section .service-info-item-container .service-info-description .text {
       margin-top: 1.3rem;
-      font-size: 1.1rem; }
+      line-height: 1.8; }
+  .mp--homepage-container .mp--homepage--second-section .service-info-item-container__mobile {
+    height: 397px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    max-width: 285px;
+    border: 1px solid white;
+    margin: 2rem auto;
+    padding: 0 1rem; }
+    .mp--homepage-container .mp--homepage--second-section .service-info-item-container__mobile .service-info-img-wrapper {
+      margin-top: 3rem; }
+      .mp--homepage-container .mp--homepage--second-section .service-info-item-container__mobile .service-info-img-wrapper img {
+        max-height: 110px; }
+    .mp--homepage-container .mp--homepage--second-section .service-info-item-container__mobile .service-info-description .title {
+      font-size: 1.5rem;
+      margin: 1rem 0;
+      text-align: center; }
+    .mp--homepage-container .mp--homepage--second-section .service-info-item-container__mobile .service-info-description .text {
+      font-size: 0.9rem; }
+  .mp--homepage-container .mp--homepage--second-section .swiper-container .swiper-pagination-bullets {
+    bottom: 50px; }
+
+.mp--homepage-container .mp--homepage--third-section {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .mp--homepage-container .mp--homepage--third-section span {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    text-align: center; }
+  @media only screen and (max-width: 960px) {
+    .mp--homepage-container .mp--homepage--third-section {
+      height: 200px; }
+      .mp--homepage-container .mp--homepage--third-section span {
+        font-size: 1.4rem;
+        margin-bottom: 0.9rem; } }

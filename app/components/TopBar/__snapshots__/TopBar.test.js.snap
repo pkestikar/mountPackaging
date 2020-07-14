@@ -37,6 +37,7 @@ exports[`TopBar Component if it renders correctly 1`] = `
           Object {
             "bmBurgerBars": Object {
               "background": "white",
+              "height": "11%",
             },
             "bmBurgerBarsHover": Object {
               "background": "#a90000",
@@ -45,7 +46,7 @@ exports[`TopBar Component if it renders correctly 1`] = `
               "height": "30px",
               "position": "fixed",
               "right": "36px",
-              "top": "36px",
+              "top": "30px",
               "width": "36px",
             },
             "bmCross": Object {
