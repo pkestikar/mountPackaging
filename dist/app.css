@@ -288,11 +288,11 @@ body {
     height: 260px;
     color: white; }
     .mp--homepage-container .mp--homepage--second-section .service-info-item-container .service-info-description .title {
-      font-size: 2.1rem;
+      font-size: 1.8rem;
       margin-top: 3rem; }
     .mp--homepage-container .mp--homepage--second-section .service-info-item-container .service-info-description .text {
       margin-top: 1.3rem;
-      font-size: 1.1rem; }
+      line-height: 1.8; }
   .mp--homepage-container .mp--homepage--second-section .service-info-item-container__mobile {
     height: 397px;
     display: flex;
@@ -315,3 +315,20 @@ body {
       font-size: 0.9rem; }
   .mp--homepage-container .mp--homepage--second-section .swiper-container .swiper-pagination-bullets {
     bottom: 50px; }
+
+.mp--homepage-container .mp--homepage--third-section {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .mp--homepage-container .mp--homepage--third-section span {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    text-align: center; }
+  @media only screen and (max-width: 960px) {
+    .mp--homepage-container .mp--homepage--third-section {
+      height: 200px; }
+      .mp--homepage-container .mp--homepage--third-section span {
+        font-size: 1.4rem;
+        margin-bottom: 0.9rem; } }

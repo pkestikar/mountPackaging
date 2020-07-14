@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from "Components/Button";
-import Icon from 'Components/Icon';
+import Icon from '../../components/Icon';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import { IMAGE_PATH } from "../../config";
@@ -14,7 +14,7 @@ import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
 
-const ServiceInfoItemComposer = (props) => {
+export const ServiceInfoItemComposer = (props) => {
     return (
         <Grid container spacing={2} className={'service-info-item-container'}>
             <Grid item xs={12} md={4} className={'service-info-img-wrapper'}>
@@ -30,35 +30,35 @@ const ServiceInfoItemComposer = (props) => {
     )
 };
 
-const HomePage = (props) => {
-    const serviceItems = [
-        {
-            image: 'paint-bucket',
-            title: '01 PAINTS',
-            description: 'We have experience in manufacturing packaging solutions for a gamut of containers with various sizes, for any of the volumetric or gravimetric requirements.'
-        },
-        {
-            image: 'oil-bucket',
-            title: '02 OILS',
-            description: 'We provide packaging solutions for all kinds of oils like gear oils, lubricant oils, edible oils, etc.'
-        },
-        {
-            image: 'ink-bottle',
-            title: '03 INKS',
-            description: 'While striving for an efficient solution, our packaging machinery designs for inks ensure least amount of contamination.'
-        },
-        {
-            image: 'barrel',
-            title: '04 CHEMICALS',
-            description: 'We are able to provide packaging machinery for chemicals like peroxides with Lance bottom and top filling.'
-        },
-        {
-            image: 'adhesive-tube',
-            title: '05 ADHESIVES',
-            description: 'We can provide packaging solutions for adhesives  with volumetric/pressure type filling.'
-        }
-    ];
+export const serviceItems = [
+    {
+        image: 'paint-bucket',
+        title: '01 PAINTS',
+        description: 'We have experience in manufacturing packaging solutions for a gamut of containers with various sizes, for any of the volumetric or gravimetric requirements.'
+    },
+    {
+        image: 'oil-bucket',
+        title: '02 OILS',
+        description: 'We provide packaging solutions for all kinds of oils like gear oils, lubricant oils, edible oils, etc.'
+    },
+    {
+        image: 'ink-bottle',
+        title: '03 INKS',
+        description: 'While striving for an efficient solution, our packaging machinery designs for inks ensure least amount of contamination.'
+    },
+    {
+        image: 'barrel',
+        title: '04 CHEMICALS',
+        description: 'We are able to provide packaging machinery for chemicals like peroxides with Lance bottom and top filling.'
+    },
+    {
+        image: 'adhesive-tube',
+        title: '05 ADHESIVES',
+        description: 'We can provide packaging solutions for adhesives  with volumetric/pressure type filling.'
+    }
+];
 
+const HomePage = (props) => {
     SwiperCore.use([ Navigation, Pagination ]);
     const swiperParams = {
         slidesPerView: 1,
@@ -93,12 +93,13 @@ const HomePage = (props) => {
                 <MQMinLarge>
                     <Container maxWidth={'lg'} disableGutters>
                         {
-                            serviceItems.map(item => {
+                            serviceItems.map((item, key) => {
                                 return (
                                     <ServiceInfoItemComposer
                                         image={item.image}
                                         title={item.title}
                                         description={item.description}
+                                        key={`service-info-item-${key}`}
                                     />
                                 )
                             })
@@ -130,6 +131,10 @@ const HomePage = (props) => {
                         }
                     </Swiper>
                 </MQMaxMedium>
+            </div>
+            <div className="mp--homepage--third-section">
+                <span>Ready with requirements?</span>
+                <Button palette={'secondary'}>Get Quotation</Button>
             </div>
         </div>
     )

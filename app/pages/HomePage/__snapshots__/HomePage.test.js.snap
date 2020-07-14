@@ -1,0 +1,329 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage component should render correctly 1`] = `
+<div
+  className="mp--homepage-container"
+>
+  <div
+    className="mp--homepage--first-section"
+  >
+    <div
+      className="background-curve"
+    />
+    <div
+      className="mp--homepage--first-section-info-container"
+    >
+      <div
+        className="introduction-text"
+      >
+        <span
+          className="we-design"
+        >
+          WE DESIGN.
+        </span>
+        <span
+          className="we-deliver"
+        >
+          WE DELIVER.
+        </span>
+      </div>
+      <div
+        className="introduction-description"
+      >
+        <span
+          className="description-text"
+        >
+          Tailored to the customer requirements, we design and deliver top-notch packaging machinery.
+        </span>
+      </div>
+      <div
+        className="introduction-cta"
+      >
+        <Button
+          disabled={false}
+          loading={false}
+          palette="primary"
+          size="medium"
+        >
+          Let's Connect
+        </Button>
+      </div>
+      <div
+        className="scroll-down-indicator"
+      >
+        <Icon
+          icon="scroll"
+          onClick={[Function]}
+          sizeInPixels="16"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="mp--homepage--second-section"
+  >
+    <div
+      className="second-section-heading"
+    >
+      WE SPECIALIZE IN
+    </div>
+    <MQMinLarge>
+      <WithStyles(ForwardRef(Container))
+        disableGutters={true}
+        maxWidth="lg"
+      >
+        <ServiceInfoItemComposer
+          description="We have experience in manufacturing packaging solutions for a gamut of containers with various sizes, for any of the volumetric or gravimetric requirements."
+          image="paint-bucket"
+          key="service-info-item-0"
+          title="01 PAINTS"
+        />
+        <ServiceInfoItemComposer
+          description="We provide packaging solutions for all kinds of oils like gear oils, lubricant oils, edible oils, etc."
+          image="oil-bucket"
+          key="service-info-item-1"
+          title="02 OILS"
+        />
+        <ServiceInfoItemComposer
+          description="While striving for an efficient solution, our packaging machinery designs for inks ensure least amount of contamination."
+          image="ink-bottle"
+          key="service-info-item-2"
+          title="03 INKS"
+        />
+        <ServiceInfoItemComposer
+          description="We are able to provide packaging machinery for chemicals like peroxides with Lance bottom and top filling."
+          image="barrel"
+          key="service-info-item-3"
+          title="04 CHEMICALS"
+        />
+        <ServiceInfoItemComposer
+          description="We can provide packaging solutions for adhesives  with volumetric/pressure type filling."
+          image="adhesive-tube"
+          key="service-info-item-4"
+          title="05 ADHESIVES"
+        />
+      </WithStyles(ForwardRef(Container))>
+    </MQMinLarge>
+    <MQMaxMedium>
+      <Swiper
+        navigation={false}
+        pagination={
+          Object {
+            "clickable": true,
+          }
+        }
+        slidesPerView={1}
+      >
+        <SwiperSlide
+          key="service-0"
+        >
+          <div
+            className="service-info-item-container__mobile"
+          >
+            <div
+              className="service-info-img-wrapper"
+            >
+              <img
+                alt="paint-bucket"
+                className="service-info-img"
+                src="/images/paint-bucket.png"
+              />
+            </div>
+            <div
+              className="service-info-description"
+            >
+              <div
+                className="title"
+              >
+                01 PAINTS
+              </div>
+              <div
+                className="text"
+              >
+                We have experience in manufacturing packaging solutions for a gamut of containers with various sizes, for any of the volumetric or gravimetric requirements.
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide
+          key="service-1"
+        >
+          <div
+            className="service-info-item-container__mobile"
+          >
+            <div
+              className="service-info-img-wrapper"
+            >
+              <img
+                alt="oil-bucket"
+                className="service-info-img"
+                src="/images/oil-bucket.png"
+              />
+            </div>
+            <div
+              className="service-info-description"
+            >
+              <div
+                className="title"
+              >
+                02 OILS
+              </div>
+              <div
+                className="text"
+              >
+                We provide packaging solutions for all kinds of oils like gear oils, lubricant oils, edible oils, etc.
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide
+          key="service-2"
+        >
+          <div
+            className="service-info-item-container__mobile"
+          >
+            <div
+              className="service-info-img-wrapper"
+            >
+              <img
+                alt="ink-bottle"
+                className="service-info-img"
+                src="/images/ink-bottle.png"
+              />
+            </div>
+            <div
+              className="service-info-description"
+            >
+              <div
+                className="title"
+              >
+                03 INKS
+              </div>
+              <div
+                className="text"
+              >
+                While striving for an efficient solution, our packaging machinery designs for inks ensure least amount of contamination.
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide
+          key="service-3"
+        >
+          <div
+            className="service-info-item-container__mobile"
+          >
+            <div
+              className="service-info-img-wrapper"
+            >
+              <img
+                alt="barrel"
+                className="service-info-img"
+                src="/images/barrel.png"
+              />
+            </div>
+            <div
+              className="service-info-description"
+            >
+              <div
+                className="title"
+              >
+                04 CHEMICALS
+              </div>
+              <div
+                className="text"
+              >
+                We are able to provide packaging machinery for chemicals like peroxides with Lance bottom and top filling.
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide
+          key="service-4"
+        >
+          <div
+            className="service-info-item-container__mobile"
+          >
+            <div
+              className="service-info-img-wrapper"
+            >
+              <img
+                alt="adhesive-tube"
+                className="service-info-img"
+                src="/images/adhesive-tube.png"
+              />
+            </div>
+            <div
+              className="service-info-description"
+            >
+              <div
+                className="title"
+              >
+                05 ADHESIVES
+              </div>
+              <div
+                className="text"
+              >
+                We can provide packaging solutions for adhesives  with volumetric/pressure type filling.
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+      </Swiper>
+    </MQMaxMedium>
+  </div>
+  <div
+    className="mp--homepage--third-section"
+  >
+    <span>
+      Ready with requirements?
+    </span>
+    <Button
+      disabled={false}
+      loading={false}
+      palette="secondary"
+      size="medium"
+    >
+      Get Quotation
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`ServiceInfoItemComposer component should render correctly 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className="service-info-item-container"
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    className="service-info-img-wrapper"
+    item={true}
+    md={4}
+    xs={12}
+  >
+    <img
+      alt="paint-bucket"
+      className="service-info-img"
+      src="/images/paint-bucket.png"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    className="service-info-description"
+    item={true}
+    md={8}
+    xs={12}
+  >
+    <div
+      className="title"
+    >
+      01 PAINTS
+    </div>
+    <div
+      className="text"
+    >
+      We have experience in manufacturing packaging solutions for a gamut of containers with various sizes, for any of the volumetric or gravimetric requirements.
+    </div>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
