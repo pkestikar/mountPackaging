@@ -1,0 +1,6 @@
+.mp--about-us-page-container {
+  margin-top: $top-bar-height__large;
+  @media only screen and (max-width: $medium) {
+    margin-top: $top-bar-height__small;
+  }
+}

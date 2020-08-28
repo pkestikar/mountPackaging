@@ -37,6 +37,9 @@
     justify-content: center;
     align-items: center;
     float: left;
+    img {
+      cursor: pointer;
+    }
     @media only screen and (max-width: $medium) {
       img {
         margin: 1rem;
