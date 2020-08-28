@@ -47,6 +47,8 @@ body {
     justify-content: center;
     align-items: center;
     float: left; }
+    .mp--topbar .logo-container img {
+      cursor: pointer; }
     @media only screen and (max-width: 960px) {
       .mp--topbar .logo-container img {
         margin: 1rem;
@@ -332,3 +334,9 @@ body {
       .mp--homepage-container .mp--homepage--third-section span {
         font-size: 1.4rem;
         margin-bottom: 0.9rem; } }
+
+.mp--about-us-page-container {
+  margin-top: 140px; }
+  @media only screen and (max-width: 960px) {
+    .mp--about-us-page-container {
+      margin-top: 90px; } }

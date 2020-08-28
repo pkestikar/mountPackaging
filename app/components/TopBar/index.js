@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
+import { NavLink, useHistory } from "react-router-dom";
 import Button from '../Button';
 import { push as Menu } from 'react-burger-menu';
 import { MQMaxMedium, MQMinLarge } from "../../utilities/DeviceQueries";
@@ -8,6 +8,7 @@ import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 
 const TopBar = (props) => {
+    let history = useHistory();
 
     window.addEventListener('scroll', () => {
         if (window.scrollY !== 0) {
@@ -76,7 +77,7 @@ const TopBar = (props) => {
                                 )
                             })
                         }
-                        <div className="">
+                        <div className="">6
                             <Button palette={'secondary'}>Get Quotation</Button>
                         </div>
                     </Menu>
@@ -84,7 +85,7 @@ const TopBar = (props) => {
 
                 <Grid container className={'topbar-grid-container'}>
                     <Grid item className={'logo-container'} xs={4} md={2}>
-                        <img src={`${IMAGE_PATH}logo.png`} alt="Logo"/>
+                        <img src={`${IMAGE_PATH}logo.png`} alt="Logo" onClick={() => history.push('/')}/>
                     </Grid>
 
                     <MQMinLarge>

@@ -11,7 +11,6 @@ import ContactPage from 'Pages/ContactPage';
 import TopBar from 'Components/TopBar';
 import Footer from "Components/Footer";
 
-
 const App = () => {
     return (
         <Router>
