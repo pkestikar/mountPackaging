@@ -3,4 +3,35 @@
   @media only screen and (max-width: $medium) {
     margin-top: $top-bar-height__small;
   }
+
+  .director-info-container {
+    margin-bottom: 3.5rem;
+    @media only screen and (max-width: $medium) {
+      padding: 2rem;
+    }
+  }
+
+  .director-image-wrapper {
+    overflow: hidden;
+    text-align: center;
+    @media only screen and (max-width: $medium) {
+      margin-bottom: 2rem;
+    }
+    img {
+      height: 412px;
+      width: 412px;
+      object-fit: cover;
+    }
+    .director-info {
+      margin-top: 0.5rem;
+      text-decoration: underline;
+    }
+  }
+
+  .director-description-wrapper {
+    padding: 0 3rem;
+    @include breakpoint(medium down) {
+      padding: 0;
+    }
+  }
 }

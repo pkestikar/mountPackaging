@@ -4,14 +4,14 @@ import Grid from '@material-ui/core/Grid';
 
 const AboutUsPage = (props) => {
     return (
-        <Container className="mp--about-us-page-container">
+        <Container className="mp--about-us-page-container" disableGutters>
             <Grid container className={'mp--page-title'}>
                 <Grid item xs={12}>
                     <h1>About Us</h1>
                 </Grid>
             </Grid>
             <Grid container className="director-info-container">
-                <Grid item xs={12} md={12} lg={4}>
+                <Grid item xs={12} md={12} lg={4} className={'director-image-wrapper'}>
                     <img src="/images/about-us/director.png" alt="Director" />
                     <div className="director-info">
                         Achyut Kestikar, Director (Operations),

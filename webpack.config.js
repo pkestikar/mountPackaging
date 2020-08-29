@@ -1,11 +1,16 @@
 const path = require('path');
 const webpack = require('webpack');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-    entry: './app/index.js',
+    entry: [
+        './app/index.js',
+        './app/scss/app.scss'
+    ],
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'main.js'
+        filename: 'main.js',
+        publicPath: '/'
     },
     resolve: {
         extensions: ['*', '.js', '.jsx'],
@@ -15,6 +20,11 @@ module.exports = {
             History: path.resolve(__dirname, 'app/history.js')
         }
     },
+    plugins: [
+        new MiniCssExtractPlugin({
+            filename: 'app.css'
+        })
+    ],
     module: {
         rules: [
             {
@@ -25,7 +35,9 @@ module.exports = {
             {
                 test: /\.((s[ac]ss)|css)$/,
                 use: [
-                    'style-loader',
+                    {
+                        loader: MiniCssExtractPlugin.loader
+                    },
                     'css-loader',
                     'sass-loader'
                 ]
@@ -34,6 +46,9 @@ module.exports = {
     },
     devServer: {
         contentBase: path.resolve(__dirname, ''),
+        historyApiFallback: {
+            index: '/index.html'
+        },
         port: 8080
     }
 };
