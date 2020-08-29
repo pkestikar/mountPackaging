@@ -12,7 +12,8 @@
     "watchAssets": "rimraf ./dist/app.css && gulp watchAssets",
     "dev": "concurrently npm:watchJs npm:watchAssets",
     "start": "concurrently npm:startJs npm:watchJs npm:watchAssets",
-    "build": "concurrently npm:buildJs npm:buildAssets"
+    "build": "concurrently npm:buildJs npm:buildAssets",
+    "startTemp": "concurrently npm:startJs npm:watchJs"
   },
   "repository": {
     "type": "git",
@@ -40,6 +41,7 @@
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
     "jest": "^26.0.1",
+    "mini-css-extract-plugin": "^0.11.0",
     "react-burger-menu": "^2.6.15",
     "react-hot-loader": "^4.12.21",
     "react-id-swiper": "^4.0.0",
