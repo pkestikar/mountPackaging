@@ -1,8 +1,27 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
+import Icon from 'Components/Icon';
+import {MQMaxMedium, MQMinMedium, MQMinLarge} from "../../utilities/DeviceQueries";
 
 const AboutUsPage = (props) => {
+
+    const ProcessComposer = (props) => {
+        return (
+            <div className="process-info-wrapper">
+                <h3>{props.processTitle}</h3>
+                <p>
+                    {props.processDescription}
+                </p>
+                {props.showMobileArrow &&
+                <MQMaxMedium>
+                    <img src="/images/about-us/down-arrow.png" alt="down-arrow" />
+                </MQMaxMedium>
+                }
+            </div>
+        )
+    }
+
     return (
         <Container className="mp--about-us-page-container" disableGutters>
             <Grid container className={'mp--page-title'}>
@@ -33,6 +52,77 @@ const AboutUsPage = (props) => {
                         Mr. Achyut Kestikar, Director (Operations)
                         Achyut is a competent engineer with 30+ years of experience in packaging industry with a wide industrial experience in different functions. He has a proven record of building and managing large complex projects from concept to completion phase.
                     </p>
+                </Grid>
+            </Grid>
+            <Grid container className={'mp--our-process-container'} justify={'center'} alignItems={'center'}>
+                <h3>Our Process</h3>
+                <Grid container justify={'center'}>
+                    <Grid item md={3}>
+                        <ProcessComposer
+                            processTitle={'Study Requirements'}
+                            processDescription={'Once the customer is comfortable with the quotation, we revisit the customer requirements to prepare a list of high-level design goals and objectives.'}
+                            showMobileArrow
+                        />
+                    </Grid>
+                    <MQMinLarge>
+                        <Grid item md={3} className={'arrow-wrapper__desktop'}>
+                            <img src="/images/about-us/right-arrow.png" alt="right-arrow" />
+                        </Grid>
+                    </MQMinLarge>
+                    <Grid item md={3}>
+                        <ProcessComposer
+                            processTitle={'Meeting with customer'}
+                            processDescription={'Meetups with our customer helps us present our initial design thoughts. If required, we go back to revise the requirements.'}
+                            showMobileArrow
+                        />
+                    </Grid>
+                </Grid>
+
+                <MQMinLarge>
+                    <Grid container justify={'flex-end'} className={'arrow-wrapper__desktop'}>
+                        <Grid item md={3}>
+                            <img src={'/images/about-us/down-arrow.png'} alt={'down-arrow'} />
+                        </Grid>
+                    </Grid>
+                </MQMinLarge>
+
+                <Grid container justify={'center'}>
+                    <Grid item md={3}>
+                        <ProcessComposer
+                            processTitle={'Implement'}
+                            processDescription={'This is the phase where the design comes to life.'}
+                            showMobileArrow
+                        />
+                    </Grid>
+                    <MQMinLarge>
+                        <Grid item md={3} className={'arrow-wrapper__desktop'}>
+                            <img src="/images/about-us/left-arrow.png" alt="left-arrow" />
+                        </Grid>
+                    </MQMinLarge>
+                    <Grid item md={3}>
+                        <ProcessComposer
+                            processTitle={'Design'}
+                            processDescription={'Once the requirements are finalized, we get to the main step of designing.'}
+                            showMobileArrow
+                        />
+                    </Grid>
+                </Grid>
+
+                <MQMinLarge>
+                    <Grid container justify={'flex-start'} className={'arrow-wrapper__desktop'}>
+                        <Grid item md={3}>
+                            <img src={'/images/about-us/down-arrow.png'} alt={'down-arrow'} />
+                        </Grid>
+                    </Grid>
+                </MQMinLarge>
+
+                <Grid container>
+                    <Grid item md={3}>
+                        <ProcessComposer
+                            processTitle={'Deliver'}
+                            processDescription={`After thorough testing, it's time to ship the customized packaging machine to your factory floor.`}
+                        />
+                    </Grid>
                 </Grid>
             </Grid>
         </Container>

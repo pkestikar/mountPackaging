@@ -707,4 +707,10 @@ body {
     @media print, screen and (max-width: 63.99875em) {
       .mp--about-us-page-container .director-description-wrapper {
         padding: 0; } }
+  .mp--about-us-page-container .mp--our-process-container {
+    background: var(--navy-blue); }
+    .mp--about-us-page-container .mp--our-process-container .arrow-wrapper__desktop {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
 

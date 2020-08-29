@@ -34,4 +34,13 @@
       padding: 0;
     }
   }
+
+  .mp--our-process-container {
+    background: var(--navy-blue);
+    .arrow-wrapper__desktop {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 }
