@@ -133,6 +133,7 @@ exports[`TopBar Component if it renders correctly 1`] = `
       >
         <img
           alt="Logo"
+          onClick={[Function]}
           src="/images/logo.png"
         />
       </WithStyles(ForwardRef(Grid))>

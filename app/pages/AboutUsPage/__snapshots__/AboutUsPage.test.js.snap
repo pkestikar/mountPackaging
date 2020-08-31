@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutUsPage component renders correctly 1`] = `
+<div
+  className="mp--about-us-page-container"
+>
+  <WithStyles(ForwardRef(Container))
+    disableGutters={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      className="mp--page-title"
+      container={true}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <h1>
+          About Us
+        </h1>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      className="director-info-container"
+      container={true}
+    >
+      <WithStyles(ForwardRef(Grid))
+        className="director-image-wrapper"
+        item={true}
+        lg={4}
+        md={12}
+        xs={12}
+      >
+        <img
+          alt="Director"
+          src="/images/about-us/director.png"
+        />
+        <div
+          className="director-info"
+        >
+          Achyut Kestikar, Director (Operations), Mount Packaging Machinery Pvt Ltd.
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        className="director-description-wrapper"
+        item={true}
+        lg={8}
+        md={12}
+        xs={12}
+      >
+        <p>
+          Mount Packaging Machinery Pvt. Ltd. was established in 2005, based in Pune, India.
+        </p>
+        <p>
+          Over decades, we have developed a dedicated team of qualified engineers and technicians, who design the machines on high-end softwares, manufacture parts on automated CNC machines, built and assembled to global manufacturing practices.
+        </p>
+        <p>
+          Mount Packaging Machinery Pvt. Ltd. has worked with numerous small and large enterprises worldwide with domain knowledge of forth generation packaging technology. The machines are tested on factory floor, before they are dispatched to customers. Whether small or large, highest level of  safety standards’ are followed to international norms.
+        </p>
+        <p>
+          Current leadership: 
+          <br />
+          Mr. Achyut Kestikar, Director (Operations) Achyut is a competent engineer with 30+ years of experience in packaging industry with a wide industrial experience in different functions. He has a proven record of building and managing large complex projects from concept to completion phase.
+        </p>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Container))>
+  <div
+    className="mp--our-process-container"
+  >
+    <WithStyles(ForwardRef(Container))
+      disabledGutters={true}
+    >
+      <WithStyles(ForwardRef(Grid))
+        alignItems="center"
+        container={true}
+        justify="center"
+      >
+        <h2
+          className="container-title"
+        >
+          Our Process
+        </h2>
+        <WithStyles(ForwardRef(Grid))
+          className="process-info-row"
+          container={true}
+          justify="center"
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={4}
+          >
+            <ProcessComposer
+              processDescription="Once the customer is comfortable with the quotation, we revisit the customer requirements to prepare a list of high-level design goals and objectives."
+              processTitle="Study Requirements"
+              showMobileArrow={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <MQMinLarge>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              md={4}
+            >
+              <div
+                className="arrow-wrapper__desktop"
+              >
+                <img
+                  alt="right-arrow"
+                  src="/images/about-us/right-arrow.png"
+                />
+              </div>
+            </WithStyles(ForwardRef(Grid))>
+          </MQMinLarge>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={4}
+          >
+            <ProcessComposer
+              processDescription="Meetups with our customer helps us present our initial design thoughts. If required, we go back to revise the requirements."
+              processTitle="Meeting with customer"
+              showMobileArrow={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+        <MQMinLarge>
+          <WithStyles(ForwardRef(Grid))
+            className="process-info-row"
+            container={true}
+            justify="flex-end"
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              md={4}
+            >
+              <div
+                className="arrow-wrapper__desktop"
+              >
+                <img
+                  alt="down-arrow"
+                  src="/images/about-us/down-arrow.png"
+                />
+              </div>
+            </WithStyles(ForwardRef(Grid))>
+          </WithStyles(ForwardRef(Grid))>
+        </MQMinLarge>
+        <WithStyles(ForwardRef(Grid))
+          className="process-info-row"
+          container={true}
+          justify="center"
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={4}
+          >
+            <ProcessComposer
+              processDescription="This is the phase where the design comes to life."
+              processTitle="Implement"
+              showMobileArrow={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <MQMinLarge>
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              md={4}
+            >
+              <div
+                className="arrow-wrapper__desktop"
+              >
+                <img
+                  alt="left-arrow"
+                  src="/images/about-us/left-arrow.png"
+                />
+              </div>
+            </WithStyles(ForwardRef(Grid))>
+          </MQMinLarge>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={4}
+          >
+            <ProcessComposer
+              processDescription="Once the requirements are finalized, we get to the main step of designing."
+              processTitle="Design"
+              showMobileArrow={true}
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+        <MQMinLarge>
+          <WithStyles(ForwardRef(Grid))
+            className="process-info-row"
+            container={true}
+            justify="flex-start"
+          >
+            <WithStyles(ForwardRef(Grid))
+              item={true}
+              md={4}
+            >
+              <div
+                className="arrow-wrapper__desktop"
+              >
+                <img
+                  alt="down-arrow"
+                  src="/images/about-us/down-arrow.png"
+                />
+              </div>
+            </WithStyles(ForwardRef(Grid))>
+          </WithStyles(ForwardRef(Grid))>
+        </MQMinLarge>
+        <WithStyles(ForwardRef(Grid))
+          className="process-info-row"
+          container={true}
+        >
+          <WithStyles(ForwardRef(Grid))
+            className="process-info-item-wrapper"
+            item={true}
+            md={4}
+          >
+            <ProcessComposer
+              processDescription="After thorough testing, it's time to ship the customized packaging machine to your factory floor."
+              processTitle="Deliver"
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Container))>
+  </div>
+</div>
+`;

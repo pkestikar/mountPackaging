@@ -77,7 +77,7 @@ const TopBar = (props) => {
                                 )
                             })
                         }
-                        <div className="">6
+                        <div className="">
                             <Button palette={'secondary'}>Get Quotation</Button>
                         </div>
                     </Menu>

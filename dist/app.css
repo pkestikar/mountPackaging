@@ -681,6 +681,10 @@ body {
 
 .mp--about-us-page-container {
   margin-top: 140px; }
+  .mp--about-us-page-container h2 {
+    margin-bottom: 0.5rem; }
+  .mp--about-us-page-container .mp--page-title h1 {
+    margin-left: 3rem; }
   @media only screen and (max-width: 960px) {
     .mp--about-us-page-container {
       margin-top: 90px; } }
@@ -708,9 +712,37 @@ body {
       .mp--about-us-page-container .director-description-wrapper {
         padding: 0; } }
   .mp--about-us-page-container .mp--our-process-container {
-    background: var(--navy-blue); }
-    .mp--about-us-page-container .mp--our-process-container .arrow-wrapper__desktop {
-      display: flex;
-      justify-content: center;
-      align-items: center; }
+    background: var(--navy-blue);
+    color: white;
+    width: 100%;
+    padding-bottom: 4rem; }
+    .mp--about-us-page-container .mp--our-process-container .container-title {
+      margin: 2.5rem 0; }
+    .mp--about-us-page-container .mp--our-process-container .process-info-row {
+      padding: 0 5rem;
+      min-height: 150px; }
+      @media print, screen and (max-width: 39.99875em) {
+        .mp--about-us-page-container .mp--our-process-container .process-info-row {
+          padding: 0 3rem; } }
+      .mp--about-us-page-container .mp--our-process-container .process-info-row .arrow-wrapper__desktop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%; }
+    .mp--about-us-page-container .mp--our-process-container .process-info-wrapper {
+      color: white;
+      max-width: 350px; }
+      .mp--about-us-page-container .mp--our-process-container .process-info-wrapper h2, .mp--about-us-page-container .mp--our-process-container .process-info-wrapper p {
+        text-align: center; }
+      .mp--about-us-page-container .mp--our-process-container .process-info-wrapper .arrow-wrapper__mobile {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 0; }
+        .mp--about-us-page-container .mp--our-process-container .process-info-wrapper .arrow-wrapper__mobile img {
+          margin: 0 auto; }
+    @media print, screen and (max-width: 63.99875em) {
+      .mp--about-us-page-container .mp--our-process-container .process-info-item-wrapper {
+        margin: 0 auto; } }
 
