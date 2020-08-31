@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Button from "Components/Button";
 import Icon from '../../components/Icon';
-import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import { IMAGE_PATH } from "../../config";
 import Container from '@material-ui/core/Container';
@@ -59,6 +58,13 @@ export const serviceItems = [
 ];
 
 const HomePage = (props) => {
+    useEffect(() => {
+        document.body.classList.add('home-page');
+        return () => {
+            document.body.classList.remove('home-page');
+        }
+    }, []);
+
     SwiperCore.use([ Navigation, Pagination ]);
     const swiperParams = {
         slidesPerView: 1,

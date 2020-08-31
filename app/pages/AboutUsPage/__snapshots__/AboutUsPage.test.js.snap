@@ -69,7 +69,7 @@ exports[`AboutUsPage component renders correctly 1`] = `
     className="mp--our-process-container"
   >
     <WithStyles(ForwardRef(Container))
-      disabledGutters={true}
+      disableGutters={true}
     >
       <WithStyles(ForwardRef(Grid))
         alignItems="center"
@@ -137,7 +137,12 @@ exports[`AboutUsPage component renders correctly 1`] = `
               >
                 <img
                   alt="down-arrow"
-                  src="/images/about-us/down-arrow.png"
+                  src="/images/about-us/left-arrow.png"
+                  style={
+                    Object {
+                      "transform": "rotate(-90deg)",
+                    }
+                  }
                 />
               </div>
             </WithStyles(ForwardRef(Grid))>
@@ -199,7 +204,12 @@ exports[`AboutUsPage component renders correctly 1`] = `
               >
                 <img
                   alt="down-arrow"
-                  src="/images/about-us/down-arrow.png"
+                  src="/images/about-us/left-arrow.png"
+                  style={
+                    Object {
+                      "transform": "rotate(-90deg)",
+                    }
+                  }
                 />
               </div>
             </WithStyles(ForwardRef(Grid))>

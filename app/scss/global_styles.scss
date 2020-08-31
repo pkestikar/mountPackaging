@@ -1,6 +1,11 @@
 body {
   font-family: $site-font-family;
   margin: 0;
+  &.home-page {
+    .bm-burger-bars {
+      background: white !important;
+    }
+  }
 }
 
 .mp--main-container {

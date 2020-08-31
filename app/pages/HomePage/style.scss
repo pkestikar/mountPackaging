@@ -27,7 +27,7 @@
           width: 600px;
           max-width: 100vw;
           span {
-            font-size: 3rem;
+            font-size: 2.8rem;
             @include breakpoint(small down) {
               font-size: 2rem;
             }

@@ -15,7 +15,7 @@ const AboutUsPage = (props) => {
                 {props.showMobileArrow &&
                 <MQMaxMedium>
                     <div className="arrow-wrapper__mobile">
-                        <img src="/images/about-us/down-arrow.png" alt="down-arrow" />
+                        <img src="/images/about-us/left-arrow.png" alt="down-arrow" style={{ transform: 'rotate(-90deg)' }} />
                     </div>
                 </MQMaxMedium>
                 }
@@ -59,7 +59,7 @@ const AboutUsPage = (props) => {
             </Container>
 
             <div className="mp--our-process-container">
-                <Container disabledGutters>
+                <Container disableGutters>
                     <Grid container justify={'center'} alignItems={'center'}>
                         <h2 className={'container-title'}>Our Process</h2>
 
@@ -91,7 +91,7 @@ const AboutUsPage = (props) => {
                             <Grid container justify={'flex-end'} className={'process-info-row'}>
                                 <Grid item md={4}>
                                     <div className="arrow-wrapper__desktop">
-                                        <img src={'/images/about-us/down-arrow.png'} alt={'down-arrow'} />
+                                        <img src={'/images/about-us/left-arrow.png'} alt={'down-arrow'} style={{ transform: 'rotate(-90deg)' }} />
                                     </div>
                                 </Grid>
                             </Grid>
@@ -125,7 +125,7 @@ const AboutUsPage = (props) => {
                             <Grid container justify={'flex-start'} className={'process-info-row'}>
                                 <Grid item md={4}>
                                     <div className={'arrow-wrapper__desktop'}>
-                                        <img src={'/images/about-us/down-arrow.png'} alt={'down-arrow'} />
+                                        <img src={'/images/about-us/left-arrow.png'} alt={'down-arrow'} style={{ transform: 'rotate(-90deg)' }} />
                                     </div>
                                 </Grid>
                             </Grid>

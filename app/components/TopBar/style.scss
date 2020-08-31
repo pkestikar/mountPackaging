@@ -12,6 +12,9 @@
   }
   background: transparent;
   transition: all 0.3s ease;
+  .bm-burger-bars {
+    background: var(--navy-blue);
+  }
   &.scroll {
     background: white;
     @media only screen and (max-width: $medium) {
@@ -20,6 +23,7 @@
       }
     }
   }
+
 
   &--inner {
     //max-width: $site-max-width;

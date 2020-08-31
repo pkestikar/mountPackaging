@@ -2,8 +2,7 @@ import React from 'react';
 import {
     BrowserRouter as Router,
     Switch,
-    Route,
-    Link
+    Route
 } from 'react-router-dom';
 import HomePage from 'Pages/HomePage';
 import AboutUsPage from 'Pages/AboutUsPage';
@@ -15,7 +14,7 @@ const App = () => {
     return (
         <Router>
             <div id={'outer-container'} className={'mp--main-container'}>
-                <TopBar />
+                <TopBar burgerBarsColor={location.pathname === '/' ? 'white' : 'var(--navy-blue)'} />
                 <main id="page-wrap">
                     <Switch>
                         <Route component={AboutUsPage} path={'/about-us/'} />

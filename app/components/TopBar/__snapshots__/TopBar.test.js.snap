@@ -36,12 +36,10 @@ exports[`TopBar Component if it renders correctly 1`] = `
         styles={
           Object {
             "bmBurgerBars": Object {
-              "background": "white",
+              "background": "var(--navy-blue)",
               "height": "11%",
             },
-            "bmBurgerBarsHover": Object {
-              "background": "#a90000",
-            },
+            "bmBurgerBarsHover": Object {},
             "bmBurgerButton": Object {
               "height": "30px",
               "position": "fixed",
