@@ -337,6 +337,12 @@
 .swiper-scrollbar-lock {
   display: none; }
 
+/**
+ * Foundation for Sites
+ * Version 6.6.3
+ * https://get.foundation
+ * Licensed under MIT Open Source
+ */
 body {
   font-family: "Noto Sans JP", sans-serif;
   margin: 0; }
@@ -358,12 +364,14 @@ body {
       .mp--main-container h1, .mp--main-container h2, .mp--main-container h3, .mp--main-container h4, .mp--main-container h5, .mp--main-container h6 {
         text-align: center; } }
 
-/**
- * Foundation for Sites
- * Version 6.6.3
- * https://get.foundation
- * Licensed under MIT Open Source
- */
+.mp--page-title h1 {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 4rem; }
+  @media print, screen and (max-width: 39.99875em) {
+    .mp--page-title h1 {
+      margin-bottom: 2rem; } }
+
 .mp--topbar {
   display: flex;
   z-index: 9999;
@@ -684,14 +692,12 @@ body {
         margin-bottom: 0.9rem; } }
 
 .mp--about-us-page-container {
-  margin-top: 140px; }
+  margin-top: 160px; }
   .mp--about-us-page-container h2 {
     margin-bottom: 0.5rem; }
-  .mp--about-us-page-container .mp--page-title h1 {
-    margin-left: 3rem; }
   @media only screen and (max-width: 960px) {
     .mp--about-us-page-container {
-      margin-top: 90px; } }
+      margin-top: 100px; } }
   .mp--about-us-page-container .director-info-container {
     margin-bottom: 3.5rem; }
     @media only screen and (max-width: 960px) {
@@ -699,8 +705,9 @@ body {
         padding: 2rem; } }
   .mp--about-us-page-container .director-image-wrapper {
     overflow: hidden;
-    text-align: center; }
-    @media only screen and (max-width: 960px) {
+    text-align: center;
+    margin-bottom: 1.5rem; }
+    @media print, screen and (max-width: 63.99875em) {
       .mp--about-us-page-container .director-image-wrapper {
         margin-bottom: 2rem; } }
     .mp--about-us-page-container .director-image-wrapper img {
@@ -749,4 +756,19 @@ body {
     @media print, screen and (max-width: 63.99875em) {
       .mp--about-us-page-container .mp--our-process-container .process-info-item-wrapper {
         margin: 0 auto; } }
+  .mp--about-us-page-container .mp--references-container {
+    height: 333px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .mp--about-us-page-container .mp--references-container .references p {
+      font-size: 1.2rem;
+      text-align: center; }
+    .mp--about-us-page-container .mp--references-container .references .references-button-wrapper {
+      margin: 2rem 0; }
+      @media print, screen and (max-width: 39.99875em) {
+        .mp--about-us-page-container .mp--references-container .references .references-button-wrapper {
+          margin: 1.5rem 0; } }
+      .mp--about-us-page-container .mp--references-container .references .references-button-wrapper button {
+        margin: auto; }
 

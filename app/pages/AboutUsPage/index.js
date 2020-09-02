@@ -2,6 +2,7 @@ import React from 'react';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import { MQMaxMedium, MQMinLarge } from "../../utilities/DeviceQueries";
+import Button from "Components/Button";
 
 const AboutUsPage = (props) => {
 
@@ -25,7 +26,7 @@ const AboutUsPage = (props) => {
 
     return (
         <div className="mp--about-us-page-container">
-            <Container disableGutters>
+            <Container maxWidth={'lg'}>
                 <Grid container className={'mp--page-title'}>
                     <Grid item xs={12}>
                         <h1>About Us</h1>
@@ -59,7 +60,7 @@ const AboutUsPage = (props) => {
             </Container>
 
             <div className="mp--our-process-container">
-                <Container disableGutters>
+                <Container maxWidth={'lg'}>
                     <Grid container justify={'center'} alignItems={'center'}>
                         <h2 className={'container-title'}>Our Process</h2>
 
@@ -141,6 +142,19 @@ const AboutUsPage = (props) => {
                         </Grid>
                     </Grid>
                 </Container>
+            </div>
+
+            <div className="mp--references-container">
+                <Grid container className={'references'} justify={'center'} alignItems={'center'}>
+                    <Grid item lg={12} md={12} justify={'center'} alignItems={'center'}>
+                        <p>
+                            Mount Packaging Machinery has provided design solutions to numerous customers worldwide.
+                        </p>
+                        <div className="references-button-wrapper">
+                            <Button palette={'secondary'}>Check Our References</Button>
+                        </div>
+                    </Grid>
+                </Grid>
             </div>
         </div>
     )

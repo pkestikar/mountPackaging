@@ -2,14 +2,9 @@
   h2 {
     margin-bottom: 0.5rem;
   }
-  .mp--page-title {
-    h1 {
-      margin-left: 3rem;
-    }
-  }
-  margin-top: $top-bar-height__large;
+  margin-top: $page-container-top-margin__large;
   @media only screen and (max-width: $medium) {
-    margin-top: $top-bar-height__small;
+    margin-top: $page-container-top-margin__small;
   }
 
   .director-info-container {
@@ -22,7 +17,8 @@
   .director-image-wrapper {
     overflow: hidden;
     text-align: center;
-    @media only screen and (max-width: $medium) {
+    margin-bottom: 1.5rem;
+    @include breakpoint(medium down) {
       margin-bottom: 2rem;
     }
     img {
@@ -85,6 +81,28 @@
     .process-info-item-wrapper {
       @include breakpoint(medium down) {
         margin: 0 auto;
+      }
+    }
+  }
+
+  .mp--references-container {
+    height: 333px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .references {
+      p {
+        font-size: 1.2rem;
+        text-align: center;
+      }
+      .references-button-wrapper {
+        margin: 2rem 0;
+        @include breakpoint(small down) {
+          margin: 1.5rem 0;
+        }
+        button {
+          margin: auto;
+        }
       }
     }
   }
