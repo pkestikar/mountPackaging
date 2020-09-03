@@ -3,8 +3,16 @@ import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import { MQMaxMedium, MQMinLarge } from "../../utilities/DeviceQueries";
 import Button from "Components/Button";
+import PageHeader from "Components/PageHeader";
+import MoreInfoComposer from "Components/MoreInfoComposer";
+import { useHistory } from 'react-router-dom';
 
 const AboutUsPage = (props) => {
+    let history = useHistory();
+
+    const handleReferencesClick = () => {
+        history.push('/about-us/');
+    };
 
     const ProcessComposer = (props) => {
         return (
@@ -27,16 +35,12 @@ const AboutUsPage = (props) => {
     return (
         <div className="mp--about-us-page-container">
             <Container maxWidth={'lg'}>
-                <Grid container className={'mp--page-title'}>
-                    <Grid item xs={12}>
-                        <h1>About Us</h1>
-                    </Grid>
-                </Grid>
+                <PageHeader title={'About Us'} />
                 <Grid container className="director-info-container">
                     <Grid item xs={12} md={12} lg={4} className={'director-image-wrapper'}>
-                        <img src="/images/about-us/director.png" alt="Director" />
+                        <img src="/images/about-us/director.png" className='director-image' alt="Director" />
                         <div className="director-info">
-                            Achyut Kestikar, Director (Operations),
+                            Achyut Kestikar, Director (Operations), <br />
                             Mount Packaging Machinery Pvt Ltd.
                         </div>
                     </Grid>
@@ -144,18 +148,14 @@ const AboutUsPage = (props) => {
                 </Container>
             </div>
 
-            <div className="mp--references-container">
-                <Grid container className={'references'} justify={'center'} alignItems={'center'}>
-                    <Grid item lg={12} md={12} justify={'center'} alignItems={'center'}>
-                        <p>
-                            Mount Packaging Machinery has provided design solutions to numerous customers worldwide.
-                        </p>
-                        <div className="references-button-wrapper">
-                            <Button palette={'secondary'}>Check Our References</Button>
-                        </div>
-                    </Grid>
-                </Grid>
-            </div>
+            <Container className="mp--references-container" maxWidth={'lg'}>
+                <MoreInfoComposer
+                    title={'Mount Packaging Machinery has provided design solutions to numerous customers worldwide.'}
+                    ctaText={'Check Our References'}
+                    handleClick={handleReferencesClick}
+                    normalFontSize
+                />
+            </Container>
         </div>
     )
 };

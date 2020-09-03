@@ -29,14 +29,3 @@ body {
     }
   }
 }
-
-.mp--page-title {
-  h1 {
-    text-align: center;
-    text-decoration: underline;
-    margin-bottom: 4rem;
-    @include breakpoint(small down) {
-      margin-bottom: 2rem;
-    }
-  }
-}

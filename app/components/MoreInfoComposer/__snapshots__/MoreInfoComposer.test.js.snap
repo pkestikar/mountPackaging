@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoreInfoComposer component renders correctly 1`] = `
+<MoreInfoComposer
+  ctaText=""
+  handleClick={[Function]}
+  normalFontSize={false}
+  title=""
+>
+  <div
+    className="mp--more-info-composer"
+  >
+    <span
+      className=""
+    />
+    <Button
+      disabled={false}
+      loading={false}
+      onClick={[Function]}
+      palette="secondary"
+      size="medium"
+    >
+      <button
+        className="mp--button medium mp--button-secondary"
+        onClick={[Function]}
+      />
+    </Button>
+  </div>
+</MoreInfoComposer>
+`;

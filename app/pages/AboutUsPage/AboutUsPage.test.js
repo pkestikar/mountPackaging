@@ -13,4 +13,8 @@ describe('AboutUsPage component', () => {
     it('renders correctly', () => {
         expect(toJSON(wrapper)).toMatchSnapshot();
     });
+
+    it('renders the correct director image', () => {
+        expect(wrapper.find('.director-image').prop('src')).toContain('director.png');
+    });
 });

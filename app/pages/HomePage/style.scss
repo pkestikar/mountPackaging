@@ -133,24 +133,4 @@
       }
     }
   }
-
-  .mp--homepage--third-section {
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    span {
-      font-size: 1.8rem;
-      margin-bottom: 2rem;
-      text-align: center;
-    }
-    @media only screen and (max-width: $medium) {
-      height: 200px;
-      span {
-        font-size: 1.4rem;
-        margin-bottom: 0.9rem;
-      }
-    }
-  }
 }

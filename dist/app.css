@@ -364,14 +364,6 @@ body {
       .mp--main-container h1, .mp--main-container h2, .mp--main-container h3, .mp--main-container h4, .mp--main-container h5, .mp--main-container h6 {
         text-align: center; } }
 
-.mp--page-title h1 {
-  text-align: center;
-  text-decoration: underline;
-  margin-bottom: 4rem; }
-  @media print, screen and (max-width: 39.99875em) {
-    .mp--page-title h1 {
-      margin-bottom: 2rem; } }
-
 .mp--topbar {
   display: flex;
   z-index: 9999;
@@ -573,6 +565,37 @@ body {
     padding-bottom: 2rem;
     text-align: center; }
 
+.mp--page-header {
+  width: 100%; }
+  .mp--page-header h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 4rem; }
+    @media print, screen and (max-width: 39.99875em) {
+      .mp--page-header h1 {
+        margin-bottom: 2rem; } }
+
+.mp--more-info-composer {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .mp--more-info-composer span {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    text-align: center; }
+    .mp--more-info-composer span.normal-font {
+      font-size: 1.2rem; }
+  .mp--more-info-composer button {
+    margin-top: 15px; }
+  @media only screen and (max-width: 960px) {
+    .mp--more-info-composer {
+      height: 200px; }
+      .mp--more-info-composer span {
+        font-size: 1.4rem;
+        margin-bottom: 0.9rem; } }
+
 .mp--homepage-container .mp--homepage--first-section {
   position: relative;
   height: 100vh;
@@ -674,23 +697,6 @@ body {
   .mp--homepage-container .mp--homepage--second-section .swiper-container .swiper-pagination-bullets {
     bottom: 50px; }
 
-.mp--homepage-container .mp--homepage--third-section {
-  height: 350px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; }
-  .mp--homepage-container .mp--homepage--third-section span {
-    font-size: 1.8rem;
-    margin-bottom: 2rem;
-    text-align: center; }
-  @media only screen and (max-width: 960px) {
-    .mp--homepage-container .mp--homepage--third-section {
-      height: 200px; }
-      .mp--homepage-container .mp--homepage--third-section span {
-        font-size: 1.4rem;
-        margin-bottom: 0.9rem; } }
-
 .mp--about-us-page-container {
   margin-top: 160px; }
   .mp--about-us-page-container h2 {
@@ -771,4 +777,12 @@ body {
           margin: 1.5rem 0; } }
       .mp--about-us-page-container .mp--references-container .references .references-button-wrapper button {
         margin: auto; }
+
+.mp--contact-page-container {
+  margin-top: 160px; }
+  @media print, screen and (max-width: 39.99875em) {
+    .mp--contact-page-container {
+      margin-top: 100px; } }
+  .mp--contact-page-container .company-address-wrapper {
+    font-size: 1.1rem; }
 

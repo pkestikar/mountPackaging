@@ -5,6 +5,7 @@ import Grid from '@material-ui/core/Grid';
 import { IMAGE_PATH } from "../../config";
 import Container from '@material-ui/core/Container';
 import {MQMaxMedium, MQMinLarge} from "../../utilities/DeviceQueries";
+import { useHistory } from 'react-router-dom';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Pagination, Navigation } from 'swiper';
@@ -12,6 +13,7 @@ import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
+import MoreInfoComposer from "Components/MoreInfoComposer";
 
 export const ServiceInfoItemComposer = (props) => {
     return (
@@ -58,6 +60,8 @@ export const serviceItems = [
 ];
 
 const HomePage = (props) => {
+    let history = useHistory();
+
     useEffect(() => {
         document.body.classList.add('home-page');
         return () => {
@@ -70,6 +74,10 @@ const HomePage = (props) => {
         slidesPerView: 1,
         navigation: false,
         pagination: { clickable: true }
+    };
+
+    const handleQuotationClick = () => {
+        history.push('/contact/');
     };
 
     return (
@@ -138,10 +146,11 @@ const HomePage = (props) => {
                     </Swiper>
                 </MQMaxMedium>
             </div>
-            <div className="mp--homepage--third-section">
-                <span>Ready with requirements?</span>
-                <Button palette={'secondary'}>Get Quotation</Button>
-            </div>
+            <MoreInfoComposer
+                title={'Ready with requirements?'}
+                ctaText={'Get Quotation'}
+                handleClick={handleQuotationClick}
+            />
         </div>
     )
 };

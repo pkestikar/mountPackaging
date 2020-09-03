@@ -5,7 +5,7 @@ exports[`AboutUsPage component renders correctly 1`] = `
   className="mp--about-us-page-container"
 >
   <WithStyles(ForwardRef(Container))
-    disableGutters={true}
+    maxWidth="lg"
   >
     <WithStyles(ForwardRef(Grid))
       className="mp--page-title"
@@ -33,6 +33,7 @@ exports[`AboutUsPage component renders correctly 1`] = `
       >
         <img
           alt="Director"
+          className="director-image"
           src="/images/about-us/director.png"
         />
         <div
@@ -69,7 +70,7 @@ exports[`AboutUsPage component renders correctly 1`] = `
     className="mp--our-process-container"
   >
     <WithStyles(ForwardRef(Container))
-      disableGutters={true}
+      maxWidth="lg"
     >
       <WithStyles(ForwardRef(Grid))
         alignItems="center"
@@ -232,6 +233,38 @@ exports[`AboutUsPage component renders correctly 1`] = `
         </WithStyles(ForwardRef(Grid))>
       </WithStyles(ForwardRef(Grid))>
     </WithStyles(ForwardRef(Container))>
+  </div>
+  <div
+    className="mp--references-container"
+  >
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      className="references"
+      container={true}
+      justify="center"
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        lg={12}
+        md={12}
+      >
+        <p>
+          Mount Packaging Machinery has provided design solutions to numerous customers worldwide.
+        </p>
+        <div
+          className="references-button-wrapper"
+        >
+          <Button
+            disabled={false}
+            loading={false}
+            palette="secondary"
+            size="medium"
+          >
+            Check Our References
+          </Button>
+        </div>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
   </div>
 </div>
 `;
