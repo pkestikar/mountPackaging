@@ -27,7 +27,7 @@
           width: 600px;
           max-width: 100vw;
           span {
-            font-size: 3rem;
+            font-size: 2.8rem;
             @include breakpoint(small down) {
               font-size: 2rem;
             }
@@ -130,26 +130,6 @@
     .swiper-container {
       .swiper-pagination-bullets {
         bottom: 50px;
-      }
-    }
-  }
-
-  .mp--homepage--third-section {
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    span {
-      font-size: 1.8rem;
-      margin-bottom: 2rem;
-      text-align: center;
-    }
-    @media only screen and (max-width: $medium) {
-      height: 200px;
-      span {
-        font-size: 1.4rem;
-        margin-bottom: 0.9rem;
       }
     }
   }

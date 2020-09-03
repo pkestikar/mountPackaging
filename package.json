@@ -11,9 +11,9 @@
     "buildAssets": "rimraf ./dist/app.css && gulp buildAssets",
     "watchAssets": "rimraf ./dist/app.css && gulp watchAssets",
     "dev": "concurrently npm:watchJs npm:watchAssets",
-    "start": "concurrently npm:startJs npm:watchJs npm:watchAssets",
+    "startOld": "concurrently npm:startJs npm:watchJs npm:watchAssets",
     "build": "concurrently npm:buildJs npm:buildAssets",
-    "startTemp": "concurrently npm:startJs npm:watchJs"
+    "start": "concurrently npm:startJs npm:watchJs"
   },
   "repository": {
     "type": "git",

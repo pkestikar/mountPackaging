@@ -17,7 +17,8 @@ module.exports = {
         alias: {
             Components: path.resolve(__dirname, 'app/components'),
             Pages: path.resolve(__dirname, 'app/pages'),
-            History: path.resolve(__dirname, 'app/history.js')
+            History: path.resolve(__dirname, 'app/history.js'),
+            Config: path.resolve(__dirname, 'app/config')
         }
     },
     plugins: [

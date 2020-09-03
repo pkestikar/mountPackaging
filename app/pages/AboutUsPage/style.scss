@@ -1,7 +1,10 @@
 .mp--about-us-page-container {
-  margin-top: $top-bar-height__large;
+  h2 {
+    margin-bottom: 0.5rem;
+  }
+  margin-top: $page-container-top-margin__large;
   @media only screen and (max-width: $medium) {
-    margin-top: $top-bar-height__small;
+    margin-top: $page-container-top-margin__small;
   }
 
   .director-info-container {
@@ -14,7 +17,8 @@
   .director-image-wrapper {
     overflow: hidden;
     text-align: center;
-    @media only screen and (max-width: $medium) {
+    margin-bottom: 1.5rem;
+    @include breakpoint(medium down) {
       margin-bottom: 2rem;
     }
     img {
@@ -32,6 +36,74 @@
     padding: 0 3rem;
     @include breakpoint(medium down) {
       padding: 0;
+    }
+  }
+
+  .mp--our-process-container {
+    background: var(--navy-blue);
+    color: white;
+    width: 100%;
+    padding-bottom: 4rem;
+    .container-title {
+      margin: 2.5rem 0;
+    }
+    .process-info-row {
+      padding: 0 5rem;
+      min-height: 150px;
+      @include breakpoint(small down) {
+        padding: 0 3rem;
+      }
+      .arrow-wrapper__desktop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+    }
+
+    .process-info-wrapper {
+      color: white;
+      max-width: 350px;
+      h2, p {
+        text-align: center;
+      }
+      .arrow-wrapper__mobile {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 0;
+        img {
+          margin: 0 auto;
+        }
+      }
+    }
+    .process-info-item-wrapper {
+      @include breakpoint(medium down) {
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .mp--references-container {
+    height: 333px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .references {
+      p {
+        font-size: 1.2rem;
+        text-align: center;
+      }
+      .references-button-wrapper {
+        margin: 2rem 0;
+        @include breakpoint(small down) {
+          margin: 1.5rem 0;
+        }
+        button {
+          margin: auto;
+        }
+      }
     }
   }
 }

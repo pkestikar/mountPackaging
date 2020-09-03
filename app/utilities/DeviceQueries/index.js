@@ -1,10 +1,10 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
 
-const MQMaxSmallWidth = 450;
-const MQMinMediumWidth = 451;
-const MQMaxMediumWidth = 1000;
-const MQMinLargeWidth = 1001;
+const MQMaxSmallWidth = 600;
+const MQMinMediumWidth = 601;
+const MQMaxMediumWidth = 960;
+const MQMinLargeWidth = 961;
 
 export const MQMaxSmall = (props) => {
     const isMQMaxSmall = useMediaQuery({ maxWidth: MQMaxSmallWidth });

@@ -1,0 +1,10 @@
+.mp--contact-page-container {
+  margin-top: $page-container-top-margin__large;
+  @include breakpoint(small down) {
+    margin-top: $page-container-top-margin__small;
+  }
+
+  .company-address-wrapper {
+    font-size: 1.1rem;
+  }
+}

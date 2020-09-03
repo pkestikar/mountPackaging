@@ -1,12 +1,15 @@
 @import './vars';
 
-@import 'global_styles';
 @import 'foundation/scss/foundation';
+@import 'global_styles';
 
 @import '../components/TopBar/style';
 @import '../components/Button/style';
 @import '../components/Icon/style';
 @import '../components/Footer/style';
+@import '../components/PageHeader/style';
+@import '../components/MoreInfoComposer/style';
 
 @import '../pages/HomePage/style';
 @import '../pages/AboutUsPage/style';
+@import '../pages/ContactPage/style';

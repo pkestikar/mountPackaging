@@ -25,6 +25,10 @@ describe('HomePage component', () => {
             expect(node.prop('description')).toEqual(serviceItems[index].description);
         });
     });
+
+    // it('should add the home-page class to the body tag on mount', () => {
+    //     expect(document.body.classList.contains('home-page')).toEqual(true);
+    // });
 });
 
 describe('ServiceInfoItemComposer component', () => {

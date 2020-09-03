@@ -337,9 +337,17 @@
 .swiper-scrollbar-lock {
   display: none; }
 
+/**
+ * Foundation for Sites
+ * Version 6.6.3
+ * https://get.foundation
+ * Licensed under MIT Open Source
+ */
 body {
   font-family: "Noto Sans JP", sans-serif;
   margin: 0; }
+  body.home-page .bm-burger-bars {
+    background: white !important; }
 
 .mp--main-container {
   display: flex;
@@ -356,12 +364,6 @@ body {
       .mp--main-container h1, .mp--main-container h2, .mp--main-container h3, .mp--main-container h4, .mp--main-container h5, .mp--main-container h6 {
         text-align: center; } }
 
-/**
- * Foundation for Sites
- * Version 6.6.3
- * https://get.foundation
- * Licensed under MIT Open Source
- */
 .mp--topbar {
   display: flex;
   z-index: 9999;
@@ -376,6 +378,8 @@ body {
   @media only screen and (max-width: 960px) {
     .mp--topbar {
       height: 90px; } }
+  .mp--topbar .bm-burger-bars {
+    background: var(--navy-blue); }
   .mp--topbar.scroll {
     background: white; }
     @media only screen and (max-width: 960px) {
@@ -561,6 +565,37 @@ body {
     padding-bottom: 2rem;
     text-align: center; }
 
+.mp--page-header {
+  width: 100%; }
+  .mp--page-header h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 4rem; }
+    @media print, screen and (max-width: 39.99875em) {
+      .mp--page-header h1 {
+        margin-bottom: 2rem; } }
+
+.mp--more-info-composer {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .mp--more-info-composer span {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    text-align: center; }
+    .mp--more-info-composer span.normal-font {
+      font-size: 1.2rem; }
+  .mp--more-info-composer button {
+    margin-top: 15px; }
+  @media only screen and (max-width: 960px) {
+    .mp--more-info-composer {
+      height: 200px; }
+      .mp--more-info-composer span {
+        font-size: 1.4rem;
+        margin-bottom: 0.9rem; } }
+
 .mp--homepage-container .mp--homepage--first-section {
   position: relative;
   height: 100vh;
@@ -587,7 +622,7 @@ body {
       width: 600px;
       max-width: 100vw; }
       .mp--homepage-container .mp--homepage--first-section-info-container .introduction-text span {
-        font-size: 3rem;
+        font-size: 2.8rem;
         font-weight: bold;
         text-align: right;
         width: 50%; }
@@ -662,28 +697,13 @@ body {
   .mp--homepage-container .mp--homepage--second-section .swiper-container .swiper-pagination-bullets {
     bottom: 50px; }
 
-.mp--homepage-container .mp--homepage--third-section {
-  height: 350px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; }
-  .mp--homepage-container .mp--homepage--third-section span {
-    font-size: 1.8rem;
-    margin-bottom: 2rem;
-    text-align: center; }
-  @media only screen and (max-width: 960px) {
-    .mp--homepage-container .mp--homepage--third-section {
-      height: 200px; }
-      .mp--homepage-container .mp--homepage--third-section span {
-        font-size: 1.4rem;
-        margin-bottom: 0.9rem; } }
-
 .mp--about-us-page-container {
-  margin-top: 140px; }
+  margin-top: 160px; }
+  .mp--about-us-page-container h2 {
+    margin-bottom: 0.5rem; }
   @media only screen and (max-width: 960px) {
     .mp--about-us-page-container {
-      margin-top: 90px; } }
+      margin-top: 100px; } }
   .mp--about-us-page-container .director-info-container {
     margin-bottom: 3.5rem; }
     @media only screen and (max-width: 960px) {
@@ -691,8 +711,9 @@ body {
         padding: 2rem; } }
   .mp--about-us-page-container .director-image-wrapper {
     overflow: hidden;
-    text-align: center; }
-    @media only screen and (max-width: 960px) {
+    text-align: center;
+    margin-bottom: 1.5rem; }
+    @media print, screen and (max-width: 63.99875em) {
       .mp--about-us-page-container .director-image-wrapper {
         margin-bottom: 2rem; } }
     .mp--about-us-page-container .director-image-wrapper img {
@@ -707,4 +728,61 @@ body {
     @media print, screen and (max-width: 63.99875em) {
       .mp--about-us-page-container .director-description-wrapper {
         padding: 0; } }
+  .mp--about-us-page-container .mp--our-process-container {
+    background: var(--navy-blue);
+    color: white;
+    width: 100%;
+    padding-bottom: 4rem; }
+    .mp--about-us-page-container .mp--our-process-container .container-title {
+      margin: 2.5rem 0; }
+    .mp--about-us-page-container .mp--our-process-container .process-info-row {
+      padding: 0 5rem;
+      min-height: 150px; }
+      @media print, screen and (max-width: 39.99875em) {
+        .mp--about-us-page-container .mp--our-process-container .process-info-row {
+          padding: 0 3rem; } }
+      .mp--about-us-page-container .mp--our-process-container .process-info-row .arrow-wrapper__desktop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%; }
+    .mp--about-us-page-container .mp--our-process-container .process-info-wrapper {
+      color: white;
+      max-width: 350px; }
+      .mp--about-us-page-container .mp--our-process-container .process-info-wrapper h2, .mp--about-us-page-container .mp--our-process-container .process-info-wrapper p {
+        text-align: center; }
+      .mp--about-us-page-container .mp--our-process-container .process-info-wrapper .arrow-wrapper__mobile {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 0; }
+        .mp--about-us-page-container .mp--our-process-container .process-info-wrapper .arrow-wrapper__mobile img {
+          margin: 0 auto; }
+    @media print, screen and (max-width: 63.99875em) {
+      .mp--about-us-page-container .mp--our-process-container .process-info-item-wrapper {
+        margin: 0 auto; } }
+  .mp--about-us-page-container .mp--references-container {
+    height: 333px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .mp--about-us-page-container .mp--references-container .references p {
+      font-size: 1.2rem;
+      text-align: center; }
+    .mp--about-us-page-container .mp--references-container .references .references-button-wrapper {
+      margin: 2rem 0; }
+      @media print, screen and (max-width: 39.99875em) {
+        .mp--about-us-page-container .mp--references-container .references .references-button-wrapper {
+          margin: 1.5rem 0; } }
+      .mp--about-us-page-container .mp--references-container .references .references-button-wrapper button {
+        margin: auto; }
+
+.mp--contact-page-container {
+  margin-top: 160px; }
+  @media print, screen and (max-width: 39.99875em) {
+    .mp--contact-page-container {
+      margin-top: 100px; } }
+  .mp--contact-page-container .company-address-wrapper {
+    font-size: 1.1rem; }
 
