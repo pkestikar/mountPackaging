@@ -4,13 +4,18 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  &.normal-font {
+    span {
+      font-size: 1.2rem;
+    }
+  }
+  &.border-top {
+    border-top: 1px solid var(--light-periwinkle);
+  }
   span {
     font-size: 1.8rem;
     margin-bottom: 2rem;
     text-align: center;
-    &.normal-font {
-      font-size: 1.2rem;
-    }
   }
   button {
     margin-top: 15px;

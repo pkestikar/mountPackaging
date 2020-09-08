@@ -56,7 +56,7 @@ const AboutUsPage = (props) => {
                         </p>
                         <p>
                             Current leadership: <br />
-                            Mr. Achyut Kestikar, Director (Operations)
+                            Mr. Achyut Kestikar, Director (Operations) <br />
                             Achyut is a competent engineer with 30+ years of experience in packaging industry with a wide industrial experience in different functions. He has a proven record of building and managing large complex projects from concept to completion phase.
                         </p>
                     </Grid>
