@@ -381,7 +381,8 @@ body {
   .mp--topbar .bm-burger-bars {
     background: var(--navy-blue); }
   .mp--topbar.scroll {
-    background: white; }
+    background: white;
+    border-bottom: 1px solid var(--light-periwinkle); }
     @media only screen and (max-width: 960px) {
       .mp--topbar.scroll .bm-burger-bars {
         background: var(--navy-blue) !important; } }
@@ -602,9 +603,13 @@ body {
   margin: 1rem 0;
   display: flex;
   flex-direction: column; }
+  .mp--input-composer.error input, .mp--input-composer.error textarea {
+    border: 2px solid #b40505; }
   .mp--input-composer span {
     margin: 0.8rem 0;
     width: 100%; }
+  .mp--input-composer .error-message {
+    color: #b40505; }
   .mp--input-composer input {
     height: 50px;
     padding-left: 0.7rem;
@@ -615,8 +620,6 @@ body {
     transition: all 0.2s ease;
     outline: none;
     font-family: "Noto Sans JP", sans-serif; }
-    .mp--input-composer input.error {
-      border: 2px solid darkred; }
     .mp--input-composer input:hover {
       border: 2px solid var(--navy-blue); }
     .mp--input-composer input:active {
@@ -632,8 +635,6 @@ body {
     transition: all 0.2s ease;
     outline: none;
     font-family: "Noto Sans JP", sans-serif; }
-    .mp--input-composer textarea.error {
-      border: 2px solid darkred; }
     .mp--input-composer textarea:hover {
       border: 2px solid var(--navy-blue); }
     .mp--input-composer textarea:active {

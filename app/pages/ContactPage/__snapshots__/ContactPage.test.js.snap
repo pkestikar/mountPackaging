@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactPage component renders correctly 1`] = `
+<div
+  className="mp--contact-page-container"
+>
+  <WithStyles(ForwardRef(Container))
+    maxWidth="lg"
+  >
+    <PageHeader
+      title="Contact"
+    />
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      container={true}
+      justify="center"
+    >
+      <WithStyles(ForwardRef(Grid))
+        className="company-address-wrapper"
+        item={true}
+        lg={4}
+      >
+        <span>
+          We are located at:
+        </span>
+        <p>
+          Mahatma Jyotirao Phule Marg, 
+          <br />
+          Dhadge Industrial Estate, Nanded Phata, 
+          <br />
+          Sinhgad Road, 
+          <br />
+          Pune 411041, 
+          <br />
+          Maharashtra, India. 
+          <br />
+        </p>
+        <span
+          className="email"
+        >
+          Email: 
+          <a
+            href="mailto: mountindia@mountindia.net"
+          >
+            mountindia@mountindia.net
+          </a>
+        </span>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+    <h2
+      className="contact-form-title"
+    >
+      Let's Connect!
+    </h2>
+    <WithStyles(ForwardRef(Grid))
+      alignItems="center"
+      className="contact-form-container"
+      container={true}
+      justify="center"
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={8}
+        sm={10}
+        xs={12}
+      >
+        <form
+          className="mp--form-theme"
+        >
+          <InputComposer
+            label="NAME"
+          >
+            <input
+              id="name"
+              name="name"
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+          </InputComposer>
+          <InputComposer
+            label="COMPANY"
+          >
+            <input
+              id="company"
+              name="company"
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+          </InputComposer>
+          <InputComposer
+            label="EMAIL"
+          >
+            <input
+              id="email"
+              name="email"
+              onChange={[Function]}
+              type="email"
+              value=""
+            />
+          </InputComposer>
+          <InputComposer
+            label="MESSAGE"
+          >
+            <textarea
+              id="message"
+              name="message"
+              onChange={[Function]}
+              rows="6"
+              value=""
+            />
+          </InputComposer>
+        </form>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        className="send-message-button-wrapper"
+        item={true}
+        xs={12}
+      >
+        <Button
+          disabled={false}
+          loading={false}
+          onClick={[Function]}
+          palette="primary"
+          size="medium"
+        >
+          Send Message
+        </Button>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Container))>
+  <MoreInfoComposer
+    borderTop={true}
+    ctaText="Get Quotation"
+    handleClick={[Function]}
+    normalFontSize={false}
+    title="Ready with requirements?"
+  />
+</div>
+`;
