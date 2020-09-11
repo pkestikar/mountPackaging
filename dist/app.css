@@ -581,12 +581,14 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column; }
+  .mp--more-info-composer.normal-font span {
+    font-size: 1.2rem; }
+  .mp--more-info-composer.border-top {
+    border-top: 1px solid var(--light-periwinkle); }
   .mp--more-info-composer span {
     font-size: 1.8rem;
     margin-bottom: 2rem;
     text-align: center; }
-    .mp--more-info-composer span.normal-font {
-      font-size: 1.2rem; }
   .mp--more-info-composer button {
     margin-top: 15px; }
   @media only screen and (max-width: 960px) {
@@ -595,6 +597,49 @@ body {
       .mp--more-info-composer span {
         font-size: 1.4rem;
         margin-bottom: 0.9rem; } }
+
+.mp--input-composer {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column; }
+  .mp--input-composer span {
+    margin: 0.8rem 0;
+    width: 100%; }
+  .mp--input-composer input {
+    height: 50px;
+    padding-left: 0.7rem;
+    font-size: 1.1rem;
+    border-radius: 0 !important;
+    max-width: 100%;
+    border: 2px solid var(--light-periwinkle);
+    transition: all 0.2s ease;
+    outline: none;
+    font-family: "Noto Sans JP", sans-serif; }
+    .mp--input-composer input.error {
+      border: 2px solid darkred; }
+    .mp--input-composer input:hover {
+      border: 2px solid var(--navy-blue); }
+    .mp--input-composer input:active {
+      border: 2px solid var(--navy-blue); }
+    .mp--input-composer input:focus {
+      border: 2px solid var(--navy-blue); }
+  .mp--input-composer textarea {
+    padding: 0.7rem;
+    font-size: 1.1rem;
+    border-radius: 0 !important;
+    max-width: 100%;
+    border: 2px solid var(--light-periwinkle);
+    transition: all 0.2s ease;
+    outline: none;
+    font-family: "Noto Sans JP", sans-serif; }
+    .mp--input-composer textarea.error {
+      border: 2px solid darkred; }
+    .mp--input-composer textarea:hover {
+      border: 2px solid var(--navy-blue); }
+    .mp--input-composer textarea:active {
+      border: 2px solid var(--navy-blue); }
+    .mp--input-composer textarea:focus {
+      border: 2px solid var(--navy-blue); }
 
 .mp--homepage-container .mp--homepage--first-section {
   position: relative;
@@ -784,5 +829,15 @@ body {
     .mp--contact-page-container {
       margin-top: 100px; } }
   .mp--contact-page-container .company-address-wrapper {
-    font-size: 1.1rem; }
+    font-size: 1.1rem;
+    margin-bottom: 2rem; }
+  .mp--contact-page-container .contact-form-title {
+    text-align: center;
+    margin-bottom: 1rem; }
+  .mp--contact-page-container .send-message-button-wrapper {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem; }
+    .mp--contact-page-container .send-message-button-wrapper button {
+      margin: 1.5rem auto; }
 
