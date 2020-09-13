@@ -1,0 +1,40 @@
+.mp--work-page {
+  .work-page-description {
+    margin-bottom: 2.5rem;
+    p {
+      font-size: 1.2rem;
+      text-align: center;
+      margin: 0;
+    }
+  }
+
+  .individual-units-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+    .individual-unit-name {
+      flex: 0 0 25%;
+      display: flex;
+      margin: 3px 0;
+      .mp--icon {
+        flex: 0 0 9%;
+        text-align: center;
+      }
+      .name {
+        padding: 0 10px 10px 10px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+      .name:hover {
+        font-weight: bold;
+      }
+      @include breakpoint(medium down) {
+        flex: 0 0 50%;
+      }
+      @include breakpoint(small down) {
+        flex: 0 0 100%;
+      }
+    }
+  }
+}

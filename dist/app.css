@@ -348,6 +348,12 @@ body {
   margin: 0; }
   body.home-page .bm-burger-bars {
     background: white !important; }
+  body.home-page .mp--main-container main {
+    width: 100%;
+    margin-top: 0; }
+    @media print, screen and (max-width: 39.99875em) {
+      body.home-page .mp--main-container main {
+        margin-top: 0; } }
 
 .mp--main-container {
   display: flex;
@@ -357,7 +363,11 @@ body {
     max-width: 1440px;
     margin: 0 auto; }
   .mp--main-container main {
-    width: 100%; }
+    width: 100%;
+    margin-top: 160px; }
+    @media print, screen and (max-width: 39.99875em) {
+      .mp--main-container main {
+        margin-top: 100px; } }
   .mp--main-container h1, .mp--main-container h2, .mp--main-container h3, .mp--main-container h4, .mp--main-container h5, .mp--main-container h6 {
     margin-bottom: 2rem; }
     @media only screen and (max-width: 960px) {
@@ -743,102 +753,131 @@ body {
   .mp--homepage-container .mp--homepage--second-section .swiper-container .swiper-pagination-bullets {
     bottom: 50px; }
 
-.mp--about-us-page-container {
-  margin-top: 160px; }
-  .mp--about-us-page-container h2 {
-    margin-bottom: 0.5rem; }
-  @media only screen and (max-width: 960px) {
-    .mp--about-us-page-container {
-      margin-top: 100px; } }
-  .mp--about-us-page-container .director-info-container {
-    margin-bottom: 3.5rem; }
-    @media only screen and (max-width: 960px) {
-      .mp--about-us-page-container .director-info-container {
-        padding: 2rem; } }
-  .mp--about-us-page-container .director-image-wrapper {
-    overflow: hidden;
-    text-align: center;
-    margin-bottom: 1.5rem; }
-    @media print, screen and (max-width: 63.99875em) {
-      .mp--about-us-page-container .director-image-wrapper {
-        margin-bottom: 2rem; } }
-    .mp--about-us-page-container .director-image-wrapper img {
-      height: 412px;
-      width: 412px;
-      object-fit: cover; }
-    .mp--about-us-page-container .director-image-wrapper .director-info {
-      margin-top: 0.5rem;
-      text-decoration: underline; }
-  .mp--about-us-page-container .director-description-wrapper {
-    padding: 0 3rem; }
-    @media print, screen and (max-width: 63.99875em) {
-      .mp--about-us-page-container .director-description-wrapper {
-        padding: 0; } }
-  .mp--about-us-page-container .mp--our-process-container {
-    background: var(--navy-blue);
-    color: white;
-    width: 100%;
-    padding-bottom: 4rem; }
-    .mp--about-us-page-container .mp--our-process-container .container-title {
-      margin: 2.5rem 0; }
-    .mp--about-us-page-container .mp--our-process-container .process-info-row {
-      padding: 0 5rem;
-      min-height: 150px; }
-      @media print, screen and (max-width: 39.99875em) {
-        .mp--about-us-page-container .mp--our-process-container .process-info-row {
-          padding: 0 3rem; } }
-      .mp--about-us-page-container .mp--our-process-container .process-info-row .arrow-wrapper__desktop {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%; }
-    .mp--about-us-page-container .mp--our-process-container .process-info-wrapper {
-      color: white;
-      max-width: 350px; }
-      .mp--about-us-page-container .mp--our-process-container .process-info-wrapper h2, .mp--about-us-page-container .mp--our-process-container .process-info-wrapper p {
-        text-align: center; }
-      .mp--about-us-page-container .mp--our-process-container .process-info-wrapper .arrow-wrapper__mobile {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 2rem 0; }
-        .mp--about-us-page-container .mp--our-process-container .process-info-wrapper .arrow-wrapper__mobile img {
-          margin: 0 auto; }
-    @media print, screen and (max-width: 63.99875em) {
-      .mp--about-us-page-container .mp--our-process-container .process-info-item-wrapper {
-        margin: 0 auto; } }
-  .mp--about-us-page-container .mp--references-container {
-    height: 333px;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    .mp--about-us-page-container .mp--references-container .references p {
-      font-size: 1.2rem;
-      text-align: center; }
-    .mp--about-us-page-container .mp--references-container .references .references-button-wrapper {
-      margin: 2rem 0; }
-      @media print, screen and (max-width: 39.99875em) {
-        .mp--about-us-page-container .mp--references-container .references .references-button-wrapper {
-          margin: 1.5rem 0; } }
-      .mp--about-us-page-container .mp--references-container .references .references-button-wrapper button {
-        margin: auto; }
+.mp--about-us-page-container h2 {
+  margin-bottom: 0.5rem; }
 
-.mp--contact-page-container {
-  margin-top: 160px; }
-  @media print, screen and (max-width: 39.99875em) {
-    .mp--contact-page-container {
-      margin-top: 100px; } }
-  .mp--contact-page-container .company-address-wrapper {
-    font-size: 1.1rem;
-    margin-bottom: 2rem; }
-  .mp--contact-page-container .contact-form-title {
+.mp--about-us-page-container .director-info-container {
+  margin-bottom: 3.5rem; }
+  @media only screen and (max-width: 960px) {
+    .mp--about-us-page-container .director-info-container {
+      padding: 2rem; } }
+
+.mp--about-us-page-container .director-image-wrapper {
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 1.5rem; }
+  @media print, screen and (max-width: 63.99875em) {
+    .mp--about-us-page-container .director-image-wrapper {
+      margin-bottom: 2rem; } }
+  .mp--about-us-page-container .director-image-wrapper img {
+    height: 412px;
+    width: 412px;
+    object-fit: cover; }
+  .mp--about-us-page-container .director-image-wrapper .director-info {
+    margin-top: 0.5rem;
+    text-decoration: underline; }
+
+.mp--about-us-page-container .director-description-wrapper {
+  padding: 0 3rem; }
+  @media print, screen and (max-width: 63.99875em) {
+    .mp--about-us-page-container .director-description-wrapper {
+      padding: 0; } }
+
+.mp--about-us-page-container .mp--our-process-container {
+  background: var(--navy-blue);
+  color: white;
+  width: 100%;
+  padding-bottom: 4rem; }
+  .mp--about-us-page-container .mp--our-process-container .container-title {
+    margin: 2.5rem 0; }
+  .mp--about-us-page-container .mp--our-process-container .process-info-row {
+    padding: 0 5rem;
+    min-height: 150px; }
+    @media print, screen and (max-width: 39.99875em) {
+      .mp--about-us-page-container .mp--our-process-container .process-info-row {
+        padding: 0 3rem; } }
+    .mp--about-us-page-container .mp--our-process-container .process-info-row .arrow-wrapper__desktop {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%; }
+  .mp--about-us-page-container .mp--our-process-container .process-info-wrapper {
+    color: white;
+    max-width: 350px; }
+    .mp--about-us-page-container .mp--our-process-container .process-info-wrapper h2, .mp--about-us-page-container .mp--our-process-container .process-info-wrapper p {
+      text-align: center; }
+    .mp--about-us-page-container .mp--our-process-container .process-info-wrapper .arrow-wrapper__mobile {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 2rem 0; }
+      .mp--about-us-page-container .mp--our-process-container .process-info-wrapper .arrow-wrapper__mobile img {
+        margin: 0 auto; }
+  @media print, screen and (max-width: 63.99875em) {
+    .mp--about-us-page-container .mp--our-process-container .process-info-item-wrapper {
+      margin: 0 auto; } }
+
+.mp--about-us-page-container .mp--references-container {
+  height: 333px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .mp--about-us-page-container .mp--references-container .references p {
+    font-size: 1.2rem;
+    text-align: center; }
+  .mp--about-us-page-container .mp--references-container .references .references-button-wrapper {
+    margin: 2rem 0; }
+    @media print, screen and (max-width: 39.99875em) {
+      .mp--about-us-page-container .mp--references-container .references .references-button-wrapper {
+        margin: 1.5rem 0; } }
+    .mp--about-us-page-container .mp--references-container .references .references-button-wrapper button {
+      margin: auto; }
+
+.mp--contact-page-container .company-address-wrapper {
+  font-size: 1.1rem;
+  margin-bottom: 2rem; }
+
+.mp--contact-page-container .contact-form-title {
+  text-align: center;
+  margin-bottom: 1rem; }
+
+.mp--contact-page-container .send-message-button-wrapper {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem; }
+  .mp--contact-page-container .send-message-button-wrapper button {
+    margin: 1.5rem auto; }
+
+.mp--work-page .work-page-description {
+  margin-bottom: 2.5rem; }
+  .mp--work-page .work-page-description p {
+    font-size: 1.2rem;
     text-align: center;
-    margin-bottom: 1rem; }
-  .mp--contact-page-container .send-message-button-wrapper {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 1rem; }
-    .mp--contact-page-container .send-message-button-wrapper button {
-      margin: 1.5rem auto; }
+    margin: 0; }
+
+.mp--work-page .individual-units-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem; }
+  .mp--work-page .individual-units-list .individual-unit-name {
+    flex: 0 0 25%;
+    display: flex;
+    margin: 3px 0; }
+    .mp--work-page .individual-units-list .individual-unit-name .mp--icon {
+      flex: 0 0 9%;
+      text-align: center; }
+    .mp--work-page .individual-units-list .individual-unit-name .name {
+      padding: 0 10px 10px 10px;
+      transition: all 0.3s ease;
+      cursor: pointer; }
+    .mp--work-page .individual-units-list .individual-unit-name .name:hover {
+      font-weight: bold; }
+    @media print, screen and (max-width: 63.99875em) {
+      .mp--work-page .individual-units-list .individual-unit-name {
+        flex: 0 0 50%; } }
+    @media print, screen and (max-width: 39.99875em) {
+      .mp--work-page .individual-units-list .individual-unit-name {
+        flex: 0 0 100%; } }
 
