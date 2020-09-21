@@ -1,0 +1,32 @@
+.mp--services-page {
+  .services-page-description {
+    margin-bottom: 2.5rem;
+    p {
+      font-size: 1.2rem;
+      margin: 0;
+    }
+  }
+
+  .services-details-wrapper {
+    padding-bottom: 4.5rem;
+    .service-detail-item {
+      text-align: center;
+      margin: 2rem 0;
+      .wrapper {
+        margin: 0 auto;
+        max-width: 413px;
+        img {
+          margin: 1rem;
+        }
+        h2 {
+          margin: 1rem 1rem 0;
+        }
+        p {
+          margin-top: 0;
+          line-height: 1.5;
+          padding: 0.3rem 1rem;
+        }
+      }
+    }
+  }
+}

@@ -17,6 +17,7 @@
   }
   &.scroll {
     background: white;
+    border-bottom: 1px solid var(--light-periwinkle);
     @media only screen and (max-width: $medium) {
       .bm-burger-bars {
         background: var(--navy-blue) !important;
@@ -38,7 +39,7 @@
   .logo-container {
     height: 100%;
     display: flex;
-    justify-content: center;
+    //justify-content: center;
     align-items: center;
     float: left;
     img {

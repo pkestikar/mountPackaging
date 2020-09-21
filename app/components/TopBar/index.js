@@ -67,7 +67,7 @@ const TopBar = (props) => {
     return (
         //TODO: weird horizontal scroll problem needs to be fixed
         <div className={`mp--topbar`} id={'mp--topbar'}>
-            <Container className="mp--topbar--inner" disableGutters>
+            <Container className="mp--topbar--inner" maxWidth={'lg'}>
                 <MQMaxMedium>
                     <Menu styles={sideMenuStyles} right pageWrapId={'page-wrap'} outerContainerId={'outer-container'} id={'side-menu'} width={'230px'}>
                         {

@@ -2,6 +2,7 @@
 
 exports[`MoreInfoComposer component renders correctly 1`] = `
 <MoreInfoComposer
+  borderTop={false}
   ctaText=""
   handleClick={[Function]}
   normalFontSize={false}
@@ -10,9 +11,7 @@ exports[`MoreInfoComposer component renders correctly 1`] = `
   <div
     className="mp--more-info-composer"
   >
-    <span
-      className=""
-    />
+    <span />
     <Button
       disabled={false}
       loading={false}

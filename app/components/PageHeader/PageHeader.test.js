@@ -23,4 +23,9 @@ describe('PageHeader component', () => {
         wrapper.setProps({ title: titleText });
         expect(wrapper.find('h1').text()).toEqual(titleText);
     });
+
+    it('adds the centered class if the prop is true', () => {
+        wrapper.setProps({ centered: true });
+        expect(wrapper.find('div').hasClass('centered')).toBe(true);
+    });
 });
