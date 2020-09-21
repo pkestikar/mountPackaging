@@ -403,7 +403,6 @@ body {
   .mp--topbar .logo-container {
     height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
     float: left; }
     .mp--topbar .logo-container img {
@@ -579,12 +578,13 @@ body {
 .mp--page-header {
   width: 100%; }
   .mp--page-header h1 {
-    text-align: center;
     text-decoration: underline;
     margin-bottom: 4rem; }
     @media print, screen and (max-width: 39.99875em) {
       .mp--page-header h1 {
         margin-bottom: 2rem; } }
+  .mp--page-header.centered h1 {
+    text-align: center; }
 
 .mp--more-info-composer {
   height: 350px;
@@ -684,7 +684,7 @@ body {
         width: 50%; }
         @media print, screen and (max-width: 39.99875em) {
           .mp--homepage-container .mp--homepage--first-section-info-container .introduction-text span {
-            font-size: 2rem; } }
+            font-size: 1.7rem; } }
       .mp--homepage-container .mp--homepage--first-section-info-container .introduction-text .we-design {
         color: var(--navy-blue); }
       .mp--homepage-container .mp--homepage--first-section-info-container .introduction-text .we-deliver {
@@ -773,6 +773,9 @@ body {
     height: 412px;
     width: 412px;
     object-fit: cover; }
+    @media print, screen and (max-width: 39.99875em) {
+      .mp--about-us-page-container .director-image-wrapper img {
+        width: unset; } }
   .mp--about-us-page-container .director-image-wrapper .director-info {
     margin-top: 0.5rem;
     text-decoration: underline; }
@@ -853,7 +856,6 @@ body {
   margin-bottom: 2.5rem; }
   .mp--work-page .work-page-description p {
     font-size: 1.2rem;
-    text-align: center;
     margin: 0; }
 
 .mp--work-page .individual-units-list {
@@ -880,4 +882,52 @@ body {
     @media print, screen and (max-width: 39.99875em) {
       .mp--work-page .individual-units-list .individual-unit-name {
         flex: 0 0 100%; } }
+
+.mp--work-page .mp--work-samples-container {
+  width: 100%;
+  background: var(--navy-blue);
+  color: white;
+  padding-bottom: 2rem; }
+  .mp--work-page .mp--work-samples-container h2 {
+    text-align: center;
+    padding-top: 3rem; }
+  .mp--work-page .mp--work-samples-container .work-samples .work-sample {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background: transparent;
+    margin-bottom: 2.5rem; }
+    .mp--work-page .mp--work-samples-container .work-samples .work-sample .image {
+      max-width: 375px; }
+    .mp--work-page .mp--work-samples-container .work-samples .work-sample .title {
+      width: 100%;
+      margin-top: 1rem;
+      font-size: 1.2rem; }
+      @media print, screen and (max-width: 74.99875em) {
+        .mp--work-page .mp--work-samples-container .work-samples .work-sample .title {
+          text-align: center; } }
+
+.mp--services-page .services-page-description {
+  margin-bottom: 2.5rem; }
+  .mp--services-page .services-page-description p {
+    font-size: 1.2rem;
+    margin: 0; }
+
+.mp--services-page .services-details-wrapper {
+  padding-bottom: 4.5rem; }
+  .mp--services-page .services-details-wrapper .service-detail-item {
+    text-align: center;
+    margin: 2rem 0; }
+    .mp--services-page .services-details-wrapper .service-detail-item .wrapper {
+      margin: 0 auto;
+      max-width: 413px; }
+      .mp--services-page .services-details-wrapper .service-detail-item .wrapper img {
+        margin: 1rem; }
+      .mp--services-page .services-details-wrapper .service-detail-item .wrapper h2 {
+        margin: 1rem 1rem 0; }
+      .mp--services-page .services-details-wrapper .service-detail-item .wrapper p {
+        margin-top: 0;
+        line-height: 1.5;
+        padding: 0.3rem 1rem; }
 

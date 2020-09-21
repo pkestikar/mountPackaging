@@ -3,6 +3,8 @@ import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import PageHeader from "Components/PageHeader";
 import Icon from 'Components/Icon';
+import { WORK_PAGE_INDIVIDUAL_UNIT_NAMES, WORK_PAGE_MACHINE_SHOWCASE } from "../../config/index";
+import MoreInfoComposer from "Components/MoreInfoComposer";
 
 const UnitNameComposer = (props) => {
     if (!props.name) return null;
@@ -17,29 +19,9 @@ const UnitNameComposer = (props) => {
 
 const WorkPage = (props) => {
 
-    //TODO: get this data from an API call whenever that is ready
-    const individualUnits = [
-        'Bag in box filling machines',
-        'Box case erectors and sealers',
-        'Cap elevators',
-        'Capping machines',
-        'Container and cap unscramblers',
-        'De-Palletiser',
-        'Gear pump filling machines',
-        'Gravimetric filling machine',
-        'Infeed Table',
-        'Inline check-weighing',
-        'Labelling system(s)',
-        'Lidder (pick and place or sweep on)',
-        'Misprint rejection system for cans and boxes',
-        'Palletiser',
-        'Pantograph filling machine',
-        'Peristaltic pump filling machines',
-        'Printing and ink jet coding',
-        'Roller conveyor systems (automated or gravity fed)',
-        'Volumetric pump filling machines',
-        'Weigh fill machines'
-    ];
+    const handleQuotationClick = () => {
+        console.log('quotation click');
+    };
 
     return (
         <div className="mp--work-page">
@@ -48,7 +30,7 @@ const WorkPage = (props) => {
 
                 <Grid container>
                     <Grid item sm={12} className={'work-page-description'}>
-                        <p>Mount Packaging Machinery provides solutions for all the packaging & filling machiness</p>
+                        <p>Mount Packaging Machinery provides solutions for all types of packaging & filling machines</p>
                     </Grid>
                 </Grid>
 
@@ -56,16 +38,40 @@ const WorkPage = (props) => {
 
                 <Grid container>
                     <Grid item sm={12} className={'individual-units-list'}>
-                        {individualUnits.map(unit => {
+                        {WORK_PAGE_INDIVIDUAL_UNIT_NAMES.map((unit, key) => {
                             return (
-                                <UnitNameComposer name={unit} />
+                                <UnitNameComposer name={unit} key={`unit-${key}`}/>
                             )
                         })
                         }
                     </Grid>
                 </Grid>
-
             </Container>
+
+            <div className="mp--work-samples-container">
+                <Container maxWidth={'lg'}>
+                    <h2>Some of our machines</h2>
+
+                    <Grid container className={'work-samples'} justify={'center'}>
+                        {WORK_PAGE_MACHINE_SHOWCASE.map((machine, key) => {
+                            return (
+                                <Grid item className={'work-sample'} sm={12} md={6} lg={4} key={`sample-${key}`}>
+                                    <img className={'image'} src={`/images/work/${machine.image}`} alt={machine.title} />
+                                    <div className={'title'}>{machine.title}</div>
+                                </Grid>
+                            )
+                        })
+                        }
+                    </Grid>
+                </Container>
+            </div>
+
+            <MoreInfoComposer
+                title={'Ready with requirements?'}
+                ctaText={'Get Quotation'}
+                handleClick={handleQuotationClick}
+                borderTop
+            />
         </div>
     )
 };

@@ -3,7 +3,6 @@
     margin-bottom: 2.5rem;
     p {
       font-size: 1.2rem;
-      text-align: center;
       margin: 0;
     }
   }
@@ -34,6 +33,38 @@
       }
       @include breakpoint(small down) {
         flex: 0 0 100%;
+      }
+    }
+  }
+
+  .mp--work-samples-container {
+    width: 100%;
+    background: var(--navy-blue);
+    color: white;
+    padding-bottom: 2rem;
+    h2 {
+      text-align: center;
+      padding-top: 3rem;
+    }
+    .work-samples {
+      .work-sample {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        background: transparent;
+        margin-bottom: 2.5rem;
+        .image {
+          max-width: 375px;
+        }
+        .title {
+          width: 100%;
+          margin-top: 1rem;
+          font-size: 1.2rem;
+          @include breakpoint(large down) {
+            text-align: center;
+          }
+        }
       }
     }
   }

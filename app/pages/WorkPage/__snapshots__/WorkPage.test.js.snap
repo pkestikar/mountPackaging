@@ -1,0 +1,2647 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WorkPage component renders correctly 1`] = `
+<WorkPage>
+  <div
+    className="mp--work-page"
+  >
+    <WithStyles(ForwardRef(Container))
+      maxWidth="lg"
+    >
+      <ForwardRef(Container)
+        classes={
+          Object {
+            "disableGutters": "MuiContainer-disableGutters",
+            "fixed": "MuiContainer-fixed",
+            "maxWidthLg": "MuiContainer-maxWidthLg",
+            "maxWidthMd": "MuiContainer-maxWidthMd",
+            "maxWidthSm": "MuiContainer-maxWidthSm",
+            "maxWidthXl": "MuiContainer-maxWidthXl",
+            "maxWidthXs": "MuiContainer-maxWidthXs",
+            "root": "MuiContainer-root",
+          }
+        }
+        maxWidth="lg"
+      >
+        <div
+          className="MuiContainer-root MuiContainer-maxWidthLg"
+        >
+          <PageHeader
+            centered={false}
+            title="Work"
+          >
+            <div
+              className="mp--page-header"
+            >
+              <h1>
+                Work
+              </h1>
+            </div>
+          </PageHeader>
+          <WithStyles(ForwardRef(Grid))
+            container={true}
+          >
+            <ForwardRef(Grid)
+              classes={
+                Object {
+                  "align-content-xs-center": "MuiGrid-align-content-xs-center",
+                  "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
+                  "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
+                  "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
+                  "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
+                  "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
+                  "align-items-xs-center": "MuiGrid-align-items-xs-center",
+                  "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
+                  "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
+                  "container": "MuiGrid-container",
+                  "direction-xs-column": "MuiGrid-direction-xs-column",
+                  "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
+                  "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
+                  "grid-lg-1": "MuiGrid-grid-lg-1",
+                  "grid-lg-10": "MuiGrid-grid-lg-10",
+                  "grid-lg-11": "MuiGrid-grid-lg-11",
+                  "grid-lg-12": "MuiGrid-grid-lg-12",
+                  "grid-lg-2": "MuiGrid-grid-lg-2",
+                  "grid-lg-3": "MuiGrid-grid-lg-3",
+                  "grid-lg-4": "MuiGrid-grid-lg-4",
+                  "grid-lg-5": "MuiGrid-grid-lg-5",
+                  "grid-lg-6": "MuiGrid-grid-lg-6",
+                  "grid-lg-7": "MuiGrid-grid-lg-7",
+                  "grid-lg-8": "MuiGrid-grid-lg-8",
+                  "grid-lg-9": "MuiGrid-grid-lg-9",
+                  "grid-lg-auto": "MuiGrid-grid-lg-auto",
+                  "grid-lg-true": "MuiGrid-grid-lg-true",
+                  "grid-md-1": "MuiGrid-grid-md-1",
+                  "grid-md-10": "MuiGrid-grid-md-10",
+                  "grid-md-11": "MuiGrid-grid-md-11",
+                  "grid-md-12": "MuiGrid-grid-md-12",
+                  "grid-md-2": "MuiGrid-grid-md-2",
+                  "grid-md-3": "MuiGrid-grid-md-3",
+                  "grid-md-4": "MuiGrid-grid-md-4",
+                  "grid-md-5": "MuiGrid-grid-md-5",
+                  "grid-md-6": "MuiGrid-grid-md-6",
+                  "grid-md-7": "MuiGrid-grid-md-7",
+                  "grid-md-8": "MuiGrid-grid-md-8",
+                  "grid-md-9": "MuiGrid-grid-md-9",
+                  "grid-md-auto": "MuiGrid-grid-md-auto",
+                  "grid-md-true": "MuiGrid-grid-md-true",
+                  "grid-sm-1": "MuiGrid-grid-sm-1",
+                  "grid-sm-10": "MuiGrid-grid-sm-10",
+                  "grid-sm-11": "MuiGrid-grid-sm-11",
+                  "grid-sm-12": "MuiGrid-grid-sm-12",
+                  "grid-sm-2": "MuiGrid-grid-sm-2",
+                  "grid-sm-3": "MuiGrid-grid-sm-3",
+                  "grid-sm-4": "MuiGrid-grid-sm-4",
+                  "grid-sm-5": "MuiGrid-grid-sm-5",
+                  "grid-sm-6": "MuiGrid-grid-sm-6",
+                  "grid-sm-7": "MuiGrid-grid-sm-7",
+                  "grid-sm-8": "MuiGrid-grid-sm-8",
+                  "grid-sm-9": "MuiGrid-grid-sm-9",
+                  "grid-sm-auto": "MuiGrid-grid-sm-auto",
+                  "grid-sm-true": "MuiGrid-grid-sm-true",
+                  "grid-xl-1": "MuiGrid-grid-xl-1",
+                  "grid-xl-10": "MuiGrid-grid-xl-10",
+                  "grid-xl-11": "MuiGrid-grid-xl-11",
+                  "grid-xl-12": "MuiGrid-grid-xl-12",
+                  "grid-xl-2": "MuiGrid-grid-xl-2",
+                  "grid-xl-3": "MuiGrid-grid-xl-3",
+                  "grid-xl-4": "MuiGrid-grid-xl-4",
+                  "grid-xl-5": "MuiGrid-grid-xl-5",
+                  "grid-xl-6": "MuiGrid-grid-xl-6",
+                  "grid-xl-7": "MuiGrid-grid-xl-7",
+                  "grid-xl-8": "MuiGrid-grid-xl-8",
+                  "grid-xl-9": "MuiGrid-grid-xl-9",
+                  "grid-xl-auto": "MuiGrid-grid-xl-auto",
+                  "grid-xl-true": "MuiGrid-grid-xl-true",
+                  "grid-xs-1": "MuiGrid-grid-xs-1",
+                  "grid-xs-10": "MuiGrid-grid-xs-10",
+                  "grid-xs-11": "MuiGrid-grid-xs-11",
+                  "grid-xs-12": "MuiGrid-grid-xs-12",
+                  "grid-xs-2": "MuiGrid-grid-xs-2",
+                  "grid-xs-3": "MuiGrid-grid-xs-3",
+                  "grid-xs-4": "MuiGrid-grid-xs-4",
+                  "grid-xs-5": "MuiGrid-grid-xs-5",
+                  "grid-xs-6": "MuiGrid-grid-xs-6",
+                  "grid-xs-7": "MuiGrid-grid-xs-7",
+                  "grid-xs-8": "MuiGrid-grid-xs-8",
+                  "grid-xs-9": "MuiGrid-grid-xs-9",
+                  "grid-xs-auto": "MuiGrid-grid-xs-auto",
+                  "grid-xs-true": "MuiGrid-grid-xs-true",
+                  "item": "MuiGrid-item",
+                  "justify-xs-center": "MuiGrid-justify-xs-center",
+                  "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
+                  "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
+                  "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
+                  "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
+                  "root": "MuiGrid-root",
+                  "spacing-xs-1": "MuiGrid-spacing-xs-1",
+                  "spacing-xs-10": "MuiGrid-spacing-xs-10",
+                  "spacing-xs-2": "MuiGrid-spacing-xs-2",
+                  "spacing-xs-3": "MuiGrid-spacing-xs-3",
+                  "spacing-xs-4": "MuiGrid-spacing-xs-4",
+                  "spacing-xs-5": "MuiGrid-spacing-xs-5",
+                  "spacing-xs-6": "MuiGrid-spacing-xs-6",
+                  "spacing-xs-7": "MuiGrid-spacing-xs-7",
+                  "spacing-xs-8": "MuiGrid-spacing-xs-8",
+                  "spacing-xs-9": "MuiGrid-spacing-xs-9",
+                  "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
+                  "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
+                  "zeroMinWidth": "MuiGrid-zeroMinWidth",
+                }
+              }
+              container={true}
+            >
+              <div
+                className="MuiGrid-root MuiGrid-container"
+              >
+                <WithStyles(ForwardRef(Grid))
+                  className="work-page-description"
+                  item={true}
+                  sm={12}
+                >
+                  <ForwardRef(Grid)
+                    className="work-page-description"
+                    classes={
+                      Object {
+                        "align-content-xs-center": "MuiGrid-align-content-xs-center",
+                        "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
+                        "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
+                        "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
+                        "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
+                        "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
+                        "align-items-xs-center": "MuiGrid-align-items-xs-center",
+                        "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
+                        "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
+                        "container": "MuiGrid-container",
+                        "direction-xs-column": "MuiGrid-direction-xs-column",
+                        "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
+                        "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
+                        "grid-lg-1": "MuiGrid-grid-lg-1",
+                        "grid-lg-10": "MuiGrid-grid-lg-10",
+                        "grid-lg-11": "MuiGrid-grid-lg-11",
+                        "grid-lg-12": "MuiGrid-grid-lg-12",
+                        "grid-lg-2": "MuiGrid-grid-lg-2",
+                        "grid-lg-3": "MuiGrid-grid-lg-3",
+                        "grid-lg-4": "MuiGrid-grid-lg-4",
+                        "grid-lg-5": "MuiGrid-grid-lg-5",
+                        "grid-lg-6": "MuiGrid-grid-lg-6",
+                        "grid-lg-7": "MuiGrid-grid-lg-7",
+                        "grid-lg-8": "MuiGrid-grid-lg-8",
+                        "grid-lg-9": "MuiGrid-grid-lg-9",
+                        "grid-lg-auto": "MuiGrid-grid-lg-auto",
+                        "grid-lg-true": "MuiGrid-grid-lg-true",
+                        "grid-md-1": "MuiGrid-grid-md-1",
+                        "grid-md-10": "MuiGrid-grid-md-10",
+                        "grid-md-11": "MuiGrid-grid-md-11",
+                        "grid-md-12": "MuiGrid-grid-md-12",
+                        "grid-md-2": "MuiGrid-grid-md-2",
+                        "grid-md-3": "MuiGrid-grid-md-3",
+                        "grid-md-4": "MuiGrid-grid-md-4",
+                        "grid-md-5": "MuiGrid-grid-md-5",
+                        "grid-md-6": "MuiGrid-grid-md-6",
+                        "grid-md-7": "MuiGrid-grid-md-7",
+                        "grid-md-8": "MuiGrid-grid-md-8",
+                        "grid-md-9": "MuiGrid-grid-md-9",
+                        "grid-md-auto": "MuiGrid-grid-md-auto",
+                        "grid-md-true": "MuiGrid-grid-md-true",
+                        "grid-sm-1": "MuiGrid-grid-sm-1",
+                        "grid-sm-10": "MuiGrid-grid-sm-10",
+                        "grid-sm-11": "MuiGrid-grid-sm-11",
+                        "grid-sm-12": "MuiGrid-grid-sm-12",
+                        "grid-sm-2": "MuiGrid-grid-sm-2",
+                        "grid-sm-3": "MuiGrid-grid-sm-3",
+                        "grid-sm-4": "MuiGrid-grid-sm-4",
+                        "grid-sm-5": "MuiGrid-grid-sm-5",
+                        "grid-sm-6": "MuiGrid-grid-sm-6",
+                        "grid-sm-7": "MuiGrid-grid-sm-7",
+                        "grid-sm-8": "MuiGrid-grid-sm-8",
+                        "grid-sm-9": "MuiGrid-grid-sm-9",
+                        "grid-sm-auto": "MuiGrid-grid-sm-auto",
+                        "grid-sm-true": "MuiGrid-grid-sm-true",
+                        "grid-xl-1": "MuiGrid-grid-xl-1",
+                        "grid-xl-10": "MuiGrid-grid-xl-10",
+                        "grid-xl-11": "MuiGrid-grid-xl-11",
+                        "grid-xl-12": "MuiGrid-grid-xl-12",
+                        "grid-xl-2": "MuiGrid-grid-xl-2",
+                        "grid-xl-3": "MuiGrid-grid-xl-3",
+                        "grid-xl-4": "MuiGrid-grid-xl-4",
+                        "grid-xl-5": "MuiGrid-grid-xl-5",
+                        "grid-xl-6": "MuiGrid-grid-xl-6",
+                        "grid-xl-7": "MuiGrid-grid-xl-7",
+                        "grid-xl-8": "MuiGrid-grid-xl-8",
+                        "grid-xl-9": "MuiGrid-grid-xl-9",
+                        "grid-xl-auto": "MuiGrid-grid-xl-auto",
+                        "grid-xl-true": "MuiGrid-grid-xl-true",
+                        "grid-xs-1": "MuiGrid-grid-xs-1",
+                        "grid-xs-10": "MuiGrid-grid-xs-10",
+                        "grid-xs-11": "MuiGrid-grid-xs-11",
+                        "grid-xs-12": "MuiGrid-grid-xs-12",
+                        "grid-xs-2": "MuiGrid-grid-xs-2",
+                        "grid-xs-3": "MuiGrid-grid-xs-3",
+                        "grid-xs-4": "MuiGrid-grid-xs-4",
+                        "grid-xs-5": "MuiGrid-grid-xs-5",
+                        "grid-xs-6": "MuiGrid-grid-xs-6",
+                        "grid-xs-7": "MuiGrid-grid-xs-7",
+                        "grid-xs-8": "MuiGrid-grid-xs-8",
+                        "grid-xs-9": "MuiGrid-grid-xs-9",
+                        "grid-xs-auto": "MuiGrid-grid-xs-auto",
+                        "grid-xs-true": "MuiGrid-grid-xs-true",
+                        "item": "MuiGrid-item",
+                        "justify-xs-center": "MuiGrid-justify-xs-center",
+                        "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
+                        "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
+                        "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
+                        "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
+                        "root": "MuiGrid-root",
+                        "spacing-xs-1": "MuiGrid-spacing-xs-1",
+                        "spacing-xs-10": "MuiGrid-spacing-xs-10",
+                        "spacing-xs-2": "MuiGrid-spacing-xs-2",
+                        "spacing-xs-3": "MuiGrid-spacing-xs-3",
+                        "spacing-xs-4": "MuiGrid-spacing-xs-4",
+                        "spacing-xs-5": "MuiGrid-spacing-xs-5",
+                        "spacing-xs-6": "MuiGrid-spacing-xs-6",
+                        "spacing-xs-7": "MuiGrid-spacing-xs-7",
+                        "spacing-xs-8": "MuiGrid-spacing-xs-8",
+                        "spacing-xs-9": "MuiGrid-spacing-xs-9",
+                        "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
+                        "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
+                        "zeroMinWidth": "MuiGrid-zeroMinWidth",
+                      }
+                    }
+                    item={true}
+                    sm={12}
+                  >
+                    <div
+                      className="MuiGrid-root work-page-description MuiGrid-item MuiGrid-grid-sm-12"
+                    >
+                      <p>
+                        Mount Packaging Machinery provides solutions for all types of packaging & filling machines
+                      </p>
+                    </div>
+                  </ForwardRef(Grid)>
+                </WithStyles(ForwardRef(Grid))>
+              </div>
+            </ForwardRef(Grid)>
+          </WithStyles(ForwardRef(Grid))>
+          <h2
+            style={
+              Object {
+                "textAlign": "center",
+              }
+            }
+          >
+            Individual Units
+          </h2>
+          <WithStyles(ForwardRef(Grid))
+            container={true}
+          >
+            <ForwardRef(Grid)
+              classes={
+                Object {
+                  "align-content-xs-center": "MuiGrid-align-content-xs-center",
+                  "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
+                  "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
+                  "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
+                  "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
+                  "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
+                  "align-items-xs-center": "MuiGrid-align-items-xs-center",
+                  "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
+                  "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
+                  "container": "MuiGrid-container",
+                  "direction-xs-column": "MuiGrid-direction-xs-column",
+                  "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
+                  "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
+                  "grid-lg-1": "MuiGrid-grid-lg-1",
+                  "grid-lg-10": "MuiGrid-grid-lg-10",
+                  "grid-lg-11": "MuiGrid-grid-lg-11",
+                  "grid-lg-12": "MuiGrid-grid-lg-12",
+                  "grid-lg-2": "MuiGrid-grid-lg-2",
+                  "grid-lg-3": "MuiGrid-grid-lg-3",
+                  "grid-lg-4": "MuiGrid-grid-lg-4",
+                  "grid-lg-5": "MuiGrid-grid-lg-5",
+                  "grid-lg-6": "MuiGrid-grid-lg-6",
+                  "grid-lg-7": "MuiGrid-grid-lg-7",
+                  "grid-lg-8": "MuiGrid-grid-lg-8",
+                  "grid-lg-9": "MuiGrid-grid-lg-9",
+                  "grid-lg-auto": "MuiGrid-grid-lg-auto",
+                  "grid-lg-true": "MuiGrid-grid-lg-true",
+                  "grid-md-1": "MuiGrid-grid-md-1",
+                  "grid-md-10": "MuiGrid-grid-md-10",
+                  "grid-md-11": "MuiGrid-grid-md-11",
+                  "grid-md-12": "MuiGrid-grid-md-12",
+                  "grid-md-2": "MuiGrid-grid-md-2",
+                  "grid-md-3": "MuiGrid-grid-md-3",
+                  "grid-md-4": "MuiGrid-grid-md-4",
+                  "grid-md-5": "MuiGrid-grid-md-5",
+                  "grid-md-6": "MuiGrid-grid-md-6",
+                  "grid-md-7": "MuiGrid-grid-md-7",
+                  "grid-md-8": "MuiGrid-grid-md-8",
+                  "grid-md-9": "MuiGrid-grid-md-9",
+                  "grid-md-auto": "MuiGrid-grid-md-auto",
+                  "grid-md-true": "MuiGrid-grid-md-true",
+                  "grid-sm-1": "MuiGrid-grid-sm-1",
+                  "grid-sm-10": "MuiGrid-grid-sm-10",
+                  "grid-sm-11": "MuiGrid-grid-sm-11",
+                  "grid-sm-12": "MuiGrid-grid-sm-12",
+                  "grid-sm-2": "MuiGrid-grid-sm-2",
+                  "grid-sm-3": "MuiGrid-grid-sm-3",
+                  "grid-sm-4": "MuiGrid-grid-sm-4",
+                  "grid-sm-5": "MuiGrid-grid-sm-5",
+                  "grid-sm-6": "MuiGrid-grid-sm-6",
+                  "grid-sm-7": "MuiGrid-grid-sm-7",
+                  "grid-sm-8": "MuiGrid-grid-sm-8",
+                  "grid-sm-9": "MuiGrid-grid-sm-9",
+                  "grid-sm-auto": "MuiGrid-grid-sm-auto",
+                  "grid-sm-true": "MuiGrid-grid-sm-true",
+                  "grid-xl-1": "MuiGrid-grid-xl-1",
+                  "grid-xl-10": "MuiGrid-grid-xl-10",
+                  "grid-xl-11": "MuiGrid-grid-xl-11",
+                  "grid-xl-12": "MuiGrid-grid-xl-12",
+                  "grid-xl-2": "MuiGrid-grid-xl-2",
+                  "grid-xl-3": "MuiGrid-grid-xl-3",
+                  "grid-xl-4": "MuiGrid-grid-xl-4",
+                  "grid-xl-5": "MuiGrid-grid-xl-5",
+                  "grid-xl-6": "MuiGrid-grid-xl-6",
+                  "grid-xl-7": "MuiGrid-grid-xl-7",
+                  "grid-xl-8": "MuiGrid-grid-xl-8",
+                  "grid-xl-9": "MuiGrid-grid-xl-9",
+                  "grid-xl-auto": "MuiGrid-grid-xl-auto",
+                  "grid-xl-true": "MuiGrid-grid-xl-true",
+                  "grid-xs-1": "MuiGrid-grid-xs-1",
+                  "grid-xs-10": "MuiGrid-grid-xs-10",
+                  "grid-xs-11": "MuiGrid-grid-xs-11",
+                  "grid-xs-12": "MuiGrid-grid-xs-12",
+                  "grid-xs-2": "MuiGrid-grid-xs-2",
+                  "grid-xs-3": "MuiGrid-grid-xs-3",
+                  "grid-xs-4": "MuiGrid-grid-xs-4",
+                  "grid-xs-5": "MuiGrid-grid-xs-5",
+                  "grid-xs-6": "MuiGrid-grid-xs-6",
+                  "grid-xs-7": "MuiGrid-grid-xs-7",
+                  "grid-xs-8": "MuiGrid-grid-xs-8",
+                  "grid-xs-9": "MuiGrid-grid-xs-9",
+                  "grid-xs-auto": "MuiGrid-grid-xs-auto",
+                  "grid-xs-true": "MuiGrid-grid-xs-true",
+                  "item": "MuiGrid-item",
+                  "justify-xs-center": "MuiGrid-justify-xs-center",
+                  "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
+                  "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
+                  "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
+                  "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
+                  "root": "MuiGrid-root",
+                  "spacing-xs-1": "MuiGrid-spacing-xs-1",
+                  "spacing-xs-10": "MuiGrid-spacing-xs-10",
+                  "spacing-xs-2": "MuiGrid-spacing-xs-2",
+                  "spacing-xs-3": "MuiGrid-spacing-xs-3",
+                  "spacing-xs-4": "MuiGrid-spacing-xs-4",
+                  "spacing-xs-5": "MuiGrid-spacing-xs-5",
+                  "spacing-xs-6": "MuiGrid-spacing-xs-6",
+                  "spacing-xs-7": "MuiGrid-spacing-xs-7",
+                  "spacing-xs-8": "MuiGrid-spacing-xs-8",
+                  "spacing-xs-9": "MuiGrid-spacing-xs-9",
+                  "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
+                  "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
+                  "zeroMinWidth": "MuiGrid-zeroMinWidth",
+                }
+              }
+              container={true}
+            >
+              <div
+                className="MuiGrid-root MuiGrid-container"
+              >
+                <WithStyles(ForwardRef(Grid))
+                  className="individual-units-list"
+                  item={true}
+                  sm={12}
+                >
+                  <ForwardRef(Grid)
+                    className="individual-units-list"
+                    classes={
+                      Object {
+                        "align-content-xs-center": "MuiGrid-align-content-xs-center",
+                        "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
+                        "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
+                        "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
+                        "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
+                        "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
+                        "align-items-xs-center": "MuiGrid-align-items-xs-center",
+                        "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
+                        "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
+                        "container": "MuiGrid-container",
+                        "direction-xs-column": "MuiGrid-direction-xs-column",
+                        "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
+                        "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
+                        "grid-lg-1": "MuiGrid-grid-lg-1",
+                        "grid-lg-10": "MuiGrid-grid-lg-10",
+                        "grid-lg-11": "MuiGrid-grid-lg-11",
+                        "grid-lg-12": "MuiGrid-grid-lg-12",
+                        "grid-lg-2": "MuiGrid-grid-lg-2",
+                        "grid-lg-3": "MuiGrid-grid-lg-3",
+                        "grid-lg-4": "MuiGrid-grid-lg-4",
+                        "grid-lg-5": "MuiGrid-grid-lg-5",
+                        "grid-lg-6": "MuiGrid-grid-lg-6",
+                        "grid-lg-7": "MuiGrid-grid-lg-7",
+                        "grid-lg-8": "MuiGrid-grid-lg-8",
+                        "grid-lg-9": "MuiGrid-grid-lg-9",
+                        "grid-lg-auto": "MuiGrid-grid-lg-auto",
+                        "grid-lg-true": "MuiGrid-grid-lg-true",
+                        "grid-md-1": "MuiGrid-grid-md-1",
+                        "grid-md-10": "MuiGrid-grid-md-10",
+                        "grid-md-11": "MuiGrid-grid-md-11",
+                        "grid-md-12": "MuiGrid-grid-md-12",
+                        "grid-md-2": "MuiGrid-grid-md-2",
+                        "grid-md-3": "MuiGrid-grid-md-3",
+                        "grid-md-4": "MuiGrid-grid-md-4",
+                        "grid-md-5": "MuiGrid-grid-md-5",
+                        "grid-md-6": "MuiGrid-grid-md-6",
+                        "grid-md-7": "MuiGrid-grid-md-7",
+                        "grid-md-8": "MuiGrid-grid-md-8",
+                        "grid-md-9": "MuiGrid-grid-md-9",
+                        "grid-md-auto": "MuiGrid-grid-md-auto",
+                        "grid-md-true": "MuiGrid-grid-md-true",
+                        "grid-sm-1": "MuiGrid-grid-sm-1",
+                        "grid-sm-10": "MuiGrid-grid-sm-10",
+                        "grid-sm-11": "MuiGrid-grid-sm-11",
+                        "grid-sm-12": "MuiGrid-grid-sm-12",
+                        "grid-sm-2": "MuiGrid-grid-sm-2",
+                        "grid-sm-3": "MuiGrid-grid-sm-3",
+                        "grid-sm-4": "MuiGrid-grid-sm-4",
+                        "grid-sm-5": "MuiGrid-grid-sm-5",
+                        "grid-sm-6": "MuiGrid-grid-sm-6",
+                        "grid-sm-7": "MuiGrid-grid-sm-7",
+                        "grid-sm-8": "MuiGrid-grid-sm-8",
+                        "grid-sm-9": "MuiGrid-grid-sm-9",
+                        "grid-sm-auto": "MuiGrid-grid-sm-auto",
+                        "grid-sm-true": "MuiGrid-grid-sm-true",
+                        "grid-xl-1": "MuiGrid-grid-xl-1",
+                        "grid-xl-10": "MuiGrid-grid-xl-10",
+                        "grid-xl-11": "MuiGrid-grid-xl-11",
+                        "grid-xl-12": "MuiGrid-grid-xl-12",
+                        "grid-xl-2": "MuiGrid-grid-xl-2",
+                        "grid-xl-3": "MuiGrid-grid-xl-3",
+                        "grid-xl-4": "MuiGrid-grid-xl-4",
+                        "grid-xl-5": "MuiGrid-grid-xl-5",
+                        "grid-xl-6": "MuiGrid-grid-xl-6",
+                        "grid-xl-7": "MuiGrid-grid-xl-7",
+                        "grid-xl-8": "MuiGrid-grid-xl-8",
+                        "grid-xl-9": "MuiGrid-grid-xl-9",
+                        "grid-xl-auto": "MuiGrid-grid-xl-auto",
+                        "grid-xl-true": "MuiGrid-grid-xl-true",
+                        "grid-xs-1": "MuiGrid-grid-xs-1",
+                        "grid-xs-10": "MuiGrid-grid-xs-10",
+                        "grid-xs-11": "MuiGrid-grid-xs-11",
+                        "grid-xs-12": "MuiGrid-grid-xs-12",
+                        "grid-xs-2": "MuiGrid-grid-xs-2",
+                        "grid-xs-3": "MuiGrid-grid-xs-3",
+                        "grid-xs-4": "MuiGrid-grid-xs-4",
+                        "grid-xs-5": "MuiGrid-grid-xs-5",
+                        "grid-xs-6": "MuiGrid-grid-xs-6",
+                        "grid-xs-7": "MuiGrid-grid-xs-7",
+                        "grid-xs-8": "MuiGrid-grid-xs-8",
+                        "grid-xs-9": "MuiGrid-grid-xs-9",
+                        "grid-xs-auto": "MuiGrid-grid-xs-auto",
+                        "grid-xs-true": "MuiGrid-grid-xs-true",
+                        "item": "MuiGrid-item",
+                        "justify-xs-center": "MuiGrid-justify-xs-center",
+                        "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
+                        "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
+                        "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
+                        "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
+                        "root": "MuiGrid-root",
+                        "spacing-xs-1": "MuiGrid-spacing-xs-1",
+                        "spacing-xs-10": "MuiGrid-spacing-xs-10",
+                        "spacing-xs-2": "MuiGrid-spacing-xs-2",
+                        "spacing-xs-3": "MuiGrid-spacing-xs-3",
+                        "spacing-xs-4": "MuiGrid-spacing-xs-4",
+                        "spacing-xs-5": "MuiGrid-spacing-xs-5",
+                        "spacing-xs-6": "MuiGrid-spacing-xs-6",
+                        "spacing-xs-7": "MuiGrid-spacing-xs-7",
+                        "spacing-xs-8": "MuiGrid-spacing-xs-8",
+                        "spacing-xs-9": "MuiGrid-spacing-xs-9",
+                        "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
+                        "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
+                        "zeroMinWidth": "MuiGrid-zeroMinWidth",
+                      }
+                    }
+                    item={true}
+                    sm={12}
+                  >
+                    <div
+                      className="MuiGrid-root individual-units-list MuiGrid-item MuiGrid-grid-sm-12"
+                    >
+                      <UnitNameComposer
+                        key="unit-0"
+                        name="Bag in box filling machines"
+                      >
+                        <div
+                          className="individual-unit-name"
+                        >
+                          <Icon
+                            icon="hexagon"
+                            onClick={[Function]}
+                            sizeInPixels="12"
+                          >
+                            <span
+                              className="mp--icon"
+                            >
+                              <img
+                                alt=""
+                                src="../../../images/svg/hexagon.svg"
+                                style={
+                                  Object {
+                                    "height": "12px",
+                                    "width": "12px",
+                                  }
+                                }
+                              />
+                            </span>
+                          </Icon>
+                          <span
+                            className="name"
+                          >
+                            Bag in box filling machines
+                          </span>
+                        </div>
+                      </UnitNameComposer>
+                      <UnitNameComposer
+                        key="unit-1"
+                        name="Box case erectors and sealers"
+                      >
+                        <div
+                          className="individual-unit-name"
+                        >
+                          <Icon
+                            icon="hexagon"
+                            onClick={[Function]}
+                            sizeInPixels="12"
+                          >
+                            <span
+                              className="mp--icon"
+                            >
+                              <img
+                                alt=""
+                                src="../../../images/svg/hexagon.svg"
+                                style={
+                                  Object {
+                                    "height": "12px",
+                                    "width": "12px",
+                                  }
+                                }
+                              />
+                            </span>
+                          </Icon>
+                          <span
+                            className="name"
+                          >
+                            Box case erectors and sealers
+                          </span>
+                        </div>
+                      </UnitNameComposer>
+                      <UnitNameComposer
+                        key="unit-2"
+                        name="Cap elevators"
+                      >
+                        <div
+                          className="individual-unit-name"
+                        >
+                          <Icon
+                            icon="hexagon"
+                            onClick={[Function]}
+                            sizeInPixels="12"
+                          >
+                            <span
+                              className="mp--icon"
+                            >
+                              <img
+                                alt=""
+                                src="../../../images/svg/hexagon.svg"
+                                style={
+                                  Object {
+                                    "height": "12px",
+                                    "width": "12px",
+                                  }
+                                }
+                              />
+                            </span>
+                          </Icon>
+                          <span
+                            className="name"
+                          >
+                            Cap elevators
+                          </span>
+                        </div>
+                      </UnitNameComposer>
+                      <UnitNameComposer
+                        key="unit-3"
+                        name="Capping machines"
+                      >
+                        <div
+                          className="individual-unit-name"
+                        >
+                          <Icon
+                            icon="hexagon"
+                            onClick={[Function]}
+                            sizeInPixels="12"
+                          >
+                            <span
+                              className="mp--icon"
+                            >
+                              <img
+                                alt=""
+                                src="../../../images/svg/hexagon.svg"
+                                style={
+                                  Object {
+                                    "height": "12px",
+                                    "width": "12px",
+                                  }
+                                }
+                              />
+                            </span>
+                          </Icon>
+                          <span
+                            className="name"
+                          >
+                            Capping machines
+                          </span>
+                        </div>
+                      </UnitNameComposer>
+                      <UnitNameComposer
+                        key="unit-4"
+                        name="Container and cap unscramblers"
+                      >
+                        <div
+                          className="individual-unit-name"
+                        >
+                          <Icon
+                            icon="hexagon"
+                            onClick={[Function]}
+                            sizeInPixels="12"
+                          >
+                            <span
+                              className="mp--icon"
+                            >
+                              <img
+                                alt=""
+                                src="../../../images/svg/hexagon.svg"
+                                style={
+                                  Object {
+                                    "height": "12px",
+                                    "width": "12px",
+                                  }
+                                }
+                              />
+                            </span>
+                          </Icon>
+                          <span
+                            className="name"
+                          >
+                            Container and cap unscramblers
+                          </span>
+                        </div>
+                      </UnitNameComposer>
+                      <UnitNameComposer
+                        key="unit-5"
+                        name="De-Palletiser"
+                      >
+                        <div
+                          className="individual-unit-name"
+                        >
+                          <Icon
+                            icon="hexagon"
+                            onClick={[Function]}
+                            sizeInPixels="12"
+                          >
+                            <span
+                              className="mp--icon"
+                            >
+                              <img
+                                alt=""
+                                src="../../../images/svg/hexagon.svg"
+                                style={
+                                  Object {
+                                    "height": "12px",
+                                    "width": "12px",
+                                  }
+                                }
+                              />
+                            </span>
+                          </Icon>
+                          <span
+                            className="name"
+                          >
+                            De-Palletiser
+                          </span>
+                        </div>
+                      </UnitNameComposer>
+                      <UnitNameComposer
+                        key="unit-6"
+                        name="Gear pump filling machines"
+                      >
+                        <div
+                          className="individual-unit-name"
+                        >
+                          <Icon
+                            icon="hexagon"
+                            onClick={[Function]}
+                            sizeInPixels="12"
+                          >
+                            <span
+                              className="mp--icon"
+                            >
+                              <img
+                                alt=""
+                                src="../../../images/svg/hexagon.svg"
+                                style={
+                                  Object {
+                                    "height": "12px",
+                                    "width": "12px",
+                                  }
+                                }
+                              />
+                            </span>
+                          </Icon>
+                          <span
+                            className="name"
+                          >
+                            Gear pump filling machines
+                          </span>
+                        </div>
+                      </UnitNameComposer>
+                      <UnitNameComposer
+                        key="unit-7"
+                        name="Gravimetric filling machine"
+                      >
+                        <div
+                          className="individual-unit-name"
+                        >
+                          <Icon
+                            icon="hexagon"
+                            onClick={[Function]}
+                            sizeInPixels="12"
+                          >
+                            <span
+                              className="mp--icon"
+                            >
+                              <img
+                                alt=""
+                                src="../../../images/svg/hexagon.svg"
+                                style={
+                                  Object {
+                                    "height": "12px",
+                                    "width": "12px",
+                                  }
+                                }
+                              />
+                            </span>
+                          </Icon>
+                          <span
+                            className="name"
+                          >
+                            Gravimetric filling machine
+                          </span>
+                        </div>
+                      </UnitNameComposer>
+                      <UnitNameComposer
+                        key="unit-8"
+                        name="Infeed Table"
+                      >
+                        <div
+                          className="individual-unit-name"
+                        >
+                          <Icon
+                            icon="hexagon"
+                            onClick={[Function]}
+                            sizeInPixels="12"
+                          >
+                            <span
+                              className="mp--icon"
+                            >
+                              <img
+                                alt=""
+                                src="../../../images/svg/hexagon.svg"
+                                style={
+                                  Object {
+                                    "height": "12px",
+                                    "width": "12px",
+                                  }
+                                }
+                              />
+                            </span>
+                          </Icon>
+                          <span
+                            className="name"
+                          >
+                            Infeed Table
+                          </span>
+                        </div>
+                      </UnitNameComposer>
+                      <UnitNameComposer
+                        key="unit-9"
+                        name="Inline check-weighing"
+                      >
+                        <div
+                          className="individual-unit-name"
+                        >
+                          <Icon
+                            icon="hexagon"
+                            onClick={[Function]}
+                            sizeInPixels="12"
+                          >
+                            <span
+                              className="mp--icon"
+                            >
+                              <img
+                                alt=""
+                                src="../../../images/svg/hexagon.svg"
+                                style={
+                                  Object {
+                                    "height": "12px",
+                                    "width": "12px",
+                                  }
+                                }
+                              />
+                            </span>
+                          </Icon>
+                          <span
+                            className="name"
+                          >
+                            Inline check-weighing
+                          </span>
+                        </div>
+                      </UnitNameComposer>
+                      <UnitNameComposer
+                        key="unit-10"
+                        name="Labelling system(s)"
+                      >
+                        <div
+                          className="individual-unit-name"
+                        >
+                          <Icon
+                            icon="hexagon"
+                            onClick={[Function]}
+                            sizeInPixels="12"
+                          >
+                            <span
+                              className="mp--icon"
+                            >
+                              <img
+                                alt=""
+                                src="../../../images/svg/hexagon.svg"
+                                style={
+                                  Object {
+                                    "height": "12px",
+                                    "width": "12px",
+                                  }
+                                }
+                              />
+                            </span>
+                          </Icon>
+                          <span
+                            className="name"
+                          >
+                            Labelling system(s)
+                          </span>
+                        </div>
+                      </UnitNameComposer>
+                      <UnitNameComposer
+                        key="unit-11"
+                        name="Lidder (pick and place or sweep on)"
+                      >
+                        <div
+                          className="individual-unit-name"
+                        >
+                          <Icon
+                            icon="hexagon"
+                            onClick={[Function]}
+                            sizeInPixels="12"
+                          >
+                            <span
+                              className="mp--icon"
+                            >
+                              <img
+                                alt=""
+                                src="../../../images/svg/hexagon.svg"
+                                style={
+                                  Object {
+                                    "height": "12px",
+                                    "width": "12px",
+                                  }
+                                }
+                              />
+                            </span>
+                          </Icon>
+                          <span
+                            className="name"
+                          >
+                            Lidder (pick and place or sweep on)
+                          </span>
+                        </div>
+                      </UnitNameComposer>
+                      <UnitNameComposer
+                        key="unit-12"
+                        name="Misprint rejection system for cans and boxes"
+                      >
+                        <div
+                          className="individual-unit-name"
+                        >
+                          <Icon
+                            icon="hexagon"
+                            onClick={[Function]}
+                            sizeInPixels="12"
+                          >
+                            <span
+                              className="mp--icon"
+                            >
+                              <img
+                                alt=""
+                                src="../../../images/svg/hexagon.svg"
+                                style={
+                                  Object {
+                                    "height": "12px",
+                                    "width": "12px",
+                                  }
+                                }
+                              />
+                            </span>
+                          </Icon>
+                          <span
+                            className="name"
+                          >
+                            Misprint rejection system for cans and boxes
+                          </span>
+                        </div>
+                      </UnitNameComposer>
+                      <UnitNameComposer
+                        key="unit-13"
+                        name="Palletiser"
+                      >
+                        <div
+                          className="individual-unit-name"
+                        >
+                          <Icon
+                            icon="hexagon"
+                            onClick={[Function]}
+                            sizeInPixels="12"
+                          >
+                            <span
+                              className="mp--icon"
+                            >
+                              <img
+                                alt=""
+                                src="../../../images/svg/hexagon.svg"
+                                style={
+                                  Object {
+                                    "height": "12px",
+                                    "width": "12px",
+                                  }
+                                }
+                              />
+                            </span>
+                          </Icon>
+                          <span
+                            className="name"
+                          >
+                            Palletiser
+                          </span>
+                        </div>
+                      </UnitNameComposer>
+                      <UnitNameComposer
+                        key="unit-14"
+                        name="Pantograph filling machine"
+                      >
+                        <div
+                          className="individual-unit-name"
+                        >
+                          <Icon
+                            icon="hexagon"
+                            onClick={[Function]}
+                            sizeInPixels="12"
+                          >
+                            <span
+                              className="mp--icon"
+                            >
+                              <img
+                                alt=""
+                                src="../../../images/svg/hexagon.svg"
+                                style={
+                                  Object {
+                                    "height": "12px",
+                                    "width": "12px",
+                                  }
+                                }
+                              />
+                            </span>
+                          </Icon>
+                          <span
+                            className="name"
+                          >
+                            Pantograph filling machine
+                          </span>
+                        </div>
+                      </UnitNameComposer>
+                      <UnitNameComposer
+                        key="unit-15"
+                        name="Peristaltic pump filling machines"
+                      >
+                        <div
+                          className="individual-unit-name"
+                        >
+                          <Icon
+                            icon="hexagon"
+                            onClick={[Function]}
+                            sizeInPixels="12"
+                          >
+                            <span
+                              className="mp--icon"
+                            >
+                              <img
+                                alt=""
+                                src="../../../images/svg/hexagon.svg"
+                                style={
+                                  Object {
+                                    "height": "12px",
+                                    "width": "12px",
+                                  }
+                                }
+                              />
+                            </span>
+                          </Icon>
+                          <span
+                            className="name"
+                          >
+                            Peristaltic pump filling machines
+                          </span>
+                        </div>
+                      </UnitNameComposer>
+                      <UnitNameComposer
+                        key="unit-16"
+                        name="Printing and ink jet coding"
+                      >
+                        <div
+                          className="individual-unit-name"
+                        >
+                          <Icon
+                            icon="hexagon"
+                            onClick={[Function]}
+                            sizeInPixels="12"
+                          >
+                            <span
+                              className="mp--icon"
+                            >
+                              <img
+                                alt=""
+                                src="../../../images/svg/hexagon.svg"
+                                style={
+                                  Object {
+                                    "height": "12px",
+                                    "width": "12px",
+                                  }
+                                }
+                              />
+                            </span>
+                          </Icon>
+                          <span
+                            className="name"
+                          >
+                            Printing and ink jet coding
+                          </span>
+                        </div>
+                      </UnitNameComposer>
+                      <UnitNameComposer
+                        key="unit-17"
+                        name="Roller conveyor systems (automated or gravity fed)"
+                      >
+                        <div
+                          className="individual-unit-name"
+                        >
+                          <Icon
+                            icon="hexagon"
+                            onClick={[Function]}
+                            sizeInPixels="12"
+                          >
+                            <span
+                              className="mp--icon"
+                            >
+                              <img
+                                alt=""
+                                src="../../../images/svg/hexagon.svg"
+                                style={
+                                  Object {
+                                    "height": "12px",
+                                    "width": "12px",
+                                  }
+                                }
+                              />
+                            </span>
+                          </Icon>
+                          <span
+                            className="name"
+                          >
+                            Roller conveyor systems (automated or gravity fed)
+                          </span>
+                        </div>
+                      </UnitNameComposer>
+                      <UnitNameComposer
+                        key="unit-18"
+                        name="Volumetric pump filling machines"
+                      >
+                        <div
+                          className="individual-unit-name"
+                        >
+                          <Icon
+                            icon="hexagon"
+                            onClick={[Function]}
+                            sizeInPixels="12"
+                          >
+                            <span
+                              className="mp--icon"
+                            >
+                              <img
+                                alt=""
+                                src="../../../images/svg/hexagon.svg"
+                                style={
+                                  Object {
+                                    "height": "12px",
+                                    "width": "12px",
+                                  }
+                                }
+                              />
+                            </span>
+                          </Icon>
+                          <span
+                            className="name"
+                          >
+                            Volumetric pump filling machines
+                          </span>
+                        </div>
+                      </UnitNameComposer>
+                      <UnitNameComposer
+                        key="unit-19"
+                        name="Weigh fill machines"
+                      >
+                        <div
+                          className="individual-unit-name"
+                        >
+                          <Icon
+                            icon="hexagon"
+                            onClick={[Function]}
+                            sizeInPixels="12"
+                          >
+                            <span
+                              className="mp--icon"
+                            >
+                              <img
+                                alt=""
+                                src="../../../images/svg/hexagon.svg"
+                                style={
+                                  Object {
+                                    "height": "12px",
+                                    "width": "12px",
+                                  }
+                                }
+                              />
+                            </span>
+                          </Icon>
+                          <span
+                            className="name"
+                          >
+                            Weigh fill machines
+                          </span>
+                        </div>
+                      </UnitNameComposer>
+                    </div>
+                  </ForwardRef(Grid)>
+                </WithStyles(ForwardRef(Grid))>
+              </div>
+            </ForwardRef(Grid)>
+          </WithStyles(ForwardRef(Grid))>
+        </div>
+      </ForwardRef(Container)>
+    </WithStyles(ForwardRef(Container))>
+    <div
+      className="mp--work-samples-container"
+    >
+      <WithStyles(ForwardRef(Container))
+        maxWidth="lg"
+      >
+        <ForwardRef(Container)
+          classes={
+            Object {
+              "disableGutters": "MuiContainer-disableGutters",
+              "fixed": "MuiContainer-fixed",
+              "maxWidthLg": "MuiContainer-maxWidthLg",
+              "maxWidthMd": "MuiContainer-maxWidthMd",
+              "maxWidthSm": "MuiContainer-maxWidthSm",
+              "maxWidthXl": "MuiContainer-maxWidthXl",
+              "maxWidthXs": "MuiContainer-maxWidthXs",
+              "root": "MuiContainer-root",
+            }
+          }
+          maxWidth="lg"
+        >
+          <div
+            className="MuiContainer-root MuiContainer-maxWidthLg"
+          >
+            <h2>
+              Some of our machines
+            </h2>
+            <WithStyles(ForwardRef(Grid))
+              className="work-samples"
+              container={true}
+              justify="center"
+            >
+              <ForwardRef(Grid)
+                className="work-samples"
+                classes={
+                  Object {
+                    "align-content-xs-center": "MuiGrid-align-content-xs-center",
+                    "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
+                    "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
+                    "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
+                    "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
+                    "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
+                    "align-items-xs-center": "MuiGrid-align-items-xs-center",
+                    "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
+                    "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
+                    "container": "MuiGrid-container",
+                    "direction-xs-column": "MuiGrid-direction-xs-column",
+                    "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
+                    "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
+                    "grid-lg-1": "MuiGrid-grid-lg-1",
+                    "grid-lg-10": "MuiGrid-grid-lg-10",
+                    "grid-lg-11": "MuiGrid-grid-lg-11",
+                    "grid-lg-12": "MuiGrid-grid-lg-12",
+                    "grid-lg-2": "MuiGrid-grid-lg-2",
+                    "grid-lg-3": "MuiGrid-grid-lg-3",
+                    "grid-lg-4": "MuiGrid-grid-lg-4",
+                    "grid-lg-5": "MuiGrid-grid-lg-5",
+                    "grid-lg-6": "MuiGrid-grid-lg-6",
+                    "grid-lg-7": "MuiGrid-grid-lg-7",
+                    "grid-lg-8": "MuiGrid-grid-lg-8",
+                    "grid-lg-9": "MuiGrid-grid-lg-9",
+                    "grid-lg-auto": "MuiGrid-grid-lg-auto",
+                    "grid-lg-true": "MuiGrid-grid-lg-true",
+                    "grid-md-1": "MuiGrid-grid-md-1",
+                    "grid-md-10": "MuiGrid-grid-md-10",
+                    "grid-md-11": "MuiGrid-grid-md-11",
+                    "grid-md-12": "MuiGrid-grid-md-12",
+                    "grid-md-2": "MuiGrid-grid-md-2",
+                    "grid-md-3": "MuiGrid-grid-md-3",
+                    "grid-md-4": "MuiGrid-grid-md-4",
+                    "grid-md-5": "MuiGrid-grid-md-5",
+                    "grid-md-6": "MuiGrid-grid-md-6",
+                    "grid-md-7": "MuiGrid-grid-md-7",
+                    "grid-md-8": "MuiGrid-grid-md-8",
+                    "grid-md-9": "MuiGrid-grid-md-9",
+                    "grid-md-auto": "MuiGrid-grid-md-auto",
+                    "grid-md-true": "MuiGrid-grid-md-true",
+                    "grid-sm-1": "MuiGrid-grid-sm-1",
+                    "grid-sm-10": "MuiGrid-grid-sm-10",
+                    "grid-sm-11": "MuiGrid-grid-sm-11",
+                    "grid-sm-12": "MuiGrid-grid-sm-12",
+                    "grid-sm-2": "MuiGrid-grid-sm-2",
+                    "grid-sm-3": "MuiGrid-grid-sm-3",
+                    "grid-sm-4": "MuiGrid-grid-sm-4",
+                    "grid-sm-5": "MuiGrid-grid-sm-5",
+                    "grid-sm-6": "MuiGrid-grid-sm-6",
+                    "grid-sm-7": "MuiGrid-grid-sm-7",
+                    "grid-sm-8": "MuiGrid-grid-sm-8",
+                    "grid-sm-9": "MuiGrid-grid-sm-9",
+                    "grid-sm-auto": "MuiGrid-grid-sm-auto",
+                    "grid-sm-true": "MuiGrid-grid-sm-true",
+                    "grid-xl-1": "MuiGrid-grid-xl-1",
+                    "grid-xl-10": "MuiGrid-grid-xl-10",
+                    "grid-xl-11": "MuiGrid-grid-xl-11",
+                    "grid-xl-12": "MuiGrid-grid-xl-12",
+                    "grid-xl-2": "MuiGrid-grid-xl-2",
+                    "grid-xl-3": "MuiGrid-grid-xl-3",
+                    "grid-xl-4": "MuiGrid-grid-xl-4",
+                    "grid-xl-5": "MuiGrid-grid-xl-5",
+                    "grid-xl-6": "MuiGrid-grid-xl-6",
+                    "grid-xl-7": "MuiGrid-grid-xl-7",
+                    "grid-xl-8": "MuiGrid-grid-xl-8",
+                    "grid-xl-9": "MuiGrid-grid-xl-9",
+                    "grid-xl-auto": "MuiGrid-grid-xl-auto",
+                    "grid-xl-true": "MuiGrid-grid-xl-true",
+                    "grid-xs-1": "MuiGrid-grid-xs-1",
+                    "grid-xs-10": "MuiGrid-grid-xs-10",
+                    "grid-xs-11": "MuiGrid-grid-xs-11",
+                    "grid-xs-12": "MuiGrid-grid-xs-12",
+                    "grid-xs-2": "MuiGrid-grid-xs-2",
+                    "grid-xs-3": "MuiGrid-grid-xs-3",
+                    "grid-xs-4": "MuiGrid-grid-xs-4",
+                    "grid-xs-5": "MuiGrid-grid-xs-5",
+                    "grid-xs-6": "MuiGrid-grid-xs-6",
+                    "grid-xs-7": "MuiGrid-grid-xs-7",
+                    "grid-xs-8": "MuiGrid-grid-xs-8",
+                    "grid-xs-9": "MuiGrid-grid-xs-9",
+                    "grid-xs-auto": "MuiGrid-grid-xs-auto",
+                    "grid-xs-true": "MuiGrid-grid-xs-true",
+                    "item": "MuiGrid-item",
+                    "justify-xs-center": "MuiGrid-justify-xs-center",
+                    "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
+                    "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
+                    "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
+                    "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
+                    "root": "MuiGrid-root",
+                    "spacing-xs-1": "MuiGrid-spacing-xs-1",
+                    "spacing-xs-10": "MuiGrid-spacing-xs-10",
+                    "spacing-xs-2": "MuiGrid-spacing-xs-2",
+                    "spacing-xs-3": "MuiGrid-spacing-xs-3",
+                    "spacing-xs-4": "MuiGrid-spacing-xs-4",
+                    "spacing-xs-5": "MuiGrid-spacing-xs-5",
+                    "spacing-xs-6": "MuiGrid-spacing-xs-6",
+                    "spacing-xs-7": "MuiGrid-spacing-xs-7",
+                    "spacing-xs-8": "MuiGrid-spacing-xs-8",
+                    "spacing-xs-9": "MuiGrid-spacing-xs-9",
+                    "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
+                    "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
+                    "zeroMinWidth": "MuiGrid-zeroMinWidth",
+                  }
+                }
+                container={true}
+                justify="center"
+              >
+                <div
+                  className="MuiGrid-root work-samples MuiGrid-container MuiGrid-justify-xs-center"
+                >
+                  <WithStyles(ForwardRef(Grid))
+                    className="work-sample"
+                    item={true}
+                    key="sample-0"
+                    lg={4}
+                    md={6}
+                    sm={12}
+                  >
+                    <ForwardRef(Grid)
+                      className="work-sample"
+                      classes={
+                        Object {
+                          "align-content-xs-center": "MuiGrid-align-content-xs-center",
+                          "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
+                          "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
+                          "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
+                          "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
+                          "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
+                          "align-items-xs-center": "MuiGrid-align-items-xs-center",
+                          "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
+                          "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
+                          "container": "MuiGrid-container",
+                          "direction-xs-column": "MuiGrid-direction-xs-column",
+                          "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
+                          "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
+                          "grid-lg-1": "MuiGrid-grid-lg-1",
+                          "grid-lg-10": "MuiGrid-grid-lg-10",
+                          "grid-lg-11": "MuiGrid-grid-lg-11",
+                          "grid-lg-12": "MuiGrid-grid-lg-12",
+                          "grid-lg-2": "MuiGrid-grid-lg-2",
+                          "grid-lg-3": "MuiGrid-grid-lg-3",
+                          "grid-lg-4": "MuiGrid-grid-lg-4",
+                          "grid-lg-5": "MuiGrid-grid-lg-5",
+                          "grid-lg-6": "MuiGrid-grid-lg-6",
+                          "grid-lg-7": "MuiGrid-grid-lg-7",
+                          "grid-lg-8": "MuiGrid-grid-lg-8",
+                          "grid-lg-9": "MuiGrid-grid-lg-9",
+                          "grid-lg-auto": "MuiGrid-grid-lg-auto",
+                          "grid-lg-true": "MuiGrid-grid-lg-true",
+                          "grid-md-1": "MuiGrid-grid-md-1",
+                          "grid-md-10": "MuiGrid-grid-md-10",
+                          "grid-md-11": "MuiGrid-grid-md-11",
+                          "grid-md-12": "MuiGrid-grid-md-12",
+                          "grid-md-2": "MuiGrid-grid-md-2",
+                          "grid-md-3": "MuiGrid-grid-md-3",
+                          "grid-md-4": "MuiGrid-grid-md-4",
+                          "grid-md-5": "MuiGrid-grid-md-5",
+                          "grid-md-6": "MuiGrid-grid-md-6",
+                          "grid-md-7": "MuiGrid-grid-md-7",
+                          "grid-md-8": "MuiGrid-grid-md-8",
+                          "grid-md-9": "MuiGrid-grid-md-9",
+                          "grid-md-auto": "MuiGrid-grid-md-auto",
+                          "grid-md-true": "MuiGrid-grid-md-true",
+                          "grid-sm-1": "MuiGrid-grid-sm-1",
+                          "grid-sm-10": "MuiGrid-grid-sm-10",
+                          "grid-sm-11": "MuiGrid-grid-sm-11",
+                          "grid-sm-12": "MuiGrid-grid-sm-12",
+                          "grid-sm-2": "MuiGrid-grid-sm-2",
+                          "grid-sm-3": "MuiGrid-grid-sm-3",
+                          "grid-sm-4": "MuiGrid-grid-sm-4",
+                          "grid-sm-5": "MuiGrid-grid-sm-5",
+                          "grid-sm-6": "MuiGrid-grid-sm-6",
+                          "grid-sm-7": "MuiGrid-grid-sm-7",
+                          "grid-sm-8": "MuiGrid-grid-sm-8",
+                          "grid-sm-9": "MuiGrid-grid-sm-9",
+                          "grid-sm-auto": "MuiGrid-grid-sm-auto",
+                          "grid-sm-true": "MuiGrid-grid-sm-true",
+                          "grid-xl-1": "MuiGrid-grid-xl-1",
+                          "grid-xl-10": "MuiGrid-grid-xl-10",
+                          "grid-xl-11": "MuiGrid-grid-xl-11",
+                          "grid-xl-12": "MuiGrid-grid-xl-12",
+                          "grid-xl-2": "MuiGrid-grid-xl-2",
+                          "grid-xl-3": "MuiGrid-grid-xl-3",
+                          "grid-xl-4": "MuiGrid-grid-xl-4",
+                          "grid-xl-5": "MuiGrid-grid-xl-5",
+                          "grid-xl-6": "MuiGrid-grid-xl-6",
+                          "grid-xl-7": "MuiGrid-grid-xl-7",
+                          "grid-xl-8": "MuiGrid-grid-xl-8",
+                          "grid-xl-9": "MuiGrid-grid-xl-9",
+                          "grid-xl-auto": "MuiGrid-grid-xl-auto",
+                          "grid-xl-true": "MuiGrid-grid-xl-true",
+                          "grid-xs-1": "MuiGrid-grid-xs-1",
+                          "grid-xs-10": "MuiGrid-grid-xs-10",
+                          "grid-xs-11": "MuiGrid-grid-xs-11",
+                          "grid-xs-12": "MuiGrid-grid-xs-12",
+                          "grid-xs-2": "MuiGrid-grid-xs-2",
+                          "grid-xs-3": "MuiGrid-grid-xs-3",
+                          "grid-xs-4": "MuiGrid-grid-xs-4",
+                          "grid-xs-5": "MuiGrid-grid-xs-5",
+                          "grid-xs-6": "MuiGrid-grid-xs-6",
+                          "grid-xs-7": "MuiGrid-grid-xs-7",
+                          "grid-xs-8": "MuiGrid-grid-xs-8",
+                          "grid-xs-9": "MuiGrid-grid-xs-9",
+                          "grid-xs-auto": "MuiGrid-grid-xs-auto",
+                          "grid-xs-true": "MuiGrid-grid-xs-true",
+                          "item": "MuiGrid-item",
+                          "justify-xs-center": "MuiGrid-justify-xs-center",
+                          "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
+                          "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
+                          "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
+                          "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
+                          "root": "MuiGrid-root",
+                          "spacing-xs-1": "MuiGrid-spacing-xs-1",
+                          "spacing-xs-10": "MuiGrid-spacing-xs-10",
+                          "spacing-xs-2": "MuiGrid-spacing-xs-2",
+                          "spacing-xs-3": "MuiGrid-spacing-xs-3",
+                          "spacing-xs-4": "MuiGrid-spacing-xs-4",
+                          "spacing-xs-5": "MuiGrid-spacing-xs-5",
+                          "spacing-xs-6": "MuiGrid-spacing-xs-6",
+                          "spacing-xs-7": "MuiGrid-spacing-xs-7",
+                          "spacing-xs-8": "MuiGrid-spacing-xs-8",
+                          "spacing-xs-9": "MuiGrid-spacing-xs-9",
+                          "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
+                          "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
+                          "zeroMinWidth": "MuiGrid-zeroMinWidth",
+                        }
+                      }
+                      item={true}
+                      lg={4}
+                      md={6}
+                      sm={12}
+                    >
+                      <div
+                        className="MuiGrid-root work-sample MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4"
+                      >
+                        <img
+                          alt="Semi Automatic Bulk Filling Machine"
+                          className="image"
+                          src="/images/work/semi-automatic-bulk-filling.png"
+                        />
+                        <div
+                          className="title"
+                        >
+                          Semi Automatic Bulk Filling Machine
+                        </div>
+                      </div>
+                    </ForwardRef(Grid)>
+                  </WithStyles(ForwardRef(Grid))>
+                  <WithStyles(ForwardRef(Grid))
+                    className="work-sample"
+                    item={true}
+                    key="sample-1"
+                    lg={4}
+                    md={6}
+                    sm={12}
+                  >
+                    <ForwardRef(Grid)
+                      className="work-sample"
+                      classes={
+                        Object {
+                          "align-content-xs-center": "MuiGrid-align-content-xs-center",
+                          "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
+                          "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
+                          "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
+                          "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
+                          "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
+                          "align-items-xs-center": "MuiGrid-align-items-xs-center",
+                          "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
+                          "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
+                          "container": "MuiGrid-container",
+                          "direction-xs-column": "MuiGrid-direction-xs-column",
+                          "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
+                          "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
+                          "grid-lg-1": "MuiGrid-grid-lg-1",
+                          "grid-lg-10": "MuiGrid-grid-lg-10",
+                          "grid-lg-11": "MuiGrid-grid-lg-11",
+                          "grid-lg-12": "MuiGrid-grid-lg-12",
+                          "grid-lg-2": "MuiGrid-grid-lg-2",
+                          "grid-lg-3": "MuiGrid-grid-lg-3",
+                          "grid-lg-4": "MuiGrid-grid-lg-4",
+                          "grid-lg-5": "MuiGrid-grid-lg-5",
+                          "grid-lg-6": "MuiGrid-grid-lg-6",
+                          "grid-lg-7": "MuiGrid-grid-lg-7",
+                          "grid-lg-8": "MuiGrid-grid-lg-8",
+                          "grid-lg-9": "MuiGrid-grid-lg-9",
+                          "grid-lg-auto": "MuiGrid-grid-lg-auto",
+                          "grid-lg-true": "MuiGrid-grid-lg-true",
+                          "grid-md-1": "MuiGrid-grid-md-1",
+                          "grid-md-10": "MuiGrid-grid-md-10",
+                          "grid-md-11": "MuiGrid-grid-md-11",
+                          "grid-md-12": "MuiGrid-grid-md-12",
+                          "grid-md-2": "MuiGrid-grid-md-2",
+                          "grid-md-3": "MuiGrid-grid-md-3",
+                          "grid-md-4": "MuiGrid-grid-md-4",
+                          "grid-md-5": "MuiGrid-grid-md-5",
+                          "grid-md-6": "MuiGrid-grid-md-6",
+                          "grid-md-7": "MuiGrid-grid-md-7",
+                          "grid-md-8": "MuiGrid-grid-md-8",
+                          "grid-md-9": "MuiGrid-grid-md-9",
+                          "grid-md-auto": "MuiGrid-grid-md-auto",
+                          "grid-md-true": "MuiGrid-grid-md-true",
+                          "grid-sm-1": "MuiGrid-grid-sm-1",
+                          "grid-sm-10": "MuiGrid-grid-sm-10",
+                          "grid-sm-11": "MuiGrid-grid-sm-11",
+                          "grid-sm-12": "MuiGrid-grid-sm-12",
+                          "grid-sm-2": "MuiGrid-grid-sm-2",
+                          "grid-sm-3": "MuiGrid-grid-sm-3",
+                          "grid-sm-4": "MuiGrid-grid-sm-4",
+                          "grid-sm-5": "MuiGrid-grid-sm-5",
+                          "grid-sm-6": "MuiGrid-grid-sm-6",
+                          "grid-sm-7": "MuiGrid-grid-sm-7",
+                          "grid-sm-8": "MuiGrid-grid-sm-8",
+                          "grid-sm-9": "MuiGrid-grid-sm-9",
+                          "grid-sm-auto": "MuiGrid-grid-sm-auto",
+                          "grid-sm-true": "MuiGrid-grid-sm-true",
+                          "grid-xl-1": "MuiGrid-grid-xl-1",
+                          "grid-xl-10": "MuiGrid-grid-xl-10",
+                          "grid-xl-11": "MuiGrid-grid-xl-11",
+                          "grid-xl-12": "MuiGrid-grid-xl-12",
+                          "grid-xl-2": "MuiGrid-grid-xl-2",
+                          "grid-xl-3": "MuiGrid-grid-xl-3",
+                          "grid-xl-4": "MuiGrid-grid-xl-4",
+                          "grid-xl-5": "MuiGrid-grid-xl-5",
+                          "grid-xl-6": "MuiGrid-grid-xl-6",
+                          "grid-xl-7": "MuiGrid-grid-xl-7",
+                          "grid-xl-8": "MuiGrid-grid-xl-8",
+                          "grid-xl-9": "MuiGrid-grid-xl-9",
+                          "grid-xl-auto": "MuiGrid-grid-xl-auto",
+                          "grid-xl-true": "MuiGrid-grid-xl-true",
+                          "grid-xs-1": "MuiGrid-grid-xs-1",
+                          "grid-xs-10": "MuiGrid-grid-xs-10",
+                          "grid-xs-11": "MuiGrid-grid-xs-11",
+                          "grid-xs-12": "MuiGrid-grid-xs-12",
+                          "grid-xs-2": "MuiGrid-grid-xs-2",
+                          "grid-xs-3": "MuiGrid-grid-xs-3",
+                          "grid-xs-4": "MuiGrid-grid-xs-4",
+                          "grid-xs-5": "MuiGrid-grid-xs-5",
+                          "grid-xs-6": "MuiGrid-grid-xs-6",
+                          "grid-xs-7": "MuiGrid-grid-xs-7",
+                          "grid-xs-8": "MuiGrid-grid-xs-8",
+                          "grid-xs-9": "MuiGrid-grid-xs-9",
+                          "grid-xs-auto": "MuiGrid-grid-xs-auto",
+                          "grid-xs-true": "MuiGrid-grid-xs-true",
+                          "item": "MuiGrid-item",
+                          "justify-xs-center": "MuiGrid-justify-xs-center",
+                          "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
+                          "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
+                          "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
+                          "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
+                          "root": "MuiGrid-root",
+                          "spacing-xs-1": "MuiGrid-spacing-xs-1",
+                          "spacing-xs-10": "MuiGrid-spacing-xs-10",
+                          "spacing-xs-2": "MuiGrid-spacing-xs-2",
+                          "spacing-xs-3": "MuiGrid-spacing-xs-3",
+                          "spacing-xs-4": "MuiGrid-spacing-xs-4",
+                          "spacing-xs-5": "MuiGrid-spacing-xs-5",
+                          "spacing-xs-6": "MuiGrid-spacing-xs-6",
+                          "spacing-xs-7": "MuiGrid-spacing-xs-7",
+                          "spacing-xs-8": "MuiGrid-spacing-xs-8",
+                          "spacing-xs-9": "MuiGrid-spacing-xs-9",
+                          "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
+                          "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
+                          "zeroMinWidth": "MuiGrid-zeroMinWidth",
+                        }
+                      }
+                      item={true}
+                      lg={4}
+                      md={6}
+                      sm={12}
+                    >
+                      <div
+                        className="MuiGrid-root work-sample MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4"
+                      >
+                        <img
+                          alt="Semi Automatic PVF-5 With Lid Press Machine"
+                          className="image"
+                          src="/images/work/semi-automatic-pvf-5.png"
+                        />
+                        <div
+                          className="title"
+                        >
+                          Semi Automatic PVF-5 With Lid Press Machine
+                        </div>
+                      </div>
+                    </ForwardRef(Grid)>
+                  </WithStyles(ForwardRef(Grid))>
+                  <WithStyles(ForwardRef(Grid))
+                    className="work-sample"
+                    item={true}
+                    key="sample-2"
+                    lg={4}
+                    md={6}
+                    sm={12}
+                  >
+                    <ForwardRef(Grid)
+                      className="work-sample"
+                      classes={
+                        Object {
+                          "align-content-xs-center": "MuiGrid-align-content-xs-center",
+                          "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
+                          "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
+                          "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
+                          "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
+                          "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
+                          "align-items-xs-center": "MuiGrid-align-items-xs-center",
+                          "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
+                          "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
+                          "container": "MuiGrid-container",
+                          "direction-xs-column": "MuiGrid-direction-xs-column",
+                          "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
+                          "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
+                          "grid-lg-1": "MuiGrid-grid-lg-1",
+                          "grid-lg-10": "MuiGrid-grid-lg-10",
+                          "grid-lg-11": "MuiGrid-grid-lg-11",
+                          "grid-lg-12": "MuiGrid-grid-lg-12",
+                          "grid-lg-2": "MuiGrid-grid-lg-2",
+                          "grid-lg-3": "MuiGrid-grid-lg-3",
+                          "grid-lg-4": "MuiGrid-grid-lg-4",
+                          "grid-lg-5": "MuiGrid-grid-lg-5",
+                          "grid-lg-6": "MuiGrid-grid-lg-6",
+                          "grid-lg-7": "MuiGrid-grid-lg-7",
+                          "grid-lg-8": "MuiGrid-grid-lg-8",
+                          "grid-lg-9": "MuiGrid-grid-lg-9",
+                          "grid-lg-auto": "MuiGrid-grid-lg-auto",
+                          "grid-lg-true": "MuiGrid-grid-lg-true",
+                          "grid-md-1": "MuiGrid-grid-md-1",
+                          "grid-md-10": "MuiGrid-grid-md-10",
+                          "grid-md-11": "MuiGrid-grid-md-11",
+                          "grid-md-12": "MuiGrid-grid-md-12",
+                          "grid-md-2": "MuiGrid-grid-md-2",
+                          "grid-md-3": "MuiGrid-grid-md-3",
+                          "grid-md-4": "MuiGrid-grid-md-4",
+                          "grid-md-5": "MuiGrid-grid-md-5",
+                          "grid-md-6": "MuiGrid-grid-md-6",
+                          "grid-md-7": "MuiGrid-grid-md-7",
+                          "grid-md-8": "MuiGrid-grid-md-8",
+                          "grid-md-9": "MuiGrid-grid-md-9",
+                          "grid-md-auto": "MuiGrid-grid-md-auto",
+                          "grid-md-true": "MuiGrid-grid-md-true",
+                          "grid-sm-1": "MuiGrid-grid-sm-1",
+                          "grid-sm-10": "MuiGrid-grid-sm-10",
+                          "grid-sm-11": "MuiGrid-grid-sm-11",
+                          "grid-sm-12": "MuiGrid-grid-sm-12",
+                          "grid-sm-2": "MuiGrid-grid-sm-2",
+                          "grid-sm-3": "MuiGrid-grid-sm-3",
+                          "grid-sm-4": "MuiGrid-grid-sm-4",
+                          "grid-sm-5": "MuiGrid-grid-sm-5",
+                          "grid-sm-6": "MuiGrid-grid-sm-6",
+                          "grid-sm-7": "MuiGrid-grid-sm-7",
+                          "grid-sm-8": "MuiGrid-grid-sm-8",
+                          "grid-sm-9": "MuiGrid-grid-sm-9",
+                          "grid-sm-auto": "MuiGrid-grid-sm-auto",
+                          "grid-sm-true": "MuiGrid-grid-sm-true",
+                          "grid-xl-1": "MuiGrid-grid-xl-1",
+                          "grid-xl-10": "MuiGrid-grid-xl-10",
+                          "grid-xl-11": "MuiGrid-grid-xl-11",
+                          "grid-xl-12": "MuiGrid-grid-xl-12",
+                          "grid-xl-2": "MuiGrid-grid-xl-2",
+                          "grid-xl-3": "MuiGrid-grid-xl-3",
+                          "grid-xl-4": "MuiGrid-grid-xl-4",
+                          "grid-xl-5": "MuiGrid-grid-xl-5",
+                          "grid-xl-6": "MuiGrid-grid-xl-6",
+                          "grid-xl-7": "MuiGrid-grid-xl-7",
+                          "grid-xl-8": "MuiGrid-grid-xl-8",
+                          "grid-xl-9": "MuiGrid-grid-xl-9",
+                          "grid-xl-auto": "MuiGrid-grid-xl-auto",
+                          "grid-xl-true": "MuiGrid-grid-xl-true",
+                          "grid-xs-1": "MuiGrid-grid-xs-1",
+                          "grid-xs-10": "MuiGrid-grid-xs-10",
+                          "grid-xs-11": "MuiGrid-grid-xs-11",
+                          "grid-xs-12": "MuiGrid-grid-xs-12",
+                          "grid-xs-2": "MuiGrid-grid-xs-2",
+                          "grid-xs-3": "MuiGrid-grid-xs-3",
+                          "grid-xs-4": "MuiGrid-grid-xs-4",
+                          "grid-xs-5": "MuiGrid-grid-xs-5",
+                          "grid-xs-6": "MuiGrid-grid-xs-6",
+                          "grid-xs-7": "MuiGrid-grid-xs-7",
+                          "grid-xs-8": "MuiGrid-grid-xs-8",
+                          "grid-xs-9": "MuiGrid-grid-xs-9",
+                          "grid-xs-auto": "MuiGrid-grid-xs-auto",
+                          "grid-xs-true": "MuiGrid-grid-xs-true",
+                          "item": "MuiGrid-item",
+                          "justify-xs-center": "MuiGrid-justify-xs-center",
+                          "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
+                          "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
+                          "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
+                          "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
+                          "root": "MuiGrid-root",
+                          "spacing-xs-1": "MuiGrid-spacing-xs-1",
+                          "spacing-xs-10": "MuiGrid-spacing-xs-10",
+                          "spacing-xs-2": "MuiGrid-spacing-xs-2",
+                          "spacing-xs-3": "MuiGrid-spacing-xs-3",
+                          "spacing-xs-4": "MuiGrid-spacing-xs-4",
+                          "spacing-xs-5": "MuiGrid-spacing-xs-5",
+                          "spacing-xs-6": "MuiGrid-spacing-xs-6",
+                          "spacing-xs-7": "MuiGrid-spacing-xs-7",
+                          "spacing-xs-8": "MuiGrid-spacing-xs-8",
+                          "spacing-xs-9": "MuiGrid-spacing-xs-9",
+                          "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
+                          "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
+                          "zeroMinWidth": "MuiGrid-zeroMinWidth",
+                        }
+                      }
+                      item={true}
+                      lg={4}
+                      md={6}
+                      sm={12}
+                    >
+                      <div
+                        className="MuiGrid-root work-sample MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4"
+                      >
+                        <img
+                          alt="Semi Automatic Bulk & Retail Combo Filling Machine"
+                          className="image"
+                          src="/images/work/semi-automatic-bulk-and-retail.png"
+                        />
+                        <div
+                          className="title"
+                        >
+                          Semi Automatic Bulk & Retail Combo Filling Machine
+                        </div>
+                      </div>
+                    </ForwardRef(Grid)>
+                  </WithStyles(ForwardRef(Grid))>
+                  <WithStyles(ForwardRef(Grid))
+                    className="work-sample"
+                    item={true}
+                    key="sample-3"
+                    lg={4}
+                    md={6}
+                    sm={12}
+                  >
+                    <ForwardRef(Grid)
+                      className="work-sample"
+                      classes={
+                        Object {
+                          "align-content-xs-center": "MuiGrid-align-content-xs-center",
+                          "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
+                          "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
+                          "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
+                          "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
+                          "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
+                          "align-items-xs-center": "MuiGrid-align-items-xs-center",
+                          "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
+                          "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
+                          "container": "MuiGrid-container",
+                          "direction-xs-column": "MuiGrid-direction-xs-column",
+                          "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
+                          "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
+                          "grid-lg-1": "MuiGrid-grid-lg-1",
+                          "grid-lg-10": "MuiGrid-grid-lg-10",
+                          "grid-lg-11": "MuiGrid-grid-lg-11",
+                          "grid-lg-12": "MuiGrid-grid-lg-12",
+                          "grid-lg-2": "MuiGrid-grid-lg-2",
+                          "grid-lg-3": "MuiGrid-grid-lg-3",
+                          "grid-lg-4": "MuiGrid-grid-lg-4",
+                          "grid-lg-5": "MuiGrid-grid-lg-5",
+                          "grid-lg-6": "MuiGrid-grid-lg-6",
+                          "grid-lg-7": "MuiGrid-grid-lg-7",
+                          "grid-lg-8": "MuiGrid-grid-lg-8",
+                          "grid-lg-9": "MuiGrid-grid-lg-9",
+                          "grid-lg-auto": "MuiGrid-grid-lg-auto",
+                          "grid-lg-true": "MuiGrid-grid-lg-true",
+                          "grid-md-1": "MuiGrid-grid-md-1",
+                          "grid-md-10": "MuiGrid-grid-md-10",
+                          "grid-md-11": "MuiGrid-grid-md-11",
+                          "grid-md-12": "MuiGrid-grid-md-12",
+                          "grid-md-2": "MuiGrid-grid-md-2",
+                          "grid-md-3": "MuiGrid-grid-md-3",
+                          "grid-md-4": "MuiGrid-grid-md-4",
+                          "grid-md-5": "MuiGrid-grid-md-5",
+                          "grid-md-6": "MuiGrid-grid-md-6",
+                          "grid-md-7": "MuiGrid-grid-md-7",
+                          "grid-md-8": "MuiGrid-grid-md-8",
+                          "grid-md-9": "MuiGrid-grid-md-9",
+                          "grid-md-auto": "MuiGrid-grid-md-auto",
+                          "grid-md-true": "MuiGrid-grid-md-true",
+                          "grid-sm-1": "MuiGrid-grid-sm-1",
+                          "grid-sm-10": "MuiGrid-grid-sm-10",
+                          "grid-sm-11": "MuiGrid-grid-sm-11",
+                          "grid-sm-12": "MuiGrid-grid-sm-12",
+                          "grid-sm-2": "MuiGrid-grid-sm-2",
+                          "grid-sm-3": "MuiGrid-grid-sm-3",
+                          "grid-sm-4": "MuiGrid-grid-sm-4",
+                          "grid-sm-5": "MuiGrid-grid-sm-5",
+                          "grid-sm-6": "MuiGrid-grid-sm-6",
+                          "grid-sm-7": "MuiGrid-grid-sm-7",
+                          "grid-sm-8": "MuiGrid-grid-sm-8",
+                          "grid-sm-9": "MuiGrid-grid-sm-9",
+                          "grid-sm-auto": "MuiGrid-grid-sm-auto",
+                          "grid-sm-true": "MuiGrid-grid-sm-true",
+                          "grid-xl-1": "MuiGrid-grid-xl-1",
+                          "grid-xl-10": "MuiGrid-grid-xl-10",
+                          "grid-xl-11": "MuiGrid-grid-xl-11",
+                          "grid-xl-12": "MuiGrid-grid-xl-12",
+                          "grid-xl-2": "MuiGrid-grid-xl-2",
+                          "grid-xl-3": "MuiGrid-grid-xl-3",
+                          "grid-xl-4": "MuiGrid-grid-xl-4",
+                          "grid-xl-5": "MuiGrid-grid-xl-5",
+                          "grid-xl-6": "MuiGrid-grid-xl-6",
+                          "grid-xl-7": "MuiGrid-grid-xl-7",
+                          "grid-xl-8": "MuiGrid-grid-xl-8",
+                          "grid-xl-9": "MuiGrid-grid-xl-9",
+                          "grid-xl-auto": "MuiGrid-grid-xl-auto",
+                          "grid-xl-true": "MuiGrid-grid-xl-true",
+                          "grid-xs-1": "MuiGrid-grid-xs-1",
+                          "grid-xs-10": "MuiGrid-grid-xs-10",
+                          "grid-xs-11": "MuiGrid-grid-xs-11",
+                          "grid-xs-12": "MuiGrid-grid-xs-12",
+                          "grid-xs-2": "MuiGrid-grid-xs-2",
+                          "grid-xs-3": "MuiGrid-grid-xs-3",
+                          "grid-xs-4": "MuiGrid-grid-xs-4",
+                          "grid-xs-5": "MuiGrid-grid-xs-5",
+                          "grid-xs-6": "MuiGrid-grid-xs-6",
+                          "grid-xs-7": "MuiGrid-grid-xs-7",
+                          "grid-xs-8": "MuiGrid-grid-xs-8",
+                          "grid-xs-9": "MuiGrid-grid-xs-9",
+                          "grid-xs-auto": "MuiGrid-grid-xs-auto",
+                          "grid-xs-true": "MuiGrid-grid-xs-true",
+                          "item": "MuiGrid-item",
+                          "justify-xs-center": "MuiGrid-justify-xs-center",
+                          "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
+                          "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
+                          "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
+                          "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
+                          "root": "MuiGrid-root",
+                          "spacing-xs-1": "MuiGrid-spacing-xs-1",
+                          "spacing-xs-10": "MuiGrid-spacing-xs-10",
+                          "spacing-xs-2": "MuiGrid-spacing-xs-2",
+                          "spacing-xs-3": "MuiGrid-spacing-xs-3",
+                          "spacing-xs-4": "MuiGrid-spacing-xs-4",
+                          "spacing-xs-5": "MuiGrid-spacing-xs-5",
+                          "spacing-xs-6": "MuiGrid-spacing-xs-6",
+                          "spacing-xs-7": "MuiGrid-spacing-xs-7",
+                          "spacing-xs-8": "MuiGrid-spacing-xs-8",
+                          "spacing-xs-9": "MuiGrid-spacing-xs-9",
+                          "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
+                          "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
+                          "zeroMinWidth": "MuiGrid-zeroMinWidth",
+                        }
+                      }
+                      item={true}
+                      lg={4}
+                      md={6}
+                      sm={12}
+                    >
+                      <div
+                        className="MuiGrid-root work-sample MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4"
+                      >
+                        <img
+                          alt="Semi Automatic Twin PVF-5 Filling With Lid Press Machine"
+                          className="image"
+                          src="/images/work/semi-automatic-twin-pvf-5.png"
+                        />
+                        <div
+                          className="title"
+                        >
+                          Semi Automatic Twin PVF-5 Filling With Lid Press Machine
+                        </div>
+                      </div>
+                    </ForwardRef(Grid)>
+                  </WithStyles(ForwardRef(Grid))>
+                  <WithStyles(ForwardRef(Grid))
+                    className="work-sample"
+                    item={true}
+                    key="sample-4"
+                    lg={4}
+                    md={6}
+                    sm={12}
+                  >
+                    <ForwardRef(Grid)
+                      className="work-sample"
+                      classes={
+                        Object {
+                          "align-content-xs-center": "MuiGrid-align-content-xs-center",
+                          "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
+                          "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
+                          "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
+                          "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
+                          "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
+                          "align-items-xs-center": "MuiGrid-align-items-xs-center",
+                          "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
+                          "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
+                          "container": "MuiGrid-container",
+                          "direction-xs-column": "MuiGrid-direction-xs-column",
+                          "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
+                          "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
+                          "grid-lg-1": "MuiGrid-grid-lg-1",
+                          "grid-lg-10": "MuiGrid-grid-lg-10",
+                          "grid-lg-11": "MuiGrid-grid-lg-11",
+                          "grid-lg-12": "MuiGrid-grid-lg-12",
+                          "grid-lg-2": "MuiGrid-grid-lg-2",
+                          "grid-lg-3": "MuiGrid-grid-lg-3",
+                          "grid-lg-4": "MuiGrid-grid-lg-4",
+                          "grid-lg-5": "MuiGrid-grid-lg-5",
+                          "grid-lg-6": "MuiGrid-grid-lg-6",
+                          "grid-lg-7": "MuiGrid-grid-lg-7",
+                          "grid-lg-8": "MuiGrid-grid-lg-8",
+                          "grid-lg-9": "MuiGrid-grid-lg-9",
+                          "grid-lg-auto": "MuiGrid-grid-lg-auto",
+                          "grid-lg-true": "MuiGrid-grid-lg-true",
+                          "grid-md-1": "MuiGrid-grid-md-1",
+                          "grid-md-10": "MuiGrid-grid-md-10",
+                          "grid-md-11": "MuiGrid-grid-md-11",
+                          "grid-md-12": "MuiGrid-grid-md-12",
+                          "grid-md-2": "MuiGrid-grid-md-2",
+                          "grid-md-3": "MuiGrid-grid-md-3",
+                          "grid-md-4": "MuiGrid-grid-md-4",
+                          "grid-md-5": "MuiGrid-grid-md-5",
+                          "grid-md-6": "MuiGrid-grid-md-6",
+                          "grid-md-7": "MuiGrid-grid-md-7",
+                          "grid-md-8": "MuiGrid-grid-md-8",
+                          "grid-md-9": "MuiGrid-grid-md-9",
+                          "grid-md-auto": "MuiGrid-grid-md-auto",
+                          "grid-md-true": "MuiGrid-grid-md-true",
+                          "grid-sm-1": "MuiGrid-grid-sm-1",
+                          "grid-sm-10": "MuiGrid-grid-sm-10",
+                          "grid-sm-11": "MuiGrid-grid-sm-11",
+                          "grid-sm-12": "MuiGrid-grid-sm-12",
+                          "grid-sm-2": "MuiGrid-grid-sm-2",
+                          "grid-sm-3": "MuiGrid-grid-sm-3",
+                          "grid-sm-4": "MuiGrid-grid-sm-4",
+                          "grid-sm-5": "MuiGrid-grid-sm-5",
+                          "grid-sm-6": "MuiGrid-grid-sm-6",
+                          "grid-sm-7": "MuiGrid-grid-sm-7",
+                          "grid-sm-8": "MuiGrid-grid-sm-8",
+                          "grid-sm-9": "MuiGrid-grid-sm-9",
+                          "grid-sm-auto": "MuiGrid-grid-sm-auto",
+                          "grid-sm-true": "MuiGrid-grid-sm-true",
+                          "grid-xl-1": "MuiGrid-grid-xl-1",
+                          "grid-xl-10": "MuiGrid-grid-xl-10",
+                          "grid-xl-11": "MuiGrid-grid-xl-11",
+                          "grid-xl-12": "MuiGrid-grid-xl-12",
+                          "grid-xl-2": "MuiGrid-grid-xl-2",
+                          "grid-xl-3": "MuiGrid-grid-xl-3",
+                          "grid-xl-4": "MuiGrid-grid-xl-4",
+                          "grid-xl-5": "MuiGrid-grid-xl-5",
+                          "grid-xl-6": "MuiGrid-grid-xl-6",
+                          "grid-xl-7": "MuiGrid-grid-xl-7",
+                          "grid-xl-8": "MuiGrid-grid-xl-8",
+                          "grid-xl-9": "MuiGrid-grid-xl-9",
+                          "grid-xl-auto": "MuiGrid-grid-xl-auto",
+                          "grid-xl-true": "MuiGrid-grid-xl-true",
+                          "grid-xs-1": "MuiGrid-grid-xs-1",
+                          "grid-xs-10": "MuiGrid-grid-xs-10",
+                          "grid-xs-11": "MuiGrid-grid-xs-11",
+                          "grid-xs-12": "MuiGrid-grid-xs-12",
+                          "grid-xs-2": "MuiGrid-grid-xs-2",
+                          "grid-xs-3": "MuiGrid-grid-xs-3",
+                          "grid-xs-4": "MuiGrid-grid-xs-4",
+                          "grid-xs-5": "MuiGrid-grid-xs-5",
+                          "grid-xs-6": "MuiGrid-grid-xs-6",
+                          "grid-xs-7": "MuiGrid-grid-xs-7",
+                          "grid-xs-8": "MuiGrid-grid-xs-8",
+                          "grid-xs-9": "MuiGrid-grid-xs-9",
+                          "grid-xs-auto": "MuiGrid-grid-xs-auto",
+                          "grid-xs-true": "MuiGrid-grid-xs-true",
+                          "item": "MuiGrid-item",
+                          "justify-xs-center": "MuiGrid-justify-xs-center",
+                          "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
+                          "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
+                          "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
+                          "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
+                          "root": "MuiGrid-root",
+                          "spacing-xs-1": "MuiGrid-spacing-xs-1",
+                          "spacing-xs-10": "MuiGrid-spacing-xs-10",
+                          "spacing-xs-2": "MuiGrid-spacing-xs-2",
+                          "spacing-xs-3": "MuiGrid-spacing-xs-3",
+                          "spacing-xs-4": "MuiGrid-spacing-xs-4",
+                          "spacing-xs-5": "MuiGrid-spacing-xs-5",
+                          "spacing-xs-6": "MuiGrid-spacing-xs-6",
+                          "spacing-xs-7": "MuiGrid-spacing-xs-7",
+                          "spacing-xs-8": "MuiGrid-spacing-xs-8",
+                          "spacing-xs-9": "MuiGrid-spacing-xs-9",
+                          "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
+                          "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
+                          "zeroMinWidth": "MuiGrid-zeroMinWidth",
+                        }
+                      }
+                      item={true}
+                      lg={4}
+                      md={6}
+                      sm={12}
+                    >
+                      <div
+                        className="MuiGrid-root work-sample MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4"
+                      >
+                        <img
+                          alt="Semi Automatic PVF-20 Filling Machine - Type 1"
+                          className="image"
+                          src="/images/work/semi-automatic-pvf-20-1.png"
+                        />
+                        <div
+                          className="title"
+                        >
+                          Semi Automatic PVF-20 Filling Machine - Type 1
+                        </div>
+                      </div>
+                    </ForwardRef(Grid)>
+                  </WithStyles(ForwardRef(Grid))>
+                  <WithStyles(ForwardRef(Grid))
+                    className="work-sample"
+                    item={true}
+                    key="sample-5"
+                    lg={4}
+                    md={6}
+                    sm={12}
+                  >
+                    <ForwardRef(Grid)
+                      className="work-sample"
+                      classes={
+                        Object {
+                          "align-content-xs-center": "MuiGrid-align-content-xs-center",
+                          "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
+                          "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
+                          "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
+                          "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
+                          "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
+                          "align-items-xs-center": "MuiGrid-align-items-xs-center",
+                          "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
+                          "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
+                          "container": "MuiGrid-container",
+                          "direction-xs-column": "MuiGrid-direction-xs-column",
+                          "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
+                          "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
+                          "grid-lg-1": "MuiGrid-grid-lg-1",
+                          "grid-lg-10": "MuiGrid-grid-lg-10",
+                          "grid-lg-11": "MuiGrid-grid-lg-11",
+                          "grid-lg-12": "MuiGrid-grid-lg-12",
+                          "grid-lg-2": "MuiGrid-grid-lg-2",
+                          "grid-lg-3": "MuiGrid-grid-lg-3",
+                          "grid-lg-4": "MuiGrid-grid-lg-4",
+                          "grid-lg-5": "MuiGrid-grid-lg-5",
+                          "grid-lg-6": "MuiGrid-grid-lg-6",
+                          "grid-lg-7": "MuiGrid-grid-lg-7",
+                          "grid-lg-8": "MuiGrid-grid-lg-8",
+                          "grid-lg-9": "MuiGrid-grid-lg-9",
+                          "grid-lg-auto": "MuiGrid-grid-lg-auto",
+                          "grid-lg-true": "MuiGrid-grid-lg-true",
+                          "grid-md-1": "MuiGrid-grid-md-1",
+                          "grid-md-10": "MuiGrid-grid-md-10",
+                          "grid-md-11": "MuiGrid-grid-md-11",
+                          "grid-md-12": "MuiGrid-grid-md-12",
+                          "grid-md-2": "MuiGrid-grid-md-2",
+                          "grid-md-3": "MuiGrid-grid-md-3",
+                          "grid-md-4": "MuiGrid-grid-md-4",
+                          "grid-md-5": "MuiGrid-grid-md-5",
+                          "grid-md-6": "MuiGrid-grid-md-6",
+                          "grid-md-7": "MuiGrid-grid-md-7",
+                          "grid-md-8": "MuiGrid-grid-md-8",
+                          "grid-md-9": "MuiGrid-grid-md-9",
+                          "grid-md-auto": "MuiGrid-grid-md-auto",
+                          "grid-md-true": "MuiGrid-grid-md-true",
+                          "grid-sm-1": "MuiGrid-grid-sm-1",
+                          "grid-sm-10": "MuiGrid-grid-sm-10",
+                          "grid-sm-11": "MuiGrid-grid-sm-11",
+                          "grid-sm-12": "MuiGrid-grid-sm-12",
+                          "grid-sm-2": "MuiGrid-grid-sm-2",
+                          "grid-sm-3": "MuiGrid-grid-sm-3",
+                          "grid-sm-4": "MuiGrid-grid-sm-4",
+                          "grid-sm-5": "MuiGrid-grid-sm-5",
+                          "grid-sm-6": "MuiGrid-grid-sm-6",
+                          "grid-sm-7": "MuiGrid-grid-sm-7",
+                          "grid-sm-8": "MuiGrid-grid-sm-8",
+                          "grid-sm-9": "MuiGrid-grid-sm-9",
+                          "grid-sm-auto": "MuiGrid-grid-sm-auto",
+                          "grid-sm-true": "MuiGrid-grid-sm-true",
+                          "grid-xl-1": "MuiGrid-grid-xl-1",
+                          "grid-xl-10": "MuiGrid-grid-xl-10",
+                          "grid-xl-11": "MuiGrid-grid-xl-11",
+                          "grid-xl-12": "MuiGrid-grid-xl-12",
+                          "grid-xl-2": "MuiGrid-grid-xl-2",
+                          "grid-xl-3": "MuiGrid-grid-xl-3",
+                          "grid-xl-4": "MuiGrid-grid-xl-4",
+                          "grid-xl-5": "MuiGrid-grid-xl-5",
+                          "grid-xl-6": "MuiGrid-grid-xl-6",
+                          "grid-xl-7": "MuiGrid-grid-xl-7",
+                          "grid-xl-8": "MuiGrid-grid-xl-8",
+                          "grid-xl-9": "MuiGrid-grid-xl-9",
+                          "grid-xl-auto": "MuiGrid-grid-xl-auto",
+                          "grid-xl-true": "MuiGrid-grid-xl-true",
+                          "grid-xs-1": "MuiGrid-grid-xs-1",
+                          "grid-xs-10": "MuiGrid-grid-xs-10",
+                          "grid-xs-11": "MuiGrid-grid-xs-11",
+                          "grid-xs-12": "MuiGrid-grid-xs-12",
+                          "grid-xs-2": "MuiGrid-grid-xs-2",
+                          "grid-xs-3": "MuiGrid-grid-xs-3",
+                          "grid-xs-4": "MuiGrid-grid-xs-4",
+                          "grid-xs-5": "MuiGrid-grid-xs-5",
+                          "grid-xs-6": "MuiGrid-grid-xs-6",
+                          "grid-xs-7": "MuiGrid-grid-xs-7",
+                          "grid-xs-8": "MuiGrid-grid-xs-8",
+                          "grid-xs-9": "MuiGrid-grid-xs-9",
+                          "grid-xs-auto": "MuiGrid-grid-xs-auto",
+                          "grid-xs-true": "MuiGrid-grid-xs-true",
+                          "item": "MuiGrid-item",
+                          "justify-xs-center": "MuiGrid-justify-xs-center",
+                          "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
+                          "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
+                          "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
+                          "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
+                          "root": "MuiGrid-root",
+                          "spacing-xs-1": "MuiGrid-spacing-xs-1",
+                          "spacing-xs-10": "MuiGrid-spacing-xs-10",
+                          "spacing-xs-2": "MuiGrid-spacing-xs-2",
+                          "spacing-xs-3": "MuiGrid-spacing-xs-3",
+                          "spacing-xs-4": "MuiGrid-spacing-xs-4",
+                          "spacing-xs-5": "MuiGrid-spacing-xs-5",
+                          "spacing-xs-6": "MuiGrid-spacing-xs-6",
+                          "spacing-xs-7": "MuiGrid-spacing-xs-7",
+                          "spacing-xs-8": "MuiGrid-spacing-xs-8",
+                          "spacing-xs-9": "MuiGrid-spacing-xs-9",
+                          "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
+                          "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
+                          "zeroMinWidth": "MuiGrid-zeroMinWidth",
+                        }
+                      }
+                      item={true}
+                      lg={4}
+                      md={6}
+                      sm={12}
+                    >
+                      <div
+                        className="MuiGrid-root work-sample MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4"
+                      >
+                        <img
+                          alt="Semi Automatic PVF-20 Filling Machine - Type 2"
+                          className="image"
+                          src="/images/work/semi-automatic-pvf-20-2.png"
+                        />
+                        <div
+                          className="title"
+                        >
+                          Semi Automatic PVF-20 Filling Machine - Type 2
+                        </div>
+                      </div>
+                    </ForwardRef(Grid)>
+                  </WithStyles(ForwardRef(Grid))>
+                  <WithStyles(ForwardRef(Grid))
+                    className="work-sample"
+                    item={true}
+                    key="sample-6"
+                    lg={4}
+                    md={6}
+                    sm={12}
+                  >
+                    <ForwardRef(Grid)
+                      className="work-sample"
+                      classes={
+                        Object {
+                          "align-content-xs-center": "MuiGrid-align-content-xs-center",
+                          "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
+                          "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
+                          "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
+                          "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
+                          "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
+                          "align-items-xs-center": "MuiGrid-align-items-xs-center",
+                          "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
+                          "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
+                          "container": "MuiGrid-container",
+                          "direction-xs-column": "MuiGrid-direction-xs-column",
+                          "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
+                          "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
+                          "grid-lg-1": "MuiGrid-grid-lg-1",
+                          "grid-lg-10": "MuiGrid-grid-lg-10",
+                          "grid-lg-11": "MuiGrid-grid-lg-11",
+                          "grid-lg-12": "MuiGrid-grid-lg-12",
+                          "grid-lg-2": "MuiGrid-grid-lg-2",
+                          "grid-lg-3": "MuiGrid-grid-lg-3",
+                          "grid-lg-4": "MuiGrid-grid-lg-4",
+                          "grid-lg-5": "MuiGrid-grid-lg-5",
+                          "grid-lg-6": "MuiGrid-grid-lg-6",
+                          "grid-lg-7": "MuiGrid-grid-lg-7",
+                          "grid-lg-8": "MuiGrid-grid-lg-8",
+                          "grid-lg-9": "MuiGrid-grid-lg-9",
+                          "grid-lg-auto": "MuiGrid-grid-lg-auto",
+                          "grid-lg-true": "MuiGrid-grid-lg-true",
+                          "grid-md-1": "MuiGrid-grid-md-1",
+                          "grid-md-10": "MuiGrid-grid-md-10",
+                          "grid-md-11": "MuiGrid-grid-md-11",
+                          "grid-md-12": "MuiGrid-grid-md-12",
+                          "grid-md-2": "MuiGrid-grid-md-2",
+                          "grid-md-3": "MuiGrid-grid-md-3",
+                          "grid-md-4": "MuiGrid-grid-md-4",
+                          "grid-md-5": "MuiGrid-grid-md-5",
+                          "grid-md-6": "MuiGrid-grid-md-6",
+                          "grid-md-7": "MuiGrid-grid-md-7",
+                          "grid-md-8": "MuiGrid-grid-md-8",
+                          "grid-md-9": "MuiGrid-grid-md-9",
+                          "grid-md-auto": "MuiGrid-grid-md-auto",
+                          "grid-md-true": "MuiGrid-grid-md-true",
+                          "grid-sm-1": "MuiGrid-grid-sm-1",
+                          "grid-sm-10": "MuiGrid-grid-sm-10",
+                          "grid-sm-11": "MuiGrid-grid-sm-11",
+                          "grid-sm-12": "MuiGrid-grid-sm-12",
+                          "grid-sm-2": "MuiGrid-grid-sm-2",
+                          "grid-sm-3": "MuiGrid-grid-sm-3",
+                          "grid-sm-4": "MuiGrid-grid-sm-4",
+                          "grid-sm-5": "MuiGrid-grid-sm-5",
+                          "grid-sm-6": "MuiGrid-grid-sm-6",
+                          "grid-sm-7": "MuiGrid-grid-sm-7",
+                          "grid-sm-8": "MuiGrid-grid-sm-8",
+                          "grid-sm-9": "MuiGrid-grid-sm-9",
+                          "grid-sm-auto": "MuiGrid-grid-sm-auto",
+                          "grid-sm-true": "MuiGrid-grid-sm-true",
+                          "grid-xl-1": "MuiGrid-grid-xl-1",
+                          "grid-xl-10": "MuiGrid-grid-xl-10",
+                          "grid-xl-11": "MuiGrid-grid-xl-11",
+                          "grid-xl-12": "MuiGrid-grid-xl-12",
+                          "grid-xl-2": "MuiGrid-grid-xl-2",
+                          "grid-xl-3": "MuiGrid-grid-xl-3",
+                          "grid-xl-4": "MuiGrid-grid-xl-4",
+                          "grid-xl-5": "MuiGrid-grid-xl-5",
+                          "grid-xl-6": "MuiGrid-grid-xl-6",
+                          "grid-xl-7": "MuiGrid-grid-xl-7",
+                          "grid-xl-8": "MuiGrid-grid-xl-8",
+                          "grid-xl-9": "MuiGrid-grid-xl-9",
+                          "grid-xl-auto": "MuiGrid-grid-xl-auto",
+                          "grid-xl-true": "MuiGrid-grid-xl-true",
+                          "grid-xs-1": "MuiGrid-grid-xs-1",
+                          "grid-xs-10": "MuiGrid-grid-xs-10",
+                          "grid-xs-11": "MuiGrid-grid-xs-11",
+                          "grid-xs-12": "MuiGrid-grid-xs-12",
+                          "grid-xs-2": "MuiGrid-grid-xs-2",
+                          "grid-xs-3": "MuiGrid-grid-xs-3",
+                          "grid-xs-4": "MuiGrid-grid-xs-4",
+                          "grid-xs-5": "MuiGrid-grid-xs-5",
+                          "grid-xs-6": "MuiGrid-grid-xs-6",
+                          "grid-xs-7": "MuiGrid-grid-xs-7",
+                          "grid-xs-8": "MuiGrid-grid-xs-8",
+                          "grid-xs-9": "MuiGrid-grid-xs-9",
+                          "grid-xs-auto": "MuiGrid-grid-xs-auto",
+                          "grid-xs-true": "MuiGrid-grid-xs-true",
+                          "item": "MuiGrid-item",
+                          "justify-xs-center": "MuiGrid-justify-xs-center",
+                          "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
+                          "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
+                          "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
+                          "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
+                          "root": "MuiGrid-root",
+                          "spacing-xs-1": "MuiGrid-spacing-xs-1",
+                          "spacing-xs-10": "MuiGrid-spacing-xs-10",
+                          "spacing-xs-2": "MuiGrid-spacing-xs-2",
+                          "spacing-xs-3": "MuiGrid-spacing-xs-3",
+                          "spacing-xs-4": "MuiGrid-spacing-xs-4",
+                          "spacing-xs-5": "MuiGrid-spacing-xs-5",
+                          "spacing-xs-6": "MuiGrid-spacing-xs-6",
+                          "spacing-xs-7": "MuiGrid-spacing-xs-7",
+                          "spacing-xs-8": "MuiGrid-spacing-xs-8",
+                          "spacing-xs-9": "MuiGrid-spacing-xs-9",
+                          "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
+                          "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
+                          "zeroMinWidth": "MuiGrid-zeroMinWidth",
+                        }
+                      }
+                      item={true}
+                      lg={4}
+                      md={6}
+                      sm={12}
+                    >
+                      <div
+                        className="MuiGrid-root work-sample MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4"
+                      >
+                        <img
+                          alt="Fully Automatic Retail Filling Machine"
+                          className="image"
+                          src="/images/work/fully-automatic-retail-filling.png"
+                        />
+                        <div
+                          className="title"
+                        >
+                          Fully Automatic Retail Filling Machine
+                        </div>
+                      </div>
+                    </ForwardRef(Grid)>
+                  </WithStyles(ForwardRef(Grid))>
+                  <WithStyles(ForwardRef(Grid))
+                    className="work-sample"
+                    item={true}
+                    key="sample-7"
+                    lg={4}
+                    md={6}
+                    sm={12}
+                  >
+                    <ForwardRef(Grid)
+                      className="work-sample"
+                      classes={
+                        Object {
+                          "align-content-xs-center": "MuiGrid-align-content-xs-center",
+                          "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
+                          "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
+                          "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
+                          "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
+                          "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
+                          "align-items-xs-center": "MuiGrid-align-items-xs-center",
+                          "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
+                          "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
+                          "container": "MuiGrid-container",
+                          "direction-xs-column": "MuiGrid-direction-xs-column",
+                          "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
+                          "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
+                          "grid-lg-1": "MuiGrid-grid-lg-1",
+                          "grid-lg-10": "MuiGrid-grid-lg-10",
+                          "grid-lg-11": "MuiGrid-grid-lg-11",
+                          "grid-lg-12": "MuiGrid-grid-lg-12",
+                          "grid-lg-2": "MuiGrid-grid-lg-2",
+                          "grid-lg-3": "MuiGrid-grid-lg-3",
+                          "grid-lg-4": "MuiGrid-grid-lg-4",
+                          "grid-lg-5": "MuiGrid-grid-lg-5",
+                          "grid-lg-6": "MuiGrid-grid-lg-6",
+                          "grid-lg-7": "MuiGrid-grid-lg-7",
+                          "grid-lg-8": "MuiGrid-grid-lg-8",
+                          "grid-lg-9": "MuiGrid-grid-lg-9",
+                          "grid-lg-auto": "MuiGrid-grid-lg-auto",
+                          "grid-lg-true": "MuiGrid-grid-lg-true",
+                          "grid-md-1": "MuiGrid-grid-md-1",
+                          "grid-md-10": "MuiGrid-grid-md-10",
+                          "grid-md-11": "MuiGrid-grid-md-11",
+                          "grid-md-12": "MuiGrid-grid-md-12",
+                          "grid-md-2": "MuiGrid-grid-md-2",
+                          "grid-md-3": "MuiGrid-grid-md-3",
+                          "grid-md-4": "MuiGrid-grid-md-4",
+                          "grid-md-5": "MuiGrid-grid-md-5",
+                          "grid-md-6": "MuiGrid-grid-md-6",
+                          "grid-md-7": "MuiGrid-grid-md-7",
+                          "grid-md-8": "MuiGrid-grid-md-8",
+                          "grid-md-9": "MuiGrid-grid-md-9",
+                          "grid-md-auto": "MuiGrid-grid-md-auto",
+                          "grid-md-true": "MuiGrid-grid-md-true",
+                          "grid-sm-1": "MuiGrid-grid-sm-1",
+                          "grid-sm-10": "MuiGrid-grid-sm-10",
+                          "grid-sm-11": "MuiGrid-grid-sm-11",
+                          "grid-sm-12": "MuiGrid-grid-sm-12",
+                          "grid-sm-2": "MuiGrid-grid-sm-2",
+                          "grid-sm-3": "MuiGrid-grid-sm-3",
+                          "grid-sm-4": "MuiGrid-grid-sm-4",
+                          "grid-sm-5": "MuiGrid-grid-sm-5",
+                          "grid-sm-6": "MuiGrid-grid-sm-6",
+                          "grid-sm-7": "MuiGrid-grid-sm-7",
+                          "grid-sm-8": "MuiGrid-grid-sm-8",
+                          "grid-sm-9": "MuiGrid-grid-sm-9",
+                          "grid-sm-auto": "MuiGrid-grid-sm-auto",
+                          "grid-sm-true": "MuiGrid-grid-sm-true",
+                          "grid-xl-1": "MuiGrid-grid-xl-1",
+                          "grid-xl-10": "MuiGrid-grid-xl-10",
+                          "grid-xl-11": "MuiGrid-grid-xl-11",
+                          "grid-xl-12": "MuiGrid-grid-xl-12",
+                          "grid-xl-2": "MuiGrid-grid-xl-2",
+                          "grid-xl-3": "MuiGrid-grid-xl-3",
+                          "grid-xl-4": "MuiGrid-grid-xl-4",
+                          "grid-xl-5": "MuiGrid-grid-xl-5",
+                          "grid-xl-6": "MuiGrid-grid-xl-6",
+                          "grid-xl-7": "MuiGrid-grid-xl-7",
+                          "grid-xl-8": "MuiGrid-grid-xl-8",
+                          "grid-xl-9": "MuiGrid-grid-xl-9",
+                          "grid-xl-auto": "MuiGrid-grid-xl-auto",
+                          "grid-xl-true": "MuiGrid-grid-xl-true",
+                          "grid-xs-1": "MuiGrid-grid-xs-1",
+                          "grid-xs-10": "MuiGrid-grid-xs-10",
+                          "grid-xs-11": "MuiGrid-grid-xs-11",
+                          "grid-xs-12": "MuiGrid-grid-xs-12",
+                          "grid-xs-2": "MuiGrid-grid-xs-2",
+                          "grid-xs-3": "MuiGrid-grid-xs-3",
+                          "grid-xs-4": "MuiGrid-grid-xs-4",
+                          "grid-xs-5": "MuiGrid-grid-xs-5",
+                          "grid-xs-6": "MuiGrid-grid-xs-6",
+                          "grid-xs-7": "MuiGrid-grid-xs-7",
+                          "grid-xs-8": "MuiGrid-grid-xs-8",
+                          "grid-xs-9": "MuiGrid-grid-xs-9",
+                          "grid-xs-auto": "MuiGrid-grid-xs-auto",
+                          "grid-xs-true": "MuiGrid-grid-xs-true",
+                          "item": "MuiGrid-item",
+                          "justify-xs-center": "MuiGrid-justify-xs-center",
+                          "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
+                          "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
+                          "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
+                          "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
+                          "root": "MuiGrid-root",
+                          "spacing-xs-1": "MuiGrid-spacing-xs-1",
+                          "spacing-xs-10": "MuiGrid-spacing-xs-10",
+                          "spacing-xs-2": "MuiGrid-spacing-xs-2",
+                          "spacing-xs-3": "MuiGrid-spacing-xs-3",
+                          "spacing-xs-4": "MuiGrid-spacing-xs-4",
+                          "spacing-xs-5": "MuiGrid-spacing-xs-5",
+                          "spacing-xs-6": "MuiGrid-spacing-xs-6",
+                          "spacing-xs-7": "MuiGrid-spacing-xs-7",
+                          "spacing-xs-8": "MuiGrid-spacing-xs-8",
+                          "spacing-xs-9": "MuiGrid-spacing-xs-9",
+                          "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
+                          "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
+                          "zeroMinWidth": "MuiGrid-zeroMinWidth",
+                        }
+                      }
+                      item={true}
+                      lg={4}
+                      md={6}
+                      sm={12}
+                    >
+                      <div
+                        className="MuiGrid-root work-sample MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4"
+                      >
+                        <img
+                          alt="Fully Automatic Bulk Filling Machine"
+                          className="image"
+                          src="/images/work/fully-automatic-bulk-filling.png"
+                        />
+                        <div
+                          className="title"
+                        >
+                          Fully Automatic Bulk Filling Machine
+                        </div>
+                      </div>
+                    </ForwardRef(Grid)>
+                  </WithStyles(ForwardRef(Grid))>
+                  <WithStyles(ForwardRef(Grid))
+                    className="work-sample"
+                    item={true}
+                    key="sample-8"
+                    lg={4}
+                    md={6}
+                    sm={12}
+                  >
+                    <ForwardRef(Grid)
+                      className="work-sample"
+                      classes={
+                        Object {
+                          "align-content-xs-center": "MuiGrid-align-content-xs-center",
+                          "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
+                          "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
+                          "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
+                          "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
+                          "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
+                          "align-items-xs-center": "MuiGrid-align-items-xs-center",
+                          "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
+                          "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
+                          "container": "MuiGrid-container",
+                          "direction-xs-column": "MuiGrid-direction-xs-column",
+                          "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
+                          "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
+                          "grid-lg-1": "MuiGrid-grid-lg-1",
+                          "grid-lg-10": "MuiGrid-grid-lg-10",
+                          "grid-lg-11": "MuiGrid-grid-lg-11",
+                          "grid-lg-12": "MuiGrid-grid-lg-12",
+                          "grid-lg-2": "MuiGrid-grid-lg-2",
+                          "grid-lg-3": "MuiGrid-grid-lg-3",
+                          "grid-lg-4": "MuiGrid-grid-lg-4",
+                          "grid-lg-5": "MuiGrid-grid-lg-5",
+                          "grid-lg-6": "MuiGrid-grid-lg-6",
+                          "grid-lg-7": "MuiGrid-grid-lg-7",
+                          "grid-lg-8": "MuiGrid-grid-lg-8",
+                          "grid-lg-9": "MuiGrid-grid-lg-9",
+                          "grid-lg-auto": "MuiGrid-grid-lg-auto",
+                          "grid-lg-true": "MuiGrid-grid-lg-true",
+                          "grid-md-1": "MuiGrid-grid-md-1",
+                          "grid-md-10": "MuiGrid-grid-md-10",
+                          "grid-md-11": "MuiGrid-grid-md-11",
+                          "grid-md-12": "MuiGrid-grid-md-12",
+                          "grid-md-2": "MuiGrid-grid-md-2",
+                          "grid-md-3": "MuiGrid-grid-md-3",
+                          "grid-md-4": "MuiGrid-grid-md-4",
+                          "grid-md-5": "MuiGrid-grid-md-5",
+                          "grid-md-6": "MuiGrid-grid-md-6",
+                          "grid-md-7": "MuiGrid-grid-md-7",
+                          "grid-md-8": "MuiGrid-grid-md-8",
+                          "grid-md-9": "MuiGrid-grid-md-9",
+                          "grid-md-auto": "MuiGrid-grid-md-auto",
+                          "grid-md-true": "MuiGrid-grid-md-true",
+                          "grid-sm-1": "MuiGrid-grid-sm-1",
+                          "grid-sm-10": "MuiGrid-grid-sm-10",
+                          "grid-sm-11": "MuiGrid-grid-sm-11",
+                          "grid-sm-12": "MuiGrid-grid-sm-12",
+                          "grid-sm-2": "MuiGrid-grid-sm-2",
+                          "grid-sm-3": "MuiGrid-grid-sm-3",
+                          "grid-sm-4": "MuiGrid-grid-sm-4",
+                          "grid-sm-5": "MuiGrid-grid-sm-5",
+                          "grid-sm-6": "MuiGrid-grid-sm-6",
+                          "grid-sm-7": "MuiGrid-grid-sm-7",
+                          "grid-sm-8": "MuiGrid-grid-sm-8",
+                          "grid-sm-9": "MuiGrid-grid-sm-9",
+                          "grid-sm-auto": "MuiGrid-grid-sm-auto",
+                          "grid-sm-true": "MuiGrid-grid-sm-true",
+                          "grid-xl-1": "MuiGrid-grid-xl-1",
+                          "grid-xl-10": "MuiGrid-grid-xl-10",
+                          "grid-xl-11": "MuiGrid-grid-xl-11",
+                          "grid-xl-12": "MuiGrid-grid-xl-12",
+                          "grid-xl-2": "MuiGrid-grid-xl-2",
+                          "grid-xl-3": "MuiGrid-grid-xl-3",
+                          "grid-xl-4": "MuiGrid-grid-xl-4",
+                          "grid-xl-5": "MuiGrid-grid-xl-5",
+                          "grid-xl-6": "MuiGrid-grid-xl-6",
+                          "grid-xl-7": "MuiGrid-grid-xl-7",
+                          "grid-xl-8": "MuiGrid-grid-xl-8",
+                          "grid-xl-9": "MuiGrid-grid-xl-9",
+                          "grid-xl-auto": "MuiGrid-grid-xl-auto",
+                          "grid-xl-true": "MuiGrid-grid-xl-true",
+                          "grid-xs-1": "MuiGrid-grid-xs-1",
+                          "grid-xs-10": "MuiGrid-grid-xs-10",
+                          "grid-xs-11": "MuiGrid-grid-xs-11",
+                          "grid-xs-12": "MuiGrid-grid-xs-12",
+                          "grid-xs-2": "MuiGrid-grid-xs-2",
+                          "grid-xs-3": "MuiGrid-grid-xs-3",
+                          "grid-xs-4": "MuiGrid-grid-xs-4",
+                          "grid-xs-5": "MuiGrid-grid-xs-5",
+                          "grid-xs-6": "MuiGrid-grid-xs-6",
+                          "grid-xs-7": "MuiGrid-grid-xs-7",
+                          "grid-xs-8": "MuiGrid-grid-xs-8",
+                          "grid-xs-9": "MuiGrid-grid-xs-9",
+                          "grid-xs-auto": "MuiGrid-grid-xs-auto",
+                          "grid-xs-true": "MuiGrid-grid-xs-true",
+                          "item": "MuiGrid-item",
+                          "justify-xs-center": "MuiGrid-justify-xs-center",
+                          "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
+                          "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
+                          "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
+                          "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
+                          "root": "MuiGrid-root",
+                          "spacing-xs-1": "MuiGrid-spacing-xs-1",
+                          "spacing-xs-10": "MuiGrid-spacing-xs-10",
+                          "spacing-xs-2": "MuiGrid-spacing-xs-2",
+                          "spacing-xs-3": "MuiGrid-spacing-xs-3",
+                          "spacing-xs-4": "MuiGrid-spacing-xs-4",
+                          "spacing-xs-5": "MuiGrid-spacing-xs-5",
+                          "spacing-xs-6": "MuiGrid-spacing-xs-6",
+                          "spacing-xs-7": "MuiGrid-spacing-xs-7",
+                          "spacing-xs-8": "MuiGrid-spacing-xs-8",
+                          "spacing-xs-9": "MuiGrid-spacing-xs-9",
+                          "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
+                          "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
+                          "zeroMinWidth": "MuiGrid-zeroMinWidth",
+                        }
+                      }
+                      item={true}
+                      lg={4}
+                      md={6}
+                      sm={12}
+                    >
+                      <div
+                        className="MuiGrid-root work-sample MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4"
+                      >
+                        <img
+                          alt="Semi Automatic Retail Line With Lid Place & Press Filling Machine"
+                          className="image"
+                          src="/images/work/semi-automatic-retail-line.png"
+                        />
+                        <div
+                          className="title"
+                        >
+                          Semi Automatic Retail Line With Lid Place & Press Filling Machine
+                        </div>
+                      </div>
+                    </ForwardRef(Grid)>
+                  </WithStyles(ForwardRef(Grid))>
+                </div>
+              </ForwardRef(Grid)>
+            </WithStyles(ForwardRef(Grid))>
+          </div>
+        </ForwardRef(Container)>
+      </WithStyles(ForwardRef(Container))>
+    </div>
+    <MoreInfoComposer
+      borderTop={true}
+      ctaText="Get Quotation"
+      handleClick={[Function]}
+      normalFontSize={false}
+      title="Ready with requirements?"
+    >
+      <div
+        className="mp--more-info-composer border-top"
+      >
+        <span>
+          Ready with requirements?
+        </span>
+        <Button
+          disabled={false}
+          loading={false}
+          onClick={[Function]}
+          palette="secondary"
+          size="medium"
+        >
+          <button
+            className="mp--button medium mp--button-secondary"
+            onClick={[Function]}
+          >
+            Get Quotation
+          </button>
+        </Button>
+      </div>
+    </MoreInfoComposer>
+  </div>
+</WorkPage>
+`;

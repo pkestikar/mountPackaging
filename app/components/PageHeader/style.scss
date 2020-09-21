@@ -1,11 +1,15 @@
 .mp--page-header {
   width: 100%;
   h1 {
-    text-align: center;
     text-decoration: underline;
     margin-bottom: 4rem;
     @include breakpoint(small down) {
       margin-bottom: 2rem;
+    }
+  }
+  &.centered {
+    h1 {
+      text-align: center;
     }
   }
 }

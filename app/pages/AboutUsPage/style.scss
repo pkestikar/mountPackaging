@@ -20,6 +20,9 @@
     img {
       height: 412px;
       width: 412px;
+      @include breakpoint(small down) {
+        width: unset;
+      }
       object-fit: cover;
     }
     .director-info {

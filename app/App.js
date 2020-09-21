@@ -10,6 +10,7 @@ import ContactPage from 'Pages/ContactPage';
 import TopBar from 'Components/TopBar';
 import Footer from "Components/Footer";
 import WorkPage from "Pages/WorkPage";
+import ServicesPage from "Pages/ServicesPage";
 
 const App = () => {
     return (
@@ -21,6 +22,7 @@ const App = () => {
                         <Route component={AboutUsPage} path={'/about-us/'} />
                         <Route component={ContactPage} path={'/contact/'} />
                         <Route component={WorkPage} path={'/work/'} />
+                        <Route component={ServicesPage} path={'/services/'} />
                         <Route component={HomePage} path={'/'} />
                     </Switch>
                     <Footer />

@@ -272,21 +272,13 @@ exports[`HomePage component should render correctly 1`] = `
       </Swiper>
     </MQMaxMedium>
   </div>
-  <div
-    className="mp--homepage--third-section"
-  >
-    <span>
-      Ready with requirements?
-    </span>
-    <Button
-      disabled={false}
-      loading={false}
-      palette="secondary"
-      size="medium"
-    >
-      Get Quotation
-    </Button>
-  </div>
+  <MoreInfoComposer
+    borderTop={false}
+    ctaText="Get Quotation"
+    handleClick={[Function]}
+    normalFontSize={false}
+    title="Ready with requirements?"
+  />
 </div>
 `;
 

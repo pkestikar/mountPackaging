@@ -77,7 +77,7 @@ const ContactPage = (props) => {
             <Container maxWidth={'lg'}>
                 <PageHeader title={'Contact'}/>
 
-                <Grid container justify={'center'} alignItems={'center'}>
+                <Grid container alignItems={'center'}>
                     <Grid item lg={4} className={'company-address-wrapper'}>
                         <span>We are located at:</span>
                         <p>
@@ -94,7 +94,7 @@ const ContactPage = (props) => {
                 <h2 className={'contact-form-title'}>Let's Connect!</h2>
 
                 <Grid container className={'contact-form-container'} justify={'center'} alignItems={'center'}>
-                    <Grid item xs={12} sm={10} md={8}>
+                    <Grid item xs={12} sm={10} md={7}>
                         <form className={'mp--form-theme'}>
                             <InputComposer label={'Name'} hasError={contactFormData.name.hasError}>
                                 <input type="text" name={'name'} id={'name'} value={contactFormData.name.value} onChange={e => handleInputChange(e)}/>

@@ -8,12 +8,12 @@ exports[`ContactPage component renders correctly 1`] = `
     maxWidth="lg"
   >
     <PageHeader
+      centered={false}
       title="Contact"
     />
     <WithStyles(ForwardRef(Grid))
       alignItems="center"
       container={true}
-      justify="center"
     >
       <WithStyles(ForwardRef(Grid))
         className="company-address-wrapper"
@@ -60,7 +60,7 @@ exports[`ContactPage component renders correctly 1`] = `
     >
       <WithStyles(ForwardRef(Grid))
         item={true}
-        md={8}
+        md={7}
         sm={10}
         xs={12}
       >
@@ -68,7 +68,9 @@ exports[`ContactPage component renders correctly 1`] = `
           className="mp--form-theme"
         >
           <InputComposer
-            label="NAME"
+            errorMessage="Field required."
+            hasError={false}
+            label="Name"
           >
             <input
               id="name"
@@ -79,7 +81,9 @@ exports[`ContactPage component renders correctly 1`] = `
             />
           </InputComposer>
           <InputComposer
-            label="COMPANY"
+            errorMessage="Field required."
+            hasError={false}
+            label="Company"
           >
             <input
               id="company"
@@ -90,7 +94,9 @@ exports[`ContactPage component renders correctly 1`] = `
             />
           </InputComposer>
           <InputComposer
-            label="EMAIL"
+            errorMessage="Field required."
+            hasError={false}
+            label="E-Mail"
           >
             <input
               id="email"
@@ -101,7 +107,9 @@ exports[`ContactPage component renders correctly 1`] = `
             />
           </InputComposer>
           <InputComposer
-            label="MESSAGE"
+            errorMessage="Field required."
+            hasError={false}
+            label="Message (Optional)"
           >
             <textarea
               id="message"
@@ -110,6 +118,13 @@ exports[`ContactPage component renders correctly 1`] = `
               rows="6"
               value=""
             />
+            <span
+              className="text-limit-counter"
+            >
+              0
+               / 
+              2000
+            </span>
           </InputComposer>
         </form>
       </WithStyles(ForwardRef(Grid))>
